@@ -13,3 +13,19 @@
 
 ## Rules
 - **Do not upload *.uasset* files** unless a merge has been organised.
+
+## Documentation
+1. `World.Instance` is the only singleton and does most things a singleton should.
+2. Each game should be in its own Scene.
+3. A `GameMode` per game. Inherit from `GameMode`.
+4. To set the GameMode of a Scene, just put the child GameMode component on any object in the Scene.
+5. You can get the GameMode using `World.Instance.GameMode`. Depending on how you customised your GameMode, you may need to do some casting (`var gameMode = World.Instance.GameMode as PongGameMode;`).
+6. To mark the game as completed, do `GameMode.CompleteGame()`.
+7. To exit the game, do `GameMode.ExitGame()`.
+8. To check if the game is paused, do `GameMode.Paused`.
+9. To know when the game is paused, do either:
+   - subscribe to `GameMode.OnPaused`.
+   - override `GameMode.HandleOnPaused(bool isPaused)`.
+10. Do `World.Instance.PlayerCount` to get the number of local players. (Example: if there's only one player, do one-player Pong with one AI, else, do two-player Pong.)
+
+Other than that, code the game as you'd like. GameMode does have other features but you don't need to use them if you don't want to.
