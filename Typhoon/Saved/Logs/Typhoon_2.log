@@ -1,0 +1,825 @@
+﻿Log file open, 02/22/21 15:27:58
+LogInit: Display: Running engine for game: Typhoon
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.334737
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin LowEntryExtStdLib
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogHMD: Failed initializing OVRPlugin 1.44.0
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: AMD Ryzen 5 5600X 6-Core Processor             , GPU: NVIDIA GeForce RTX 2060
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  -EpicPortal -epicusername=Dynamiquel -epicuserid=4c3534cf40674738beb0e2401ef7fdc6 -epiclocale=en
+LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.02.22-15.27.58:927][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.02.22-15.27.58:927][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.02.22-15.27.58:927][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/Config/Windows/Engine.ini]
+[2021.02.22-15.27.58:927][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.02.22-15.27.58:927][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/Config/Windows/Engine.ini]
+[2021.02.22-15.27.58:927][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/Config/Windows/Engine.ini]
+[2021.02.22-15.27.58:927][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.02.22-15.27.58:927][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.02.22-15.27.58:927][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.02.22-15.27.58:927][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.02.22-15.27.58:927][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.02.22-15.27.58:927][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.02.22-15.27.58:927][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.02.22-15.27.58:927][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.02.22-15.27.58:927][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.02.22-15.27.58:927][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.02.22-15.27.58:927][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.02.22-15.27.58:927][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.02.22-15.27.58:927][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.02.22-15.27.58:927][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.02.22-15.27.58:927][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/Config/Windows/Engine.ini]
+[2021.02.22-15.27.58:927][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.02.22-15.27.58:927][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.02.22-15.27.58:927][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.02.22-15.27.58:927][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.02.22-15.27.58:927][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.02.22-15.27.58:927][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.02.22-15.27.58:927][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.02.22-15.27.58:927][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.02.22-15.27.58:927][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.02.22-15.27.58:927][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.02.22-15.27.58:927][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.02.22-15.27.58:927][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.02.22-15.27.58:927][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.02.22-15.27.58:927][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/Config/Windows/Engine.ini]
+[2021.02.22-15.27.58:927][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/Config/Windows/Engine.ini]
+[2021.02.22-15.27.58:933][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/Config/Windows/Scalability.ini]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/Config/Windows/Scalability.ini]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/Config/Windows/Scalability.ini]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/Config/Windows/Scalability.ini]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/Config/Windows/Scalability.ini]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.02.22-15.27.58:933][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/Config/Windows/Scalability.ini]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/Config/Windows/Scalability.ini]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/Config/Windows/Scalability.ini]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.02.22-15.27.58:934][  0]LogInit: Selected Device Profile: [Windows]
+[2021.02.22-15.27.58:934][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.02.22-15.27.58:934][  0]LogHAL: Display: Platform has ~ 32 GB [34281742336 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.02.22-15.27.58:934][  0]LogInit: Going up to parent DeviceProfile []
+[2021.02.22-15.27.58:934][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/Config/Windows/Scalability.ini]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/Config/Windows/Scalability.ini]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/Config/Windows/Scalability.ini]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.02.22-15.27.58:934][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/Config/Windows/Scalability.ini]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/Config/Windows/Scalability.ini]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/Config/Windows/Scalability.ini]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.02.22-15.27.58:935][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.02.22-15.27.58:936][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.02.22-15.27.58:936][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/Config/Windows/Scalability.ini]
+[2021.02.22-15.27.58:936][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.02.22-15.27.58:936][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.02.22-15.27.58:936][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/Config/Windows/Scalability.ini]
+[2021.02.22-15.27.58:936][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.02.22-15.27.58:936][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.02.22-15.27.58:936][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.02.22-15.27.58:936][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.02.22-15.27.58:936][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.02.22-15.27.58:936][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.02.22-15.27.58:936][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.02.22-15.27.58:936][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.02.22-15.27.58:936][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.02.22-15.27.58:936][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.02.22-15.27.58:936][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.02.22-15.27.58:936][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/Config/Windows/Engine.ini]
+[2021.02.22-15.27.58:936][  0]LogInit: Computer: AORAKI
+[2021.02.22-15.27.58:936][  0]LogInit: User: Liamk
+[2021.02.22-15.27.58:936][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.02.22-15.27.58:936][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.02.22-15.27.58:936][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2021.02.22-15.27.58:937][  0]LogMemory: Platform Memory Stats for Windows
+[2021.02.22-15.27.58:937][  0]LogMemory: Process Physical Memory: 119.55 MB used, 119.55 MB peak
+[2021.02.22-15.27.58:937][  0]LogMemory: Process Virtual Memory: 102.96 MB used, 102.96 MB peak
+[2021.02.22-15.27.58:937][  0]LogMemory: Physical Memory: 21921.66 MB used,  10771.95 MB free, 32693.62 MB total
+[2021.02.22-15.27.58:937][  0]LogMemory: Virtual Memory: 5185.79 MB used,  134212544.00 MB free, 134217728.00 MB total
+[2021.02.22-15.27.58:948][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.02.22-15.27.59:022][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.02.22-15.27.59:023][  0]LogInit: Using OS detected language (fr-FR).
+[2021.02.22-15.27.59:023][  0]LogInit: Using OS detected locale (fr-FR).
+[2021.02.22-15.27.59:026][  0]LogTextLocalizationManager: No specific localization for 'fr-FR' exists, so the 'fr' localization will be used.
+[2021.02.22-15.27.59:026][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/fr/Editor.locres' could not be opened for reading!
+[2021.02.22-15.27.59:027][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/fr/EditorTutorials.locres' could not be opened for reading!
+[2021.02.22-15.27.59:027][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/fr/Keywords.locres' could not be opened for reading!
+[2021.02.22-15.27.59:027][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/fr/Category.locres' could not be opened for reading!
+[2021.02.22-15.27.59:027][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/fr/ToolTips.locres' could not be opened for reading!
+[2021.02.22-15.27.59:027][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/fr/PropertyNames.locres' could not be opened for reading!
+[2021.02.22-15.27.59:027][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/fr/Engine.locres' could not be opened for reading!
+[2021.02.22-15.27.59:028][  0]LogInit: Setting process to per monitor DPI aware
+[2021.02.22-15.27.59:105][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.02.22-15.27.59:105][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.02.22-15.27.59:345][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.02.22-15.27.59:345][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.02.22-15.27.59:345][  0]LogD3D11RHI: D3D11 adapters:
+[2021.02.22-15.27.59:423][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060' (Feature Level 11_0)
+[2021.02.22-15.27.59:423][  0]LogD3D11RHI:       5980/0/16346 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.02.22-15.27.59:426][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.02.22-15.27.59:426][  0]LogD3D11RHI:       0/0/16346 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.02.22-15.27.59:426][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.02.22-15.27.59:442][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.02.22-15.27.59:442][  0]LogD3D11RHI:     GPU DeviceId: 0x1f08 (for the marketing name, search the web for "GPU Device Id")
+[2021.02.22-15.27.59:442][  0]LogWindows: EnumDisplayDevices:
+[2021.02.22-15.27.59:442][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2060' (P:0 D:1)
+[2021.02.22-15.27.59:442][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2060' (P:1 D:1)
+[2021.02.22-15.27.59:443][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2021.02.22-15.27.59:443][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2021.02.22-15.27.59:443][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.02.22-15.27.59:443][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060
+[2021.02.22-15.27.59:443][  0]LogD3D11RHI:   Driver Version: 461.40 (internal:27.21.14.6140, unified:461.40)
+[2021.02.22-15.27.59:443][  0]LogD3D11RHI:      Driver Date: 1-22-2021
+[2021.02.22-15.27.59:443][  0]LogRHI: Texture pool is 4186 MB (70% of 5980 MB)
+[2021.02.22-15.27.59:510][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.02.22-15.27.59:510][  0]LogD3D11RHI: Async texture creation enabled
+[2021.02.22-15.27.59:510][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.02.22-15.27.59:512][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061086).
+[2021.02.22-15.27.59:533][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.02.22-15.28.00:006][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.02.22-15.28.00:035][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.02.22-15.28.00:035][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.02.22-15.28.00:035][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.02.22-15.28.00:035][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.02.22-15.28.00:035][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.02.22-15.28.00:035][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.02.22-15.28.00:035][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.02.22-15.28.00:035][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.02.22-15.28.00:035][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.02.22-15.28.00:035][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.02.22-15.28.00:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.02.22-15.28.00:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.02.22-15.28.00:080][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.02.22-15.28.00:093][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.02.22-15.28.00:104][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.02.22-15.28.00:116][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.02.22-15.28.00:127][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.02.22-15.28.00:137][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.02.22-15.28.00:149][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.02.22-15.28.00:179][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.02.22-15.28.00:179][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.02.22-15.28.00:199][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.02.22-15.28.00:199][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.02.22-15.28.00:211][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.02.22-15.28.00:222][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.02.22-15.28.00:232][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.02.22-15.28.00:242][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.02.22-15.28.00:243][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.02.22-15.28.00:254][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.02.22-15.28.00:332][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Intermediate/Shaders/WorkingDirectory/53704/).
+[2021.02.22-15.28.00:332][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Liamk/AppData/Local/Temp/UnrealShaderWorkingDir/F5DC63A4465FCF9B51748988384E750D/'.
+[2021.02.22-15.28.00:333][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.02.22-15.28.00:333][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.02.22-15.28.00:333][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.02.22-15.28.01:119][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.02.22-15.28.01:178][  0]LogDerivedDataCache: Loaded boot cache 0.06s 82MB C:/Users/Liamk/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.02.22-15.28.01:179][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Liamk/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.02.22-15.28.01:179][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.02.22-15.28.01:179][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.02.22-15.28.01:179][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.02.22-15.28.01:179][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.02.22-15.28.01:189][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.02.22-15.28.01:190][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.02.22-15.28.01:190][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.02.22-15.28.01:191][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Liamk/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.02.22-15.28.01:191][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.02.22-15.28.01:191][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.02.22-15.28.01:244][  0]LogSlate: Using FreeType 2.10.0
+[2021.02.22-15.28.01:245][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.02.22-15.28.01:268][  0]LogAssetRegistry: FAssetRegistry took 0.0024 seconds to start up
+[2021.02.22-15.28.01:503][  0]LogInit: Selected Device Profile: [Windows]
+[2021.02.22-15.28.01:604][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.02.22-15.28.01:604][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.02.22-15.28.01:604][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.02.22-15.28.01:604][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.02.22-15.28.01:604][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.02.22-15.28.01:623][  0]LogNetVersion: Typhoon 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1645764611)
+[2021.02.22-15.28.01:982][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001B2C95DE640), frame # 0
+[2021.02.22-15.28.01:982][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B2C957DE40), frame # 0
+[2021.02.22-15.28.01:983][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B2C95CA600), frame # 0
+[2021.02.22-15.28.02:042][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.054307 seconds
+[2021.02.22-15.28.02:048][  0]LogUObjectArray: 15814 objects as part of root set at end of initial load.
+[2021.02.22-15.28.02:048][  0]LogUObjectAllocator: 3939424 out of 0 bytes used by permanent object pool.
+[2021.02.22-15.28.02:048][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.02.22-15.28.02:530][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.02.22-15.28.02:534][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.02.22-15.28.02:672][  0]LogLinker: Warning: Failed to load '/Game/VehicleCPP/VehicleOverview': Can't find file.
+[2021.02.22-15.28.02:672][  0]LogLinker: Warning: Failed to load '/Game/VehicleCPP/VehicleOverview': Can't find file.
+[2021.02.22-15.28.02:672][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/VehicleCPP/VehicleOverview.VehicleOverview_C'
+[2021.02.22-15.28.02:704][  0]SourceControl: Source control is disabled
+[2021.02.22-15.28.02:705][  0]SourceControl: Source control is disabled
+[2021.02.22-15.28.02:708][  0]SourceControl: Source control is disabled
+[2021.02.22-15.28.02:711][  0]SourceControl: Source control is disabled
+[2021.02.22-15.28.02:719][  0]SourceControl: Source control is disabled
+[2021.02.22-15.28.02:966][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.02.22-15.28.02:985][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.02.22-15.28.02:985][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.02.22-15.28.03:032][  0]LogOcInput: OculusInput pre-init called
+[2021.02.22-15.28.03:241][  0]LogEngine: Initializing Engine...
+[2021.02.22-15.28.03:242][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.02.22-15.28.03:243][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.02.22-15.28.03:336][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.02.22-15.28.03:344][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.02.22-15.28.03:344][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B2D209BC00), frame # 0
+[2021.02.22-15.28.03:344][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B2D20CEE80), frame # 0
+[2021.02.22-15.28.03:359][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.22-15.28.03:359][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.22-15.28.03:359][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.22-15.28.03:359][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.22-15.28.03:359][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.22-15.28.03:359][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.22-15.28.03:359][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.22-15.28.03:359][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.22-15.28.03:359][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.22-15.28.03:359][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.22-15.28.03:378][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.22-15.28.03:378][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.02.22-15.28.03:430][  0]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.02.22-15.28.03:433][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.22-15.28.03:435][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.22-15.28.03:435][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.22-15.28.03:436][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.22-15.28.03:437][  0]LogInit: FAudioDevice initialized.
+[2021.02.22-15.28.03:437][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.02.22-15.28.03:481][  0]LogDerivedDataCache: Saved boot cache 0.04s 82MB C:/Users/Liamk/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.02.22-15.28.03:482][  0]LogInit: Texture streaming: Enabled
+[2021.02.22-15.28.03:500][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.02.22-15.28.03:500][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.02.22-15.28.03:502][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.02.22-15.28.03:537][  0]LogInit: Transaction tracking system initialized
+[2021.02.22-15.28.03:558][  0]BlueprintLog: New page: Editor Load
+[2021.02.22-15.28.03:629][  0]LocalizationService: Localization service is disabled
+[2021.02.22-15.28.03:758][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.02.22-15.28.03:758][  0]LogCook: Display: Mobile HDR setting 1
+[2021.02.22-15.28.03:912][  0]LogFileCache: Scanning file cache for directory 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/' took 0.00s
+[2021.02.22-15.28.03:912][  0]SourceControl: Source control is disabled
+[2021.02.22-15.28.03:912][  0]LogUnrealEdMisc: Loading editor; pre map load, took 7.523
+[2021.02.22-15.28.03:912][  0]Cmd: MAP LOAD FILE="S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/SideScrollerCPP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.02.22-15.28.03:913][  0]LightingResults: New page: Lighting Build
+[2021.02.22-15.28.03:913][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.02.22-15.28.03:913][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-15.28.03:913][  0]MapCheck: New page: Map Check
+[2021.02.22-15.28.03:914][  0]LightingResults: New page: Lighting Build
+[2021.02.22-15.28.03:922][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001B2D209BC00), frame # 0
+[2021.02.22-15.28.03:922][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001B2D20CEE80), frame # 0
+[2021.02.22-15.28.03:923][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.02.22-15.28.03:974][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.02.22-15.28.03:974][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B2D8FCFE00), frame # 0
+[2021.02.22-15.28.03:974][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B2C8BB6AC0), frame # 0
+[2021.02.22-15.28.03:979][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.02.22-15.28.03:988][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2021.02.22-15.28.03:988][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.02.22-15.28.03:988][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,083ms to complete.
+[2021.02.22-15.28.03:988][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 0.076
+[2021.02.22-15.28.03:991][  0]LogUnrealEdMisc: Total Editor Startup Time, took 7.602
+[2021.02.22-15.28.04:155][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-15.28.04:161][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-15.28.04:167][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-15.28.04:172][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-15.28.04:179][  0]LogCollectionManager: Loaded 0 collections in 0.000758 seconds
+[2021.02.22-15.28.04:192][  0]LogFileCache: Scanning file cache for directory 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/Collections/' took 0.00s
+[2021.02.22-15.28.04:193][  0]LogFileCache: Scanning file cache for directory 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Developers/Liamk/Collections/' took 0.00s
+[2021.02.22-15.28.04:193][  0]LogFileCache: Scanning file cache for directory 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Collections/' took 0.00s
+[2021.02.22-15.28.04:193][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 3448 classes and 825 folders.
+[2021.02.22-15.28.04:195][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.02.22-15.28.04:269][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.02.22-15.28.04:273][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 0 folders.
+[2021.02.22-15.28.04:423][  0]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.02.22-15.28.04:426][  0]LogSlate: Took 0.001038 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2021.02.22-15.28.04:426][  0]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.02.22-15.28.04:431][  0]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.02.22-15.28.04:484][  0]LogRenderer: Reallocating scene render targets to support 1616x816 Format 10 NumSamples 1 (Frame:1).
+[2021.02.22-15.28.04:678][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2021.02.22-15.28.04:678][  0]LogLoad: (Engine Initialization) Total time: 8.29 seconds
+[2021.02.22-15.28.04:678][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.02.22-15.28.04:715][  0]LogAssetRegistry: Asset discovery search completed in 3.4477 seconds
+[2021.02.22-15.28.04:718][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2021.02.22-15.28.04:719][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.02.22-15.28.12:433][856]LogSlate: Window 'Plugins' being destroyed
+[2021.02.22-15.28.12:450][856]LogSlate: Window 'Plugins' being destroyed
+[2021.02.22-15.28.12:450][856]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2021.02.22-15.28.17:036][138]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2021.02.22-15.28.24:403][739]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.22-15.28.24:408][739]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.22-15.28.24:408][739]PIE: New page: PIE session: SideScrollerExampleMap (22 févr. 2021 à 15:28:24)
+[2021.02.22-15.28.24:409][739]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.02.22-15.28.24:410][739]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.02.22-15.28.24:410][739]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.02.22-15.28.24:423][739]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012592s)
+[2021.02.22-15.28.24:424][739]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.02.22-15.28.24:424][739]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B282B56000), frame # 1739
+[2021.02.22-15.28.24:424][739]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B2CD1AD440), frame # 1739
+[2021.02.22-15.28.24:424][739]LogPlayLevel: PIE: World Init took: (0.001089s)
+[2021.02.22-15.28.24:424][739]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.013817s)
+[2021.02.22-15.28.24:431][739]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2021.02.22-15.28.24:432][739]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.22-15.28.24:432][739]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.22-15.28.24:432][739]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.22-15.28.24:432][739]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.22-15.28.24:432][739]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.22-15.28.24:432][739]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.22-15.28.24:432][739]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.22-15.28.24:432][739]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.22-15.28.24:433][739]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.22-15.28.24:433][739]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.22-15.28.24:442][739]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.22-15.28.24:442][739]LogAudioMixer: Display: 1: FrontRight
+[2021.02.22-15.28.24:483][739]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.02.22-15.28.24:484][739]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.22-15.28.24:484][739]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.22-15.28.24:484][739]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.22-15.28.24:484][739]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.22-15.28.24:495][739]LogInit: FAudioDevice initialized.
+[2021.02.22-15.28.24:507][739]LogLoad: Game class is 'TyphoonGameMode'
+[2021.02.22-15.28.24:510][739]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2021.02.22-15.28.24
+[2021.02.22-15.28.24:511][739]LogWorld: Bringing up level for play took: 0.002173
+[2021.02.22-15.28.24:511][739]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2021.02.22-15.28.24:515][739]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
+[2021.02.22-15.28.24:516][739]PIE: Server logged in
+[2021.02.22-15.28.24:517][739]PIE: Play in editor total start time 0,111 seconds.
+[2021.02.22-15.28.59:123][854]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/SideScrollerCPP/Blueprints/SideScrollerCharacter.SideScrollerCharacter
+[2021.02.22-15.28.59:321][854]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 125 classes and 0 folders.
+[2021.02.22-15.29.01:880][935]LogSlate: Window 'SideScrollerCharacter' being destroyed
+[2021.02.22-15.29.23:289][205]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-15.29.23:289][205]LogWorld: BeginTearingDown for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.02.22-15.29.23:289][205]LogWorld: UWorld::CleanupWorld for SideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.02.22-15.29.23:289][205]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-15.29.23:299][205]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.22-15.29.23:301][205]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-15.29.23:331][205]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-15.29.23:334][205]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001B282B56000), frame # 7205
+[2021.02.22-15.29.23:334][205]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001B2CD1AD440), frame # 7205
+[2021.02.22-15.29.23:338][205]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2021.02.22-15.29.23:399][207]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2021.02.22-15.30.23:460][311]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.02.22-15.30.23:460][311]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-15.30.23:522][311]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.02.22-15.30.23:555][311]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/SideScrollerCPP/Blueprints/SideScrollerCharacter.SideScrollerCharacter
+[2021.02.22-15.30.23:949][311]LogSlate: Took 0.000252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.02.22-15.30.25:924][469]LogRenderer: Reallocating scene render targets to support 1616x1008 Format 10 NumSamples 1 (Frame:1).
+[2021.02.22-15.30.26:764][517]LogSlate: Took 0.001258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.02.22-15.30.39:987][497]BlueprintLog: New page: Compile SideScrollerCharacter
+[2021.02.22-15.30.39:996][497]LogUObjectGlobals: Warning: Guid referenced by CapsuleComponent /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_2.CollisionCylinder is already used by CapsuleComponent /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.REINST_SideScrollerCharacter_C_0.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2021.02.22-15.30.39:996][497]LogUObjectGlobals: Warning: Guid referenced by ArrowComponent /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_2.Arrow is already used by ArrowComponent /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.REINST_SideScrollerCharacter_C_0.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2021.02.22-15.30.39:996][497]LogUObjectGlobals: Warning: Guid referenced by CharacterMovementComponent /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_2.CharMoveComp is already used by CharacterMovementComponent /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.REINST_SideScrollerCharacter_C_0.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2021.02.22-15.30.39:996][497]LogUObjectGlobals: Warning: Guid referenced by SkeletalMeshComponent /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_2.CharacterMesh0 is already used by SkeletalMeshComponent /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.REINST_SideScrollerCharacter_C_0.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2021.02.22-15.30.39:996][497]LogUObjectGlobals: Warning: Guid referenced by SpringArmComponent /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_2.CameraBoom is already used by SpringArmComponent /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.REINST_SideScrollerCharacter_C_0.CameraBoom, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2021.02.22-15.30.40:026][497]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2021.02.22-15.30.40:060][497]LogSlate: Took 0.000945 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.02.22-15.30.40:466][517]LogSavePackage: Moving 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/SideScrollerCharacterF5D42D2F44FEA5F10C7E2D9B38CD5900.tmp' to 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/SideScrollerCPP/Blueprints/SideScrollerCharacter.uasset'
+[2021.02.22-15.30.40:680][517]AssetCheck: New page: Asset Save: SideScrollerCharacter
+[2021.02.22-15.30.40:681][517]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerCPP/Blueprints/SideScrollerCharacter.SideScrollerCharacter
+[2021.02.22-15.30.41:558][581]LogSlate: Window 'SideScrollerCharacter' being destroyed
+[2021.02.22-15.30.42:565][636]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.22-15.30.42:571][636]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.22-15.30.42:571][636]PIE: New page: PIE session: SideScrollerExampleMap (22 févr. 2021 à 15:30:42)
+[2021.02.22-15.30.42:571][636]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.02.22-15.30.42:581][636]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009778s)
+[2021.02.22-15.30.42:582][636]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.02.22-15.30.42:582][636]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B31DF4B400), frame # 12636
+[2021.02.22-15.30.42:582][636]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B3128BC2C0), frame # 12636
+[2021.02.22-15.30.42:582][636]LogPlayLevel: PIE: World Init took: (0.001409s)
+[2021.02.22-15.30.42:582][636]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.011338s)
+[2021.02.22-15.30.42:602][636]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2021.02.22-15.30.42:603][636]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.22-15.30.42:604][636]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.22-15.30.42:604][636]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.22-15.30.42:604][636]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.22-15.30.42:604][636]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.22-15.30.42:604][636]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.22-15.30.42:604][636]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.22-15.30.42:604][636]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.22-15.30.42:604][636]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.22-15.30.42:604][636]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.22-15.30.42:609][636]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.22-15.30.42:609][636]LogAudioMixer: Display: 1: FrontRight
+[2021.02.22-15.30.42:644][636]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.02.22-15.30.42:645][636]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.22-15.30.42:645][636]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.22-15.30.42:645][636]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.22-15.30.42:645][636]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.22-15.30.42:656][636]LogInit: FAudioDevice initialized.
+[2021.02.22-15.30.42:665][636]LogLoad: Game class is 'TyphoonGameMode'
+[2021.02.22-15.30.42:666][636]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2021.02.22-15.30.42
+[2021.02.22-15.30.42:667][636]LogWorld: Bringing up level for play took: 0.001707
+[2021.02.22-15.30.42:667][636]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2021.02.22-15.30.42:669][636]PIE: Server logged in
+[2021.02.22-15.30.42:670][636]PIE: Play in editor total start time 0,101 seconds.
+[2021.02.22-15.30.50:139][515]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-15.30.50:139][515]LogWorld: BeginTearingDown for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.02.22-15.30.50:139][515]LogWorld: UWorld::CleanupWorld for SideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.02.22-15.30.50:140][515]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-15.30.50:150][515]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.22-15.30.50:152][515]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-15.30.50:193][515]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-15.30.50:193][515]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001B3128BC2C0), frame # 13515
+[2021.02.22-15.30.50:193][515]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001B31DF4B400), frame # 13515
+[2021.02.22-15.30.50:195][515]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2021.02.22-15.30.50:219][516]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2021.02.22-15.31.00:200][770]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.22-15.31.00:206][770]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.22-15.31.00:206][770]PIE: New page: PIE session: SideScrollerExampleMap (22 févr. 2021 à 15:31:00)
+[2021.02.22-15.31.00:248][770]LogPlayLevel: Creating play world package: /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.02.22-15.31.00:259][770]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011055s)
+[2021.02.22-15.31.00:260][770]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2021.02.22-15.31.00:260][770]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B28297B400), frame # 13770
+[2021.02.22-15.31.00:260][770]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B31247D6C0), frame # 13770
+[2021.02.22-15.31.00:261][770]LogPlayLevel: PIE: World Init took: (0.001388s)
+[2021.02.22-15.31.00:261][770]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerCPP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.012648s)
+[2021.02.22-15.31.00:280][770]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2021.02.22-15.31.00:282][770]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.22-15.31.00:282][770]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.22-15.31.00:282][770]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.22-15.31.00:282][770]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.22-15.31.00:282][770]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.22-15.31.00:282][770]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.22-15.31.00:282][770]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.22-15.31.00:282][770]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.22-15.31.00:282][770]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.22-15.31.00:282][770]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.22-15.31.00:289][770]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.22-15.31.00:289][770]LogAudioMixer: Display: 1: FrontRight
+[2021.02.22-15.31.00:331][770]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.02.22-15.31.00:331][770]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.22-15.31.00:332][770]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.22-15.31.00:332][770]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.22-15.31.00:332][770]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.22-15.31.00:342][770]LogInit: FAudioDevice initialized.
+[2021.02.22-15.31.00:352][770]LogLoad: Game class is 'TyphoonGameMode'
+[2021.02.22-15.31.00:354][770]LogWorld: Bringing World /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2021.02.22-15.31.00
+[2021.02.22-15.31.00:354][770]LogWorld: Bringing up level for play took: 0.001522
+[2021.02.22-15.31.00:354][770]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.02.22-15.31.00:356][770]PIE: Server logged in
+[2021.02.22-15.31.00:357][770]PIE: Play in editor total start time 0,152 seconds.
+[2021.02.22-15.31.23:809][558]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-15.31.23:809][558]LogWorld: BeginTearingDown for /Game/SideScrollerCPP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2021.02.22-15.31.23:810][558]LogWorld: UWorld::CleanupWorld for SideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.02.22-15.31.23:810][558]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-15.31.23:821][558]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.22-15.31.23:823][558]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-15.31.23:840][558]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-15.31.23:872][558]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001B31247D6C0), frame # 16558
+[2021.02.22-15.31.23:872][558]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001B28297B400), frame # 16558
+[2021.02.22-15.31.23:874][558]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2021.02.22-15.31.23:902][559]LogPlayLevel: Display: Destroying online subsystem :Context_8
