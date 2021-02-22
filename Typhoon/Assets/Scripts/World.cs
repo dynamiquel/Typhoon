@@ -20,15 +20,21 @@ public class World : Singleton<World>
                 GameMode.GameModeReplaced();
             
             _gameMode = value;
+            GameMode.OnGameExited += HandleOnGameExited;
             GameMode.OnGameEnded += HandleOnGameEnded;
         }
     }
 
     public int PlayerCount { get; set; } = 1;
-
-    void HandleOnGameEnded(bool gameWon)
+    
+    void HandleOnGameEnded(bool goalReached, double score)
     {
-        // If game won, load next game.
+        throw new System.NotImplementedException();
+    }
+
+    void HandleOnGameExited()
+    {
+        throw new System.NotImplementedException();
     }
 
     protected override void OnAwake()

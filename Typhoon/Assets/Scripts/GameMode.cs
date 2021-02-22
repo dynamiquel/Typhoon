@@ -13,7 +13,6 @@ public class GameMode : MonoBehaviour
     public string DefaultHUD => _defaultHUD;
 
     bool _paused = false;
-
     public bool Paused
     {
         get => _paused;
@@ -25,11 +24,11 @@ public class GameMode : MonoBehaviour
         }
     }
     
-    /// <summary>
-    /// True = Game won.
-    /// False = Anything else.
-    /// </summary>
-    public event Action<bool> OnGameEnded;
+    public bool GoalReached { get; set; }
+    
+    public event Action<bool, double> OnGameEnded;
+
+    public event Action OnGameExited;
 
     /// <summary>
     /// True = Game paused.
@@ -81,9 +80,9 @@ public class GameMode : MonoBehaviour
     /// <summary>
     /// Call to complete the game.
     /// </summary>
-    public void CompleteGame()
+    public void EndGame(double score)
     {
-        OnGameEnded?.Invoke(true);
+        OnGameEnded?.Invoke(GoalReached, score);
     }
 
     /// <summary>
@@ -91,7 +90,7 @@ public class GameMode : MonoBehaviour
     /// </summary>
     public void ExitGame()
     {
-        OnGameEnded?.Invoke(false);
+        OnGameExited?.Invoke();
     }
 
     /// <summary>
