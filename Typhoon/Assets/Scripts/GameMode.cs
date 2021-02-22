@@ -26,6 +26,8 @@ public class GameMode : MonoBehaviour
     
     public bool GoalReached { get; set; }
     
+    public Transform Transform { get; private set; }
+    
     public event Action<bool, double> OnGameEnded;
 
     public event Action OnGameExited;
@@ -46,6 +48,8 @@ public class GameMode : MonoBehaviour
 
     void Awake()
     {
+        Transform = transform;
+        
         World.Instance.GameMode = this;
         World.Instance.SceneManager.OnSceneLoaded += HandleOnSceneLoaded;
 

@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Games/Pong/PongScene.unity
     guid: bca99e9596fec694f8040c68cab086a8
+  - enabled: 1
+    path: Assets/Games/Asteroids/AsteroidsScene.unity
+    guid: b87734256ceed7543a3bc6ecfe905566
   m_configObjects: {}

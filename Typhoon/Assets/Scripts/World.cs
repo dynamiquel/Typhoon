@@ -33,7 +33,7 @@ public class World : Singleton<World>
     
     void HandleOnGameEnded(bool goalReached, double score)
     {
-        throw new System.NotImplementedException();
+        
     }
 
     void HandleOnGameExited()
