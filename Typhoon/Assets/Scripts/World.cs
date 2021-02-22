@@ -20,8 +20,12 @@ public class World : Singleton<World>
                 GameMode.GameModeReplaced();
             
             _gameMode = value;
-            GameMode.OnGameExited += HandleOnGameExited;
-            GameMode.OnGameEnded += HandleOnGameEnded;
+
+            if (GameMode)
+            {
+                GameMode.OnGameExited += HandleOnGameExited;
+                GameMode.OnGameEnded += HandleOnGameEnded;
+            }
         }
     }
 
@@ -34,7 +38,7 @@ public class World : Singleton<World>
 
     void HandleOnGameExited()
     {
-        throw new System.NotImplementedException();
+        GameMode = null;
     }
 
     protected override void OnAwake()
