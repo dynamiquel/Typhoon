@@ -15,7 +15,7 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonGameMode() {}
 // Cross Module References
 	TYPHOON_API UClass* Z_Construct_UClass_ATyphoonGameMode_NoRegister();
 	TYPHOON_API UClass* Z_Construct_UClass_ATyphoonGameMode();
-	ENGINE_API UClass* Z_Construct_UClass_AGameModeBase();
+	ENGINE_API UClass* Z_Construct_UClass_AGameMode();
 	UPackage* Z_Construct_UPackage__Script_Typhoon();
 // End Cross Module References
 	void ATyphoonGameMode::StaticRegisterNativesATyphoonGameMode()
@@ -31,11 +31,24 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonGameMode() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PrepPhaseDuration_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_PrepPhaseDuration;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CountdownDuration_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_CountdownDuration;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MinimumPlayersToStart_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_MinimumPlayersToStart;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
 	UObject* (*const Z_Construct_UClass_ATyphoonGameMode_Statics::DependentSingletons[])() = {
-		(UObject* (*)())Z_Construct_UClass_AGameModeBase,
+		(UObject* (*)())Z_Construct_UClass_AGameMode,
 		(UObject* (*)())Z_Construct_UPackage__Script_Typhoon,
 	};
 #if WITH_METADATA
@@ -46,6 +59,39 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonGameMode() {}
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATyphoonGameMode_Statics::NewProp_PrepPhaseDuration_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "TyphoonGameMode" },
+		{ "Comment", "// Duration of the Preparation phase.\n" },
+		{ "ModuleRelativePath", "TyphoonGameMode.h" },
+		{ "ToolTip", "Duration of the Preparation phase." },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATyphoonGameMode_Statics::NewProp_PrepPhaseDuration = { "PrepPhaseDuration", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATyphoonGameMode, PrepPhaseDuration), METADATA_PARAMS(Z_Construct_UClass_ATyphoonGameMode_Statics::NewProp_PrepPhaseDuration_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATyphoonGameMode_Statics::NewProp_PrepPhaseDuration_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATyphoonGameMode_Statics::NewProp_CountdownDuration_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "TyphoonGameMode" },
+		{ "Comment", "// Duration of the Countdown phase.\n" },
+		{ "ModuleRelativePath", "TyphoonGameMode.h" },
+		{ "ToolTip", "Duration of the Countdown phase." },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATyphoonGameMode_Statics::NewProp_CountdownDuration = { "CountdownDuration", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATyphoonGameMode, CountdownDuration), METADATA_PARAMS(Z_Construct_UClass_ATyphoonGameMode_Statics::NewProp_CountdownDuration_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATyphoonGameMode_Statics::NewProp_CountdownDuration_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATyphoonGameMode_Statics::NewProp_MinimumPlayersToStart_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "TyphoonGameMode" },
+		{ "ModuleRelativePath", "TyphoonGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ATyphoonGameMode_Statics::NewProp_MinimumPlayersToStart = { "MinimumPlayersToStart", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATyphoonGameMode, MinimumPlayersToStart), METADATA_PARAMS(Z_Construct_UClass_ATyphoonGameMode_Statics::NewProp_MinimumPlayersToStart_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATyphoonGameMode_Statics::NewProp_MinimumPlayersToStart_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATyphoonGameMode_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATyphoonGameMode_Statics::NewProp_PrepPhaseDuration,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATyphoonGameMode_Statics::NewProp_CountdownDuration,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATyphoonGameMode_Statics::NewProp_MinimumPlayersToStart,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ATyphoonGameMode_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ATyphoonGameMode>::IsAbstract,
 	};
@@ -55,11 +101,11 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonGameMode() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_ATyphoonGameMode_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_ATyphoonGameMode_Statics::PropPointers),
 		0,
 		0x008802ACu,
 		METADATA_PARAMS(Z_Construct_UClass_ATyphoonGameMode_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ATyphoonGameMode_Statics::Class_MetaDataParams))
@@ -73,7 +119,7 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATyphoonGameMode, 3421833917);
+	IMPLEMENT_CLASS(ATyphoonGameMode, 1749123544);
 	template<> TYPHOON_API UClass* StaticClass<ATyphoonGameMode>()
 	{
 		return ATyphoonGameMode::StaticClass();

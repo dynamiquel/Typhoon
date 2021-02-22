@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Typhoon.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{734BE074-B477-4C8F-8AB3-44579189E6E2}</UniqueIdentifier>
+      <UniqueIdentifier>{BBC59302-16AF-45DC-9BA3-1B9EC53492E4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Typhoon.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{B4611A57-ECAF-4125-9407-23547632207B}</UniqueIdentifier>
+      <UniqueIdentifier>{B63FC7FA-0808-4AB6-86FD-5B68EE2416CE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,8 +30,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Typhoon">
-      <UniqueIdentifier>{55098C2C-B8A9-4935-91A3-F5A6D564B0DB}</UniqueIdentifier>
+      <UniqueIdentifier>{CB0A8A1D-C138-4DED-8F8B-3F9C906985E1}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Typhoon\StageActor.cpp">
+      <Filter>Source\Typhoon</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Typhoon\StageActor.h">
+      <Filter>Source\Typhoon</Filter>
+    </ClInclude>
     <None Include="..\..\Source\Typhoon\Typhoon.Build.cs">
       <Filter>Source\Typhoon</Filter>
     </None>
@@ -51,6 +57,24 @@
       <Filter>Source\Typhoon</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Typhoon\TyphoonGameMode.h">
+      <Filter>Source\Typhoon</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Typhoon\TyphoonGameState.cpp">
+      <Filter>Source\Typhoon</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Typhoon\TyphoonGameState.h">
+      <Filter>Source\Typhoon</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Typhoon\TyphoonPlayerController.cpp">
+      <Filter>Source\Typhoon</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Typhoon\TyphoonPlayerController.h">
+      <Filter>Source\Typhoon</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Typhoon\TyphoonPlayerState.cpp">
+      <Filter>Source\Typhoon</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Typhoon\TyphoonPlayerState.h">
       <Filter>Source\Typhoon</Filter>
     </ClInclude>
   </ItemGroup>

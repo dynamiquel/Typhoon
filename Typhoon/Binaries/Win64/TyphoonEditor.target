@@ -29,6 +29,22 @@
 			"Type": "Executable"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/LowEntryExtStdLib/Binaries/Win64/UE4Editor-LowEntryExtendedStandardLibrary.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/LowEntryExtStdLib/Binaries/Win64/UE4Editor-LowEntryExtendedStandardLibrary.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/LowEntryExtStdLib/Binaries/Win64/UE4Editor-LowEntryExtendedStandardLibraryEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/LowEntryExtStdLib/Binaries/Win64/UE4Editor-LowEntryExtendedStandardLibraryEditor.pdb",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -674,22 +690,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Runtime/SoundFields/Binaries/Win64/UE4Editor-SoundFields.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRInput.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRInputDevice.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVREditor.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
@@ -2213,6 +2213,10 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/LowEntryExtStdLib/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -2573,10 +2577,6 @@
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Runtime/Synthesis/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -2616,6 +2616,10 @@
 	"RuntimeDependencies": [
 		{
 			"Path": "$(ProjectDir)/Typhoon.uproject",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/LowEntryExtStdLib/LowEntryExtStdLib.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -2992,10 +2996,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Runtime/SoundFields/SoundFields.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -4200,10 +4200,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/ThirdParty/Oculus/OVRPlugin/OVRPlugin/Win64/OVRPlugin.dll",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/OpenVR/OpenVRv1_5_17/Win64/openvr_api.dll",
 			"Type": "NonUFS"
 		},
 		{

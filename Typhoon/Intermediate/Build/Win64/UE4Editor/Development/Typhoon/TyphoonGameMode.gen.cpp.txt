@@ -2,8 +2,10 @@ S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Intermediate\Build\Win
 D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
 S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Source\Typhoon/TyphoonGameMode.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/GameMode.h
 D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
 D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 D:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 D:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameMode.generated.h
 S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Intermediate\Build\Win64\UE4Editor\Inc\Typhoon\TyphoonGameMode.generated.h
