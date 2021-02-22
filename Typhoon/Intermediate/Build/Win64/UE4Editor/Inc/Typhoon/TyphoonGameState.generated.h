@@ -56,7 +56,8 @@ public: \
 		GameStartTime, \
 		CountdownEndTime, \
 		PrepPhaseDuration, \
-		NETFIELD_REP_END=PrepPhaseDuration	}; \
+		CurrentStage, \
+		NETFIELD_REP_END=CurrentStage	}; \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
@@ -75,7 +76,8 @@ public: \
 		GameStartTime, \
 		CountdownEndTime, \
 		PrepPhaseDuration, \
-		NETFIELD_REP_END=PrepPhaseDuration	}; \
+		CurrentStage, \
+		NETFIELD_REP_END=CurrentStage	}; \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
@@ -110,7 +112,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATyphoonGameState); \
 	FORCEINLINE static uint32 __PPO__BeginTime() { return STRUCT_OFFSET(ATyphoonGameState, BeginTime); } \
 	FORCEINLINE static uint32 __PPO__GameStartTime() { return STRUCT_OFFSET(ATyphoonGameState, GameStartTime); } \
 	FORCEINLINE static uint32 __PPO__CountdownEndTime() { return STRUCT_OFFSET(ATyphoonGameState, CountdownEndTime); } \
-	FORCEINLINE static uint32 __PPO__PrepPhaseDuration() { return STRUCT_OFFSET(ATyphoonGameState, PrepPhaseDuration); }
+	FORCEINLINE static uint32 __PPO__PrepPhaseDuration() { return STRUCT_OFFSET(ATyphoonGameState, PrepPhaseDuration); } \
+	FORCEINLINE static uint32 __PPO__CurrentStage() { return STRUCT_OFFSET(ATyphoonGameState, CurrentStage); }
 
 
 #define Typhoon_Source_Typhoon_TyphoonGameState_h_10_PROLOG \

@@ -53,6 +53,9 @@ protected:
 	// Should only be used for aesthetics, such as a timer displaying how long until prep phase ends.
 	UPROPERTY(Replicated, BlueprintReadOnly, VisibleInstanceOnly, Category = GameState)
 	float PrepPhaseDuration;
+
+	UPROPERTY(Replicated, BlueprintReadOnly, Category = GameState)
+	int32 CurrentStage;
 	
 	virtual void HandleMatchHasStarted() override;
 	virtual void ReceivedGameModeClass() override;
@@ -74,7 +77,4 @@ protected:
 	void BP_OnGameStarted();
 	
 	virtual void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
-
-private:
-	int32 CurrentStage;
 };

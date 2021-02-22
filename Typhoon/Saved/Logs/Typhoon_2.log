@@ -5837,3 +5837,211 @@ Script Stack (0 frames):
 [2021.02.22-16.51.12:942][ 19]LogSavePackage: Moving 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/TestLevel2245171C4775C025D4F9D1A550EEAA00.tmp' to 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Levels/TestLevel.umap'
 [2021.02.22-16.51.13:026][ 19]AssetCheck: New page: Asset Save: TestLevel
 [2021.02.22-16.51.13:026][ 19]LogContentValidation: Display: Validating World /Game/Levels/TestLevel.TestLevel
+[2021.02.22-16.59.48:058][117]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.22-16.59.48:064][117]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.22-16.59.48:064][117]PIE: New page: PIE session: TestLevel (22 févr. 2021 à 16:59:48)
+[2021.02.22-16.59.48:064][117]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.22-16.59.48:072][117]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008031s)
+[2021.02.22-16.59.48:073][117]LogAIModule: Creating AISystem for world TestLevel
+[2021.02.22-16.59.48:073][117]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B394698C00), frame # 188117
+[2021.02.22-16.59.48:073][117]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B358C5F740), frame # 188117
+[2021.02.22-16.59.48:074][117]LogPlayLevel: PIE: World Init took: (0.001162s)
+[2021.02.22-16.59.48:074][117]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevel.TestLevel to /Game/Levels/UEDPIE_0_TestLevel.TestLevel (0.009328s)
+[2021.02.22-16.59.48:113][117]LogUObjectHash: Compacting FUObjectHashTables data took   4.35ms
+[2021.02.22-16.59.48:117][117]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.22-16.59.48:117][117]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.22-16.59.48:117][117]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.22-16.59.48:117][117]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.22-16.59.48:117][117]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.22-16.59.48:117][117]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.22-16.59.48:117][117]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.22-16.59.48:117][117]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.22-16.59.48:117][117]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.22-16.59.48:117][117]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.22-16.59.48:123][117]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.22-16.59.48:123][117]LogAudioMixer: Display: 1: FrontRight
+[2021.02.22-16.59.48:155][117]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.02.22-16.59.48:155][117]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.22-16.59.48:155][117]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.22-16.59.48:155][117]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.22-16.59.48:155][117]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.22-16.59.48:166][117]LogInit: FAudioDevice initialized.
+[2021.02.22-16.59.48:175][117]LogLoad: Game class is 'BP_TyphoonGameMode_C'
+[2021.02.22-16.59.48:176][117]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2021.02.22-16.59.48
+[2021.02.22-16.59.48:177][117]LogWorld: Bringing up level for play took: 0.000718
+[2021.02.22-16.59.48:177][117]LogOnline: OSS: Creating online subsystem instance for: :Context_74
+[2021.02.22-16.59.48:178][117]LogGameMode: Display: Players Ready: 1, Players Needed: 1
+[2021.02.22-16.59.48:178][117]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.22-16.59.48:178][117]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.22-16.59.48:178][117]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.02.22-16.59.48:179][117]LogGameMode: Display: Match In Progress State Changed from None to Countdown
+[2021.02.22-16.59.48:179][117]LogGameState: Match In Progress State Changed from None to Countdown
+[2021.02.22-16.59.48:179][117]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.02.22-16.59.48:179][117]PIE: Server logged in
+[2021.02.22-16.59.48:180][117]PIE: Play in editor total start time 0,117 seconds.
+[2021.02.22-16.59.51:059][431]LogGameMode: Display: Match In Progress State Changed from Countdown to PrepPhase
+[2021.02.22-16.59.51:060][431]LogGameState: Match In Progress State Changed from Countdown to PrepPhase
+[2021.02.22-16.59.51:160][443]LogGameMode: Display: Match In Progress State Changed from PrepPhase to Normal
+[2021.02.22-16.59.51:160][443]LogGameState: Match In Progress State Changed from PrepPhase to Normal
+[2021.02.22-17.00.02:713][821]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-17.00.02:713][821]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.22-17.00.02:713][821]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2021.02.22-17.00.02:714][821]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-17.00.02:722][821]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.22-17.00.02:727][821]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-17.00.02:770][821]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-17.00.02:771][821]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001B358C5F740), frame # 189821
+[2021.02.22-17.00.02:771][821]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001B394698C00), frame # 189821
+[2021.02.22-17.00.02:774][821]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2021.02.22-17.00.02:806][822]LogPlayLevel: Display: Destroying online subsystem :Context_74
+[2021.02.22-17.00.06:111][ 69]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.22-17.00.06:117][ 69]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.22-17.00.06:117][ 69]PIE: New page: PIE session: TestLevel (22 févr. 2021 à 17:00:06)
+[2021.02.22-17.00.06:142][ 69]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.22-17.00.06:148][ 69]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006506s)
+[2021.02.22-17.00.06:149][ 69]LogAIModule: Creating AISystem for world TestLevel
+[2021.02.22-17.00.06:149][ 69]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B367C4B200), frame # 190069
+[2021.02.22-17.00.06:149][ 69]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B358C5CA40), frame # 190069
+[2021.02.22-17.00.06:149][ 69]LogPlayLevel: PIE: World Init took: (0.000965s)
+[2021.02.22-17.00.06:149][ 69]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevel.TestLevel to /Game/Levels/UEDPIE_0_TestLevel.TestLevel (0.007610s)
+[2021.02.22-17.00.06:185][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2021.02.22-17.00.06:187][ 69]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.22-17.00.06:187][ 69]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.22-17.00.06:187][ 69]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.22-17.00.06:187][ 69]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.22-17.00.06:187][ 69]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.22-17.00.06:187][ 69]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.22-17.00.06:187][ 69]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.22-17.00.06:187][ 69]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.22-17.00.06:188][ 69]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.22-17.00.06:188][ 69]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.22-17.00.06:193][ 69]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.22-17.00.06:193][ 69]LogAudioMixer: Display: 1: FrontRight
+[2021.02.22-17.00.06:223][ 69]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.02.22-17.00.06:223][ 69]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.22-17.00.06:223][ 69]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.22-17.00.06:223][ 69]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.22-17.00.06:223][ 69]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.22-17.00.06:234][ 69]LogInit: FAudioDevice initialized.
+[2021.02.22-17.00.06:244][ 69]LogLoad: Game class is 'BP_TyphoonGameMode_C'
+[2021.02.22-17.00.06:245][ 69]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2021.02.22-17.00.06
+[2021.02.22-17.00.06:245][ 69]LogWorld: Bringing up level for play took: 0.000716
+[2021.02.22-17.00.06:246][ 69]LogOnline: OSS: Creating online subsystem instance for: :Context_75
+[2021.02.22-17.00.06:247][ 69]LogGameMode: Display: Players Ready: 1, Players Needed: 1
+[2021.02.22-17.00.06:247][ 69]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2021.02.22-17.00.06:247][ 69]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2021.02.22-17.00.06:247][ 69]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2021.02.22-17.00.06:247][ 69]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2021.02.22-17.00.06:247][ 69]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.02.22-17.00.06:247][ 69]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2021.02.22-17.00.06:247][ 69]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.22-17.00.06:247][ 69]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.22-17.00.06:247][ 69]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.02.22-17.00.06:248][ 69]LogGameMode: Display: Match In Progress State Changed from None to Countdown
+[2021.02.22-17.00.06:248][ 69]LogGameState: Match In Progress State Changed from None to Countdown
+[2021.02.22-17.00.06:248][ 69]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.02.22-17.00.06:248][ 69]PIE: Server logged in
+[2021.02.22-17.00.06:249][ 69]PIE: Play in editor total start time 0,134 seconds.
+[2021.02.22-17.00.06:250][ 69]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.22-17.00.06:250][ 69]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.22-17.00.06:250][ 69]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.22-17.00.06:250][ 69]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.22-17.00.06:250][ 69]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.22-17.00.06:250][ 69]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.22-17.00.06:250][ 69]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.22-17.00.06:250][ 69]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.22-17.00.06:250][ 69]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.22-17.00.06:250][ 69]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.22-17.00.06:255][ 69]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.22-17.00.06:255][ 69]LogAudioMixer: Display: 1: FrontRight
+[2021.02.22-17.00.06:283][ 69]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.02.22-17.00.06:283][ 69]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.22-17.00.06:283][ 69]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.22-17.00.06:283][ 69]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.22-17.00.06:283][ 69]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.22-17.00.06:294][ 69]LogInit: FAudioDevice initialized.
+[2021.02.22-17.00.06:343][ 69]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-17.00.06:343][ 69]LogNet: Browse: 127.0.0.1:17777/Game/Levels/TestLevel
+[2021.02.22-17.00.06:344][ 69]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2021.02.22-17.00.06:344][ 69]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2021.02.22-17.00.06:344][ 69]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.02.22-17.00.06:344][ 69]LogNet: Game client on port 17777, rate 10000
+[2021.02.22-17.00.06:347][ 69]PIE: Client logged in
+[2021.02.22-17.00.06:348][ 69]PIE: Play in editor total start time 0,233 seconds.
+[2021.02.22-17.00.07:359][153]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63370
+[2021.02.22-17.00.07:359][153]LogHandshake: SendConnectChallenge. Timestamp: 1.256836, Cookie: 222244213094031163192139243006156085241106175203227208000009
+[2021.02.22-17.00.07:360][153]LogHandshake: SendChallengeResponse. Timestamp: 1.256836, Cookie: 222244213094031163192139243006156085241106175203227208000009
+[2021.02.22-17.00.07:366][154]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63370
+[2021.02.22-17.00.07:367][154]LogHandshake: SendChallengeAck. InCookie: 222244213094031163192139243006156085241106175203227208000009
+[2021.02.22-17.00.07:367][154]LogNet: Server accepting post-challenge connection from: 127.0.0.1:63370
+[2021.02.22-17.00.07:367][154]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.02.22-17.00.07:367][154]LogNet: NotifyAcceptedConnection: Name: TestLevel, TimeStamp: 02/22/21 17:00:07, [UNetConnection] RemoteAddr: 127.0.0.1:63370, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.02.22-17.00.07:367][154]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:63370, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.02.22-17.00.07:368][154]LogNetVersion: Typhoon 1.0.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 409615806)
+[2021.02.22-17.00.07:368][154]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.02.22-17.00.07:375][155]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Levels/UEDPIE_0_TestLevel.TestLevel: Accepted
+[2021.02.22-17.00.07:375][155]LogNet: Remote platform little endian=1
+[2021.02.22-17.00.07:375][155]LogNet: This platform little endian=1
+[2021.02.22-17.00.07:375][155]LogOnline: OSS: Creating online subsystem instance for: :Context_76
+[2021.02.22-17.00.07:383][156]LogNet: Login request: ?Name=AORAKI-55AA65E7485124111EEEB7BCEBBAEE24 userId: NULL:AORAKI-55AA65E7485124111EEEB7BCEBBAEE24 platform: NULL
+[2021.02.22-17.00.07:384][156]LogNet: Welcomed by server (Level: /Game/Levels/UEDPIE_0_TestLevel, Game: /Game/Blueprints/GameFramework/BP_TyphoonGameMode.BP_TyphoonGameMode_C)
+[2021.02.22-17.00.07:384][156]LogLoad: LoadMap: 127.0.0.1:17777/Game/Levels/UEDPIE_0_TestLevel?game=/Game/Blueprints/GameFramework/BP_TyphoonGameMode.BP_TyphoonGameMode_C
+[2021.02.22-17.00.07:384][156]LogWorld: BeginTearingDown for /Temp/Untitled_1
+[2021.02.22-17.00.07:384][156]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.02.22-17.00.07:384][156]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-17.00.07:454][156]LogUObjectHash: Compacting FUObjectHashTables data took   4.75ms
+[2021.02.22-17.00.07:463][156]LogAIModule: Creating AISystem for world TestLevel
+[2021.02.22-17.00.07:464][156]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B3AFA30800), frame # 190156
+[2021.02.22-17.00.07:464][156]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B373285580), frame # 190156
+[2021.02.22-17.00.07:468][156]LogWorld: Bringing World /Game/Levels/UEDPIE_1_TestLevel.TestLevel up for play (max tick rate 0) at 2021.02.22-17.00.07
+[2021.02.22-17.00.07:468][156]LogWorld: Bringing up level for play took: 0.004045
+[2021.02.22-17.00.07:469][156]LogLoad: Took 0.084515 seconds to LoadMap(/Game/Levels/UEDPIE_0_TestLevel)
+[2021.02.22-17.00.07:469][156]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2021.02.22-17.00.07:478][157]LogNet: Client netspeed is 10000
+[2021.02.22-17.00.07:478][157]LogNet: Join request: /Game/Levels/TestLevel?Name=AORAKI-55AA65E7485124111EEEB7BCEBBAEE24?SplitscreenCount=1
+[2021.02.22-17.00.07:479][157]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.02.22-17.00.07:480][157]LogGameMode: Display: Players Ready: 2, Players Needed: 1
+[2021.02.22-17.00.07:480][157]LogNet: Join succeeded: AORAKI-55AA65E748512
+[2021.02.22-17.00.07:481][157]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2021.02.22-17.00.07:481][157]LogWindows: Windows GetLastError: L’opération a réussi. (0)
+[2021.02.22-17.00.10:415][157]LogWindows: Error: === Critical error: ===
+[2021.02.22-17.00.10:415][157]LogWindows: Error: 
+[2021.02.22-17.00.10:415][157]LogWindows: Error: Fatal error: [File:D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/UnrealType.h] [Line: 5695] 
+[2021.02.22-17.00.10:415][157]LogWindows: Error: Failed to find Property CurrentStage in Class /Script/Typhoon.TyphoonGameState
+[2021.02.22-17.00.10:415][157]LogWindows: Error: 
+[2021.02.22-17.00.10:415][157]LogWindows: Error: 
+[2021.02.22-17.00.10:415][157]LogWindows: Error: [Callstack] 0x00007ffc28d83b29 KERNELBASE.dll!UnknownFunction []
+[2021.02.22-17.00.10:415][157]LogWindows: Error: [Callstack] 0x00007ffb34f1ec66 UE4Editor-Core.dll!UnknownFunction []
+[2021.02.22-17.00.10:415][157]LogWindows: Error: [Callstack] 0x00007ffb34f22048 UE4Editor-Core.dll!UnknownFunction []
+[2021.02.22-17.00.10:415][157]LogWindows: Error: [Callstack] 0x00007ffb34cae52d UE4Editor-Core.dll!UnknownFunction []
+[2021.02.22-17.00.10:415][157]LogWindows: Error: [Callstack] 0x00007ffb3cf2833d UE4Editor-Typhoon-1396.dll!FindFieldChecked<FProperty>() [D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject\UnrealType.h:5695]
+[2021.02.22-17.00.10:415][157]LogWindows: Error: [Callstack] 0x00007ffb3cf28d5d UE4Editor-Typhoon-1396.dll!GetReplicatedProperty() [D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Public\Net\UnrealNetwork.h:163]
+[2021.02.22-17.00.10:415][157]LogWindows: Error: [Callstack] 0x00007ffb3cf28b17 UE4Editor-Typhoon-1396.dll!UnknownFunction [S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Source\Typhoon\TyphoonGameState.cpp:106]
+[2021.02.22-17.00.10:415][157]LogWindows: Error: [Callstack] 0x00007ffb141edb9b UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.22-17.00.10:415][157]LogWindows: Error: [Callstack] 0x00007ffb141db865 UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.22-17.00.10:415][157]LogWindows: Error: [Callstack] 0x00007ffb13ecf0b5 UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.22-17.00.10:415][157]LogWindows: Error: [Callstack] 0x00007ffb13ecbb12 UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.22-17.00.10:415][157]LogWindows: Error: [Callstack] 0x00007ffb134057d8 UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.22-17.00.10:415][157]LogWindows: Error: [Callstack] 0x00007ffb13efd86b UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.22-17.00.10:415][157]LogWindows: Error: [Callstack] 0x00007ffb13efb683 UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.22-17.00.10:415][157]LogWindows: Error: [Callstack] 0x00007ffb13f07937 UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.22-17.00.10:415][157]LogWindows: Error: [Callstack] 0x00007ffb13ec8f5f UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.22-17.00.10:415][157]LogWindows: Error: [Callstack] 0x00007ffb1337d380 UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.22-17.00.10:415][157]LogWindows: Error: [Callstack] 0x00007ffb13cca7dc UE4Editor-Engine.dll!UnknownFunction []
+[2021.02.22-17.00.10:415][157]LogWindows: Error: [Callstack] 0x00007ffb11d7af57 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.02.22-17.00.10:415][157]LogWindows: Error: [Callstack] 0x00007ffb126537e6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.02.22-17.00.10:415][157]LogWindows: Error: [Callstack] 0x00007ff6800e7800 UE4Editor.exe!UnknownFunction []
+[2021.02.22-17.00.10:415][157]LogWindows: Error: [Callstack] 0x00007ff6800fba7c UE4Editor.exe!UnknownFunction []
+[2021.02.22-17.00.10:415][157]LogWindows: Error: [Callstack] 0x00007ff6800fbb5a UE4Editor.exe!UnknownFunction []
+[2021.02.22-17.00.10:415][157]LogWindows: Error: [Callstack] 0x00007ff68010e31d UE4Editor.exe!UnknownFunction []
+[2021.02.22-17.00.10:415][157]LogWindows: Error: [Callstack] 0x00007ff68011145a UE4Editor.exe!UnknownFunction []
+[2021.02.22-17.00.10:415][157]LogWindows: Error: [Callstack] 0x00007ffc2b4f7c24 KERNEL32.DLL!UnknownFunction []
+[2021.02.22-17.00.10:415][157]LogWindows: Error: [Callstack] 0x00007ffc2baed4d1 ntdll.dll!UnknownFunction []
+[2021.02.22-17.00.10:415][157]LogWindows: Error: 
+[2021.02.22-17.00.10:430][157]LogExit: Executing StaticShutdownAfterError
+[2021.02.22-17.00.10:440][157]LogWindows: FPlatformMisc::RequestExit(1)
+[2021.02.22-17.00.10:440][157]LogCore: Engine exit requested (reason: Win RequestExit)
+[2021.02.22-17.00.10:519][157]Log file closed, 02/22/21 17:00:10

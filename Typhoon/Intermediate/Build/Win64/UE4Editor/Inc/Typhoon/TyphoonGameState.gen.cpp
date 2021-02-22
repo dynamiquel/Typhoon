@@ -226,6 +226,10 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonGameState() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentStage_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_CurrentStage;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PrepPhaseDuration_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_PrepPhaseDuration;
@@ -275,6 +279,13 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonGameState() {}
 		{ "ToolTip", "A bit more than the standard GameState." },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_CurrentStage_MetaData[] = {
+		{ "Category", "GameState" },
+		{ "ModuleRelativePath", "TyphoonGameState.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_CurrentStage = { "CurrentStage", nullptr, (EPropertyFlags)0x0020080000000034, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATyphoonGameState, CurrentStage), METADATA_PARAMS(Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_CurrentStage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_CurrentStage_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_PrepPhaseDuration_MetaData[] = {
 		{ "Category", "GameState" },
@@ -328,6 +339,7 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonGameState() {}
 #endif
 	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_OnStageComplete = { "OnStageComplete", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATyphoonGameState, OnStageComplete), Z_Construct_UDelegateFunction_ATyphoonGameState_OnStageCompleteSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_OnStageComplete_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_OnStageComplete_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATyphoonGameState_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_CurrentStage,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_PrepPhaseDuration,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_CountdownEndTime,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_GameStartTime,
@@ -362,7 +374,7 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonGameState() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATyphoonGameState, 2072394700);
+	IMPLEMENT_CLASS(ATyphoonGameState, 2036612344);
 	template<> TYPHOON_API UClass* StaticClass<ATyphoonGameState>()
 	{
 		return ATyphoonGameState::StaticClass();
@@ -376,13 +388,15 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonGameState() {}
 		static const FName Name_GameStartTime(TEXT("GameStartTime"));
 		static const FName Name_CountdownEndTime(TEXT("CountdownEndTime"));
 		static const FName Name_PrepPhaseDuration(TEXT("PrepPhaseDuration"));
+		static const FName Name_CurrentStage(TEXT("CurrentStage"));
 
 		const bool bIsValid = true
 			&& Name_MatchInProgressState == ClassReps[(int32)ENetFields_Private::MatchInProgressState].Property->GetFName()
 			&& Name_BeginTime == ClassReps[(int32)ENetFields_Private::BeginTime].Property->GetFName()
 			&& Name_GameStartTime == ClassReps[(int32)ENetFields_Private::GameStartTime].Property->GetFName()
 			&& Name_CountdownEndTime == ClassReps[(int32)ENetFields_Private::CountdownEndTime].Property->GetFName()
-			&& Name_PrepPhaseDuration == ClassReps[(int32)ENetFields_Private::PrepPhaseDuration].Property->GetFName();
+			&& Name_PrepPhaseDuration == ClassReps[(int32)ENetFields_Private::PrepPhaseDuration].Property->GetFName()
+			&& Name_CurrentStage == ClassReps[(int32)ENetFields_Private::CurrentStage].Property->GetFName();
 
 		checkf(bIsValid, TEXT("UHT Generated Rep Indices do not match runtime populated Rep Indices for properties in ATyphoonGameState"));
 	}

@@ -25,7 +25,7 @@ void EmptyLinkFunctionForGeneratedCodeTyphoon_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0xF9741E65,
+				0x034E2951,
 				0xA176F330,
 				METADATA_PARAMS(nullptr, 0)
 			};
