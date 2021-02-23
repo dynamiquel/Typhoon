@@ -11,6 +11,7 @@
 #endif
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeTyphoon_init() {}
+	TYPHOON_API UFunction* Z_Construct_UDelegateFunction_UPickupComponent_ComponentOnPickupSignature__DelegateSignature();
 	TYPHOON_API UFunction* Z_Construct_UDelegateFunction_ATyphoonGameState_OnStageCompleteSignature__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_Typhoon()
 	{
@@ -18,6 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeTyphoon_init() {}
 		if (!ReturnPackage)
 		{
 			static UObject* (*const SingletonFuncArray[])() = {
+				(UObject* (*)())Z_Construct_UDelegateFunction_UPickupComponent_ComponentOnPickupSignature__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_ATyphoonGameState_OnStageCompleteSignature__DelegateSignature,
 			};
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
@@ -25,8 +27,8 @@ void EmptyLinkFunctionForGeneratedCodeTyphoon_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x0BB57F63,
-				0x8D67CFD3,
+				0xD7394A2D,
+				0x2C39D5C4,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

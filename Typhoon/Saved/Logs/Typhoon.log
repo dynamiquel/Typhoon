@@ -1104,3 +1104,1398 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.02.23-09.42.01:609][436]LogFileHelpers: Saving map 'TestLevel' took 0.048
 [2021.02.23-09.42.01:618][436]AssetCheck: New page: Asset Save: TestLevel
 [2021.02.23-09.42.01:618][436]LogContentValidation: Display: Validating World /Game/Levels/TestLevel.TestLevel
+[2021.02.23-09.46.15:565][392]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.23-09.46.15:572][392]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.23-09.46.15:572][392]PIE: New page: PIE session: TestLevel (23 févr. 2021 à 09:46:15)
+[2021.02.23-09.46.15:618][392]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.23-09.46.15:625][392]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007106s)
+[2021.02.23-09.46.15:625][392]LogAIModule: Creating AISystem for world TestLevel
+[2021.02.23-09.46.15:626][392]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027E28905E00), frame # 16392
+[2021.02.23-09.46.15:626][392]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027D82D296C0), frame # 16392
+[2021.02.23-09.46.15:626][392]LogPlayLevel: PIE: World Init took: (0.001008s)
+[2021.02.23-09.46.15:626][392]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevel.TestLevel to /Game/Levels/UEDPIE_0_TestLevel.TestLevel (0.008268s)
+[2021.02.23-09.46.15:646][392]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2021.02.23-09.46.15:649][392]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.23-09.46.15:649][392]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.23-09.46.15:649][392]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.23-09.46.15:649][392]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.23-09.46.15:649][392]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.23-09.46.15:649][392]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.23-09.46.15:649][392]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.23-09.46.15:649][392]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.23-09.46.15:649][392]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.23-09.46.15:649][392]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.23-09.46.15:653][392]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.23-09.46.15:653][392]LogAudioMixer: Display: 1: FrontRight
+[2021.02.23-09.46.15:685][392]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.02.23-09.46.15:685][392]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.23-09.46.15:685][392]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.23-09.46.15:685][392]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.23-09.46.15:685][392]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.23-09.46.15:695][392]LogInit: FAudioDevice initialized.
+[2021.02.23-09.46.15:701][392]LogLoad: Game class is 'BP_TyphoonGameMode_C'
+[2021.02.23-09.46.15:702][392]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2021.02.23-09.46.15
+[2021.02.23-09.46.15:702][392]LogWorld: Bringing up level for play took: 0.000743
+[2021.02.23-09.46.15:702][392]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.02.23-09.46.15:703][392]LogGameMode: Display: Players Ready: 1, Players Needed: 1
+[2021.02.23-09.46.15:703][392]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.23-09.46.15:703][392]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.23-09.46.15:703][392]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.02.23-09.46.15:704][392]LogGameMode: Display: Match In Progress State Changed from None to Countdown
+[2021.02.23-09.46.15:704][392]LogGameState: Match In Progress State Changed from None to Countdown
+[2021.02.23-09.46.15:704][392]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.02.23-09.46.15:704][392]PIE: Server logged in
+[2021.02.23-09.46.15:705][392]PIE: Play in editor total start time 0,134 seconds.
+[2021.02.23-09.46.18:567][733]LogGameMode: Display: Match In Progress State Changed from Countdown to PrepPhase
+[2021.02.23-09.46.18:568][733]LogGameState: Match In Progress State Changed from Countdown to PrepPhase
+[2021.02.23-09.46.18:668][745]LogGameMode: Display: Match In Progress State Changed from PrepPhase to Normal
+[2021.02.23-09.46.18:668][745]LogGameState: Match In Progress State Changed from PrepPhase to Normal
+[2021.02.23-09.46.23:533][329]LogGameMode: Display: Player AORAKI-5F6992AB481A5 died.
+[2021.02.23-09.46.36:048][828]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-09.46.36:048][828]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.23-09.46.36:048][828]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2021.02.23-09.46.36:048][828]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-09.46.36:058][828]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.23-09.46.36:061][828]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-09.46.36:076][828]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-09.46.36:093][828]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027D82D296C0), frame # 18828
+[2021.02.23-09.46.36:093][828]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027E28905E00), frame # 18828
+[2021.02.23-09.46.36:095][828]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2021.02.23-09.46.36:145][830]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.02.23-09.46.42:589][603]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.23-09.46.42:597][603]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.23-09.46.42:597][603]PIE: New page: PIE session: TestLevel (23 févr. 2021 à 09:46:42)
+[2021.02.23-09.46.42:617][603]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.23-09.46.42:625][603]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007471s)
+[2021.02.23-09.46.42:625][603]LogAIModule: Creating AISystem for world TestLevel
+[2021.02.23-09.46.42:626][603]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027E15DAC800), frame # 19603
+[2021.02.23-09.46.42:626][603]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027E13C32AC0), frame # 19603
+[2021.02.23-09.46.42:626][603]LogPlayLevel: PIE: World Init took: (0.000924s)
+[2021.02.23-09.46.42:626][603]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevel.TestLevel to /Game/Levels/UEDPIE_0_TestLevel.TestLevel (0.008522s)
+[2021.02.23-09.46.42:644][603]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2021.02.23-09.46.42:647][603]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.23-09.46.42:647][603]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.23-09.46.42:647][603]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.23-09.46.42:647][603]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.23-09.46.42:647][603]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.23-09.46.42:647][603]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.23-09.46.42:647][603]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.23-09.46.42:647][603]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.23-09.46.42:647][603]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.23-09.46.42:647][603]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.23-09.46.42:652][603]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.23-09.46.42:652][603]LogAudioMixer: Display: 1: FrontRight
+[2021.02.23-09.46.42:680][603]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.02.23-09.46.42:680][603]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.23-09.46.42:680][603]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.23-09.46.42:680][603]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.23-09.46.42:681][603]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.23-09.46.42:690][603]LogInit: FAudioDevice initialized.
+[2021.02.23-09.46.42:695][603]LogLoad: Game class is 'BP_TyphoonGameMode_C'
+[2021.02.23-09.46.42:696][603]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2021.02.23-09.46.42
+[2021.02.23-09.46.42:696][603]LogWorld: Bringing up level for play took: 0.000699
+[2021.02.23-09.46.42:696][603]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.02.23-09.46.42:697][603]LogGameMode: Display: Players Ready: 1, Players Needed: 1
+[2021.02.23-09.46.42:697][603]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.23-09.46.42:697][603]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.23-09.46.42:697][603]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.02.23-09.46.42:698][603]LogGameMode: Display: Match In Progress State Changed from None to Countdown
+[2021.02.23-09.46.42:698][603]LogGameState: Match In Progress State Changed from None to Countdown
+[2021.02.23-09.46.42:698][603]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.02.23-09.46.42:698][603]PIE: Server logged in
+[2021.02.23-09.46.42:699][603]PIE: Play in editor total start time 0,103 seconds.
+[2021.02.23-09.46.43:398][681]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-09.46.43:398][681]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.23-09.46.43:398][681]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2021.02.23-09.46.43:399][681]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-09.46.43:407][681]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.23-09.46.43:410][681]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-09.46.43:425][681]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-09.46.43:450][681]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027E13C32AC0), frame # 19681
+[2021.02.23-09.46.43:450][681]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027E15DAC800), frame # 19681
+[2021.02.23-09.46.43:452][681]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2021.02.23-09.46.43:473][682]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2021.02.23-09.46.45:262][896]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.23-09.46.45:269][896]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.23-09.46.45:269][896]PIE: New page: PIE session: TestLevel (23 févr. 2021 à 09:46:45)
+[2021.02.23-09.46.45:269][896]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.23-09.46.45:276][896]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006430s)
+[2021.02.23-09.46.45:276][896]LogAIModule: Creating AISystem for world TestLevel
+[2021.02.23-09.46.45:276][896]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027E0F114800), frame # 19896
+[2021.02.23-09.46.45:276][896]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027E080C8540), frame # 19896
+[2021.02.23-09.46.45:276][896]LogPlayLevel: PIE: World Init took: (0.000776s)
+[2021.02.23-09.46.45:276][896]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevel.TestLevel to /Game/Levels/UEDPIE_0_TestLevel.TestLevel (0.007280s)
+[2021.02.23-09.46.45:295][896]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2021.02.23-09.46.45:296][896]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.23-09.46.45:296][896]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.23-09.46.45:296][896]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.23-09.46.45:296][896]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.23-09.46.45:296][896]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.23-09.46.45:296][896]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.23-09.46.45:296][896]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.23-09.46.45:296][896]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.23-09.46.45:296][896]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.23-09.46.45:296][896]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.23-09.46.45:301][896]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.23-09.46.45:301][896]LogAudioMixer: Display: 1: FrontRight
+[2021.02.23-09.46.45:330][896]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.02.23-09.46.45:330][896]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.23-09.46.45:330][896]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.23-09.46.45:330][896]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.23-09.46.45:330][896]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.23-09.46.45:340][896]LogInit: FAudioDevice initialized.
+[2021.02.23-09.46.45:348][896]LogLoad: Game class is 'BP_TyphoonGameMode_C'
+[2021.02.23-09.46.45:349][896]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2021.02.23-09.46.45
+[2021.02.23-09.46.45:349][896]LogWorld: Bringing up level for play took: 0.000744
+[2021.02.23-09.46.45:349][896]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.02.23-09.46.45:350][896]LogGameMode: Display: Players Ready: 1, Players Needed: 1
+[2021.02.23-09.46.45:350][896]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.23-09.46.45:350][896]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.23-09.46.45:350][896]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.02.23-09.46.45:351][896]LogGameMode: Display: Match In Progress State Changed from None to Countdown
+[2021.02.23-09.46.45:351][896]LogGameState: Match In Progress State Changed from None to Countdown
+[2021.02.23-09.46.45:351][896]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.02.23-09.46.45:351][896]PIE: Server logged in
+[2021.02.23-09.46.45:352][896]PIE: Play in editor total start time 0,084 seconds.
+[2021.02.23-09.46.48:269][244]LogGameMode: Display: Match In Progress State Changed from Countdown to PrepPhase
+[2021.02.23-09.46.48:269][244]LogGameState: Match In Progress State Changed from Countdown to PrepPhase
+[2021.02.23-09.46.48:368][256]LogGameMode: Display: Match In Progress State Changed from PrepPhase to Normal
+[2021.02.23-09.46.48:368][256]LogGameState: Match In Progress State Changed from PrepPhase to Normal
+[2021.02.23-09.46.48:668][288]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-09.46.48:668][288]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.23-09.46.48:669][288]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2021.02.23-09.46.48:669][288]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-09.46.48:679][288]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.23-09.46.48:682][288]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-09.46.48:697][288]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-09.46.48:719][288]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027E080C8540), frame # 20288
+[2021.02.23-09.46.48:719][288]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027E0F114800), frame # 20288
+[2021.02.23-09.46.48:721][288]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2021.02.23-09.46.48:747][289]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2021.02.23-09.46.53:825][888]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.23-09.46.53:833][888]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.23-09.46.53:833][888]PIE: New page: PIE session: TestLevel (23 févr. 2021 à 09:46:53)
+[2021.02.23-09.46.53:867][888]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.23-09.46.53:873][888]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006524s)
+[2021.02.23-09.46.53:874][888]LogAIModule: Creating AISystem for world TestLevel
+[2021.02.23-09.46.53:874][888]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027E27398800), frame # 20888
+[2021.02.23-09.46.53:874][888]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027E24B1E980), frame # 20888
+[2021.02.23-09.46.53:874][888]LogPlayLevel: PIE: World Init took: (0.000935s)
+[2021.02.23-09.46.53:874][888]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevel.TestLevel to /Game/Levels/UEDPIE_0_TestLevel.TestLevel (0.007571s)
+[2021.02.23-09.46.53:892][888]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2021.02.23-09.46.53:895][888]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.23-09.46.53:895][888]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.23-09.46.53:895][888]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.23-09.46.53:895][888]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.23-09.46.53:895][888]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.23-09.46.53:895][888]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.23-09.46.53:895][888]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.23-09.46.53:895][888]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.23-09.46.53:895][888]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.23-09.46.53:895][888]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.23-09.46.53:899][888]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.23-09.46.53:899][888]LogAudioMixer: Display: 1: FrontRight
+[2021.02.23-09.46.53:928][888]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.02.23-09.46.53:928][888]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.23-09.46.53:928][888]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.23-09.46.53:928][888]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.23-09.46.53:928][888]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.23-09.46.53:938][888]LogInit: FAudioDevice initialized.
+[2021.02.23-09.46.53:945][888]LogLoad: Game class is 'BP_TyphoonGameMode_C'
+[2021.02.23-09.46.53:946][888]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2021.02.23-09.46.53
+[2021.02.23-09.46.53:946][888]LogWorld: Bringing up level for play took: 0.000720
+[2021.02.23-09.46.53:946][888]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.02.23-09.46.53:947][888]LogGameMode: Display: Players Ready: 1, Players Needed: 1
+[2021.02.23-09.46.53:947][888]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.23-09.46.53:947][888]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.23-09.46.53:947][888]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.02.23-09.46.53:948][888]LogGameMode: Display: Match In Progress State Changed from None to Countdown
+[2021.02.23-09.46.53:948][888]LogGameState: Match In Progress State Changed from None to Countdown
+[2021.02.23-09.46.53:948][888]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.02.23-09.46.53:948][888]PIE: Server logged in
+[2021.02.23-09.46.53:949][888]PIE: Play in editor total start time 0,117 seconds.
+[2021.02.23-09.46.56:833][232]LogGameMode: Display: Match In Progress State Changed from Countdown to PrepPhase
+[2021.02.23-09.46.56:834][232]LogGameState: Match In Progress State Changed from Countdown to PrepPhase
+[2021.02.23-09.46.56:933][244]LogGameMode: Display: Match In Progress State Changed from PrepPhase to Normal
+[2021.02.23-09.46.56:933][244]LogGameState: Match In Progress State Changed from PrepPhase to Normal
+[2021.02.23-09.47.23:768][458]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-09.47.23:768][458]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.23-09.47.23:768][458]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2021.02.23-09.47.23:769][458]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-09.47.23:779][458]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.23-09.47.23:782][458]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-09.47.23:797][458]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-09.47.23:831][458]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027E24B1E980), frame # 24458
+[2021.02.23-09.47.23:831][458]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027E27398800), frame # 24458
+[2021.02.23-09.47.23:833][458]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2021.02.23-09.47.23:859][459]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2021.02.23-09.47.35:950][893]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.23-09.47.35:959][893]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.23-09.47.35:959][893]PIE: New page: PIE session: TestLevel (23 févr. 2021 à 09:47:35)
+[2021.02.23-09.47.35:959][893]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.23-09.47.35:966][893]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006859s)
+[2021.02.23-09.47.35:966][893]LogAIModule: Creating AISystem for world TestLevel
+[2021.02.23-09.47.35:967][893]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027E28D20C00), frame # 25893
+[2021.02.23-09.47.35:967][893]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027E14C67B00), frame # 25893
+[2021.02.23-09.47.35:967][893]LogPlayLevel: PIE: World Init took: (0.000952s)
+[2021.02.23-09.47.35:967][893]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevel.TestLevel to /Game/Levels/UEDPIE_0_TestLevel.TestLevel (0.007906s)
+[2021.02.23-09.47.35:985][893]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2021.02.23-09.47.35:988][893]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.23-09.47.35:988][893]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.23-09.47.35:988][893]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.23-09.47.35:988][893]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.23-09.47.35:988][893]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.23-09.47.35:988][893]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.23-09.47.35:988][893]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.23-09.47.35:988][893]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.23-09.47.35:989][893]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.23-09.47.35:989][893]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.23-09.47.35:993][893]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.23-09.47.35:993][893]LogAudioMixer: Display: 1: FrontRight
+[2021.02.23-09.47.36:022][893]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.02.23-09.47.36:022][893]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.23-09.47.36:022][893]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.23-09.47.36:022][893]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.23-09.47.36:022][893]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.23-09.47.36:032][893]LogInit: FAudioDevice initialized.
+[2021.02.23-09.47.36:039][893]LogLoad: Game class is 'BP_TyphoonGameMode_C'
+[2021.02.23-09.47.36:040][893]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2021.02.23-09.47.36
+[2021.02.23-09.47.36:040][893]LogWorld: Bringing up level for play took: 0.000774
+[2021.02.23-09.47.36:040][893]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2021.02.23-09.47.36:041][893]LogGameMode: Display: Players Ready: 1, Players Needed: 1
+[2021.02.23-09.47.36:041][893]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.23-09.47.36:041][893]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.23-09.47.36:041][893]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.02.23-09.47.36:042][893]LogGameMode: Display: Match In Progress State Changed from None to Countdown
+[2021.02.23-09.47.36:042][893]LogGameState: Match In Progress State Changed from None to Countdown
+[2021.02.23-09.47.36:042][893]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.02.23-09.47.36:042][893]PIE: Server logged in
+[2021.02.23-09.47.36:043][893]PIE: Play in editor total start time 0,085 seconds.
+[2021.02.23-09.47.38:951][240]LogGameMode: Display: Match In Progress State Changed from Countdown to PrepPhase
+[2021.02.23-09.47.38:951][240]LogGameState: Match In Progress State Changed from Countdown to PrepPhase
+[2021.02.23-09.47.39:051][252]LogGameMode: Display: Match In Progress State Changed from PrepPhase to Normal
+[2021.02.23-09.47.39:051][252]LogGameState: Match In Progress State Changed from PrepPhase to Normal
+[2021.02.23-09.47.48:638][398]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-09.47.48:638][398]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.23-09.47.48:638][398]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2021.02.23-09.47.48:638][398]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-09.47.48:646][398]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.23-09.47.48:649][398]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-09.47.48:665][398]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-09.47.48:685][398]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027E14C67B00), frame # 27398
+[2021.02.23-09.47.48:685][398]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027E28D20C00), frame # 27398
+[2021.02.23-09.47.48:688][398]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2021.02.23-09.47.48:715][399]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2021.02.23-09.47.57:238][420]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.23-09.47.57:246][420]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.23-09.47.57:246][420]PIE: New page: PIE session: TestLevel (23 févr. 2021 à 09:47:57)
+[2021.02.23-09.47.57:267][420]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.23-09.47.57:274][420]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006974s)
+[2021.02.23-09.47.57:275][420]LogAIModule: Creating AISystem for world TestLevel
+[2021.02.23-09.47.57:275][420]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027E15EEF600), frame # 28420
+[2021.02.23-09.47.57:275][420]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027E1BD43740), frame # 28420
+[2021.02.23-09.47.57:275][420]LogPlayLevel: PIE: World Init took: (0.001174s)
+[2021.02.23-09.47.57:275][420]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevel.TestLevel to /Game/Levels/UEDPIE_0_TestLevel.TestLevel (0.008292s)
+[2021.02.23-09.47.57:295][420]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2021.02.23-09.47.57:298][420]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.23-09.47.57:298][420]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.23-09.47.57:298][420]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.23-09.47.57:298][420]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.23-09.47.57:298][420]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.23-09.47.57:298][420]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.23-09.47.57:298][420]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.23-09.47.57:298][420]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.23-09.47.57:298][420]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.23-09.47.57:298][420]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.23-09.47.57:303][420]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.23-09.47.57:303][420]LogAudioMixer: Display: 1: FrontRight
+[2021.02.23-09.47.57:334][420]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.02.23-09.47.57:334][420]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.23-09.47.57:334][420]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.23-09.47.57:334][420]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.23-09.47.57:334][420]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.23-09.47.57:344][420]LogInit: FAudioDevice initialized.
+[2021.02.23-09.47.57:355][420]LogLoad: Game class is 'BP_TyphoonGameMode_C'
+[2021.02.23-09.47.57:356][420]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2021.02.23-09.47.57
+[2021.02.23-09.47.57:356][420]LogWorld: Bringing up level for play took: 0.000738
+[2021.02.23-09.47.57:356][420]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2021.02.23-09.47.57:358][420]LogGameMode: Display: Players Ready: 1, Players Needed: 1
+[2021.02.23-09.47.57:358][420]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.23-09.47.57:358][420]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.23-09.47.57:358][420]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.02.23-09.47.57:359][420]LogGameMode: Display: Match In Progress State Changed from None to Countdown
+[2021.02.23-09.47.57:359][420]LogGameState: Match In Progress State Changed from None to Countdown
+[2021.02.23-09.47.57:359][420]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.02.23-09.47.57:359][420]PIE: Server logged in
+[2021.02.23-09.47.57:359][420]PIE: Play in editor total start time 0,115 seconds.
+[2021.02.23-09.47.59:948][724]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-09.47.59:948][724]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.23-09.47.59:948][724]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2021.02.23-09.47.59:949][724]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-09.47.59:958][724]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.23-09.47.59:961][724]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-09.47.59:976][724]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-09.48.00:011][724]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027E1BD43740), frame # 28724
+[2021.02.23-09.48.00:011][724]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027E15EEF600), frame # 28724
+[2021.02.23-09.48.00:013][724]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2021.02.23-09.48.00:040][725]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2021.02.23-09.48.05:358][361]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.23-09.48.05:366][361]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.23-09.48.05:366][361]PIE: New page: PIE session: TestLevel (23 févr. 2021 à 09:48:05)
+[2021.02.23-09.48.05:366][361]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.23-09.48.05:373][361]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006803s)
+[2021.02.23-09.48.05:373][361]LogAIModule: Creating AISystem for world TestLevel
+[2021.02.23-09.48.05:373][361]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027E0A159000), frame # 29361
+[2021.02.23-09.48.05:373][361]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027E14FBF9C0), frame # 29361
+[2021.02.23-09.48.05:373][361]LogPlayLevel: PIE: World Init took: (0.000885s)
+[2021.02.23-09.48.05:373][361]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevel.TestLevel to /Game/Levels/UEDPIE_0_TestLevel.TestLevel (0.007773s)
+[2021.02.23-09.48.05:392][361]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2021.02.23-09.48.05:395][361]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.23-09.48.05:395][361]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.23-09.48.05:395][361]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.23-09.48.05:395][361]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.23-09.48.05:395][361]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.23-09.48.05:395][361]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.23-09.48.05:395][361]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.23-09.48.05:395][361]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.23-09.48.05:395][361]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.23-09.48.05:395][361]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.23-09.48.05:399][361]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.23-09.48.05:399][361]LogAudioMixer: Display: 1: FrontRight
+[2021.02.23-09.48.05:428][361]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.02.23-09.48.05:428][361]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.23-09.48.05:428][361]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.23-09.48.05:428][361]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.23-09.48.05:428][361]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.23-09.48.05:438][361]LogInit: FAudioDevice initialized.
+[2021.02.23-09.48.05:443][361]LogLoad: Game class is 'BP_TyphoonGameMode_C'
+[2021.02.23-09.48.05:444][361]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2021.02.23-09.48.05
+[2021.02.23-09.48.05:444][361]LogWorld: Bringing up level for play took: 0.000706
+[2021.02.23-09.48.05:444][361]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2021.02.23-09.48.05:445][361]LogGameMode: Display: Players Ready: 1, Players Needed: 1
+[2021.02.23-09.48.05:445][361]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.23-09.48.05:445][361]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.23-09.48.05:445][361]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.02.23-09.48.05:446][361]LogGameMode: Display: Match In Progress State Changed from None to Countdown
+[2021.02.23-09.48.05:446][361]LogGameState: Match In Progress State Changed from None to Countdown
+[2021.02.23-09.48.05:446][361]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.02.23-09.48.05:446][361]PIE: Server logged in
+[2021.02.23-09.48.05:447][361]PIE: Play in editor total start time 0,082 seconds.
+[2021.02.23-09.48.08:365][709]LogGameMode: Display: Match In Progress State Changed from Countdown to PrepPhase
+[2021.02.23-09.48.08:365][709]LogGameState: Match In Progress State Changed from Countdown to PrepPhase
+[2021.02.23-09.48.08:466][721]LogGameMode: Display: Match In Progress State Changed from PrepPhase to Normal
+[2021.02.23-09.48.08:466][721]LogGameState: Match In Progress State Changed from PrepPhase to Normal
+[2021.02.23-09.48.57:238][569]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-09.48.57:238][569]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.23-09.48.57:238][569]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2021.02.23-09.48.57:238][569]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-09.48.57:249][569]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.23-09.48.57:252][569]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-09.48.57:268][569]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-09.48.57:299][569]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027E14FBF9C0), frame # 35569
+[2021.02.23-09.48.57:299][569]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027E0A159000), frame # 35569
+[2021.02.23-09.48.57:301][569]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2021.02.23-09.48.57:327][570]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2021.02.23-09.49.07:607][801]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.23-09.49.07:615][801]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.23-09.49.07:615][801]PIE: New page: PIE session: TestLevel (23 févr. 2021 à 09:49:07)
+[2021.02.23-09.49.07:647][801]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.23-09.49.07:654][801]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006638s)
+[2021.02.23-09.49.07:655][801]LogAIModule: Creating AISystem for world TestLevel
+[2021.02.23-09.49.07:655][801]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027E28D21E00), frame # 36801
+[2021.02.23-09.49.07:655][801]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027E0750A480), frame # 36801
+[2021.02.23-09.49.07:655][801]LogPlayLevel: PIE: World Init took: (0.000965s)
+[2021.02.23-09.49.07:655][801]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevel.TestLevel to /Game/Levels/UEDPIE_0_TestLevel.TestLevel (0.007713s)
+[2021.02.23-09.49.07:673][801]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2021.02.23-09.49.07:676][801]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.23-09.49.07:676][801]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.23-09.49.07:676][801]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.23-09.49.07:676][801]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.23-09.49.07:676][801]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.23-09.49.07:676][801]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.23-09.49.07:676][801]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.23-09.49.07:676][801]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.23-09.49.07:676][801]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.23-09.49.07:676][801]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.23-09.49.07:681][801]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.23-09.49.07:681][801]LogAudioMixer: Display: 1: FrontRight
+[2021.02.23-09.49.07:711][801]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.02.23-09.49.07:711][801]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.23-09.49.07:711][801]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.23-09.49.07:711][801]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.23-09.49.07:711][801]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.23-09.49.07:721][801]LogInit: FAudioDevice initialized.
+[2021.02.23-09.49.07:731][801]LogLoad: Game class is 'BP_TyphoonGameMode_C'
+[2021.02.23-09.49.07:732][801]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2021.02.23-09.49.07
+[2021.02.23-09.49.07:732][801]LogWorld: Bringing up level for play took: 0.000711
+[2021.02.23-09.49.07:732][801]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2021.02.23-09.49.07:733][801]LogGameMode: Display: Players Ready: 1, Players Needed: 1
+[2021.02.23-09.49.07:733][801]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.23-09.49.07:733][801]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.23-09.49.07:733][801]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.02.23-09.49.07:734][801]LogGameMode: Display: Match In Progress State Changed from None to Countdown
+[2021.02.23-09.49.07:734][801]LogGameState: Match In Progress State Changed from None to Countdown
+[2021.02.23-09.49.07:734][801]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.02.23-09.49.07:734][801]PIE: Server logged in
+[2021.02.23-09.49.07:735][801]PIE: Play in editor total start time 0,121 seconds.
+[2021.02.23-09.49.10:610][144]LogGameMode: Display: Match In Progress State Changed from Countdown to PrepPhase
+[2021.02.23-09.49.10:610][144]LogGameState: Match In Progress State Changed from Countdown to PrepPhase
+[2021.02.23-09.49.10:710][156]LogGameMode: Display: Match In Progress State Changed from PrepPhase to Normal
+[2021.02.23-09.49.10:710][156]LogGameState: Match In Progress State Changed from PrepPhase to Normal
+[2021.02.23-09.49.11:268][217]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-09.49.11:268][217]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.23-09.49.11:268][217]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2021.02.23-09.49.11:269][217]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-09.49.11:275][217]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.23-09.49.11:278][217]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-09.49.11:293][217]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-09.49.11:317][217]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027E0750A480), frame # 37217
+[2021.02.23-09.49.11:317][217]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027E28D21E00), frame # 37217
+[2021.02.23-09.49.11:319][217]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2021.02.23-09.49.11:346][218]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2021.02.23-09.49.42:966][532]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Actors/MyStageActor.MyStageActor
+[2021.02.23-09.49.59:242][396]BlueprintLog: New page: Compile MyStageActor
+[2021.02.23-09.49.59:273][396]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2021.02.23-09.49.59:678][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actors/MyStageActor" FILE="S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Blueprints/Actors/MyStageActor.uasset" SILENT=true
+[2021.02.23-09.49.59:710][440]LogSavePackage: Moving 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/MyStageActor0831EE4D46B123832EFD83BC3E71D848.tmp' to 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Blueprints/Actors/MyStageActor.uasset'
+[2021.02.23-09.49.59:721][440]AssetCheck: New page: Asset Save: MyStageActor
+[2021.02.23-09.49.59:722][440]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Actors/MyStageActor.MyStageActor
+[2021.02.23-09.53.03:765][176]LogSlate: Window 'MyStageActor' being destroyed
+[2021.02.23-09.53.03:775][176]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.02.23-09.53.03:775][176]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-09.54.07:067][994]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2021.02.23-09.54.07:088][994]LogSavePackage: Moving 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/TestLevel_Auto13A9C387D4323AAE9EB267A9210544FDA.tmp' to 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/Autosaves/Game/Levels/TestLevel_Auto1.umap'
+[2021.02.23-09.54.07:090][994]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/TestLevel' took 0.043
+[2021.02.23-09.54.07:090][994]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.043
+[2021.02.23-09.55.25:936][283]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2021.02.23-09.55.25:937][283]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2021.02.23-09.55.40:137][794]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2021.02.23-09.55.53:186][355]Running D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Typhoon.uproject" -game -rocket -progress
+[2021.02.23-09.55.53:531][355]Discovering modules, targets and source code for project...
+[2021.02.23-09.55.54:743][355]Binding IntelliSense data...
+[2021.02.23-09.55.56:061][355]Binding IntelliSense data... 100%
+[2021.02.23-09.55.56:061][355]Writing project files...
+[2021.02.23-09.55.59:295][355]Writing project files... 100%
+[2021.02.23-09.55.59:399][355]Candidate modules for hot reload:
+[2021.02.23-09.55.59:399][355]  Typhoon
+[2021.02.23-09.55.59:399][355]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Typhoon,7955 TyphoonEditor Win64 Development -Project="S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Typhoon.uproject" "S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Typhoon.uproject"  -IgnoreJunk]
+[2021.02.23-09.56.07:283][355]CompilerResultsLog: New page: Compilation - 23 févr. 2021 à 09:56:07
+[2021.02.23-09.56.07:283][355]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (S:\Users\Liamk\Development\Games\Typhoon\Typhoon2).
+[2021.02.23-09.56.07:283][355]CompilerResultsLog: Creating makefile for TyphoonEditor (no existing makefile)
+[2021.02.23-09.56.07:283][355]CompilerResultsLog: Parsing headers for TyphoonEditor
+[2021.02.23-09.56.07:283][355]CompilerResultsLog:   Running UnrealHeaderTool "S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Typhoon.uproject" "S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Intermediate\Build\Win64\TyphoonEditor\Development\TyphoonEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Liamk\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.02.23-09.56.07:283][355]CompilerResultsLog: Reflection code generated for TyphoonEditor in 4,1932316 seconds
+[2021.02.23-09.56.07:283][355]CompilerResultsLog: Building TyphoonEditor...
+[2021.02.23-09.56.07:283][355]CompilerResultsLog: Using Visual Studio 2019 14.28.29812 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29812) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.23-09.56.07:283][355]CompilerResultsLog: Building 6 actions with 12 processes...
+[2021.02.23-09.56.07:283][355]CompilerResultsLog:   [1/6] Typhoon.init.gen.cpp
+[2021.02.23-09.56.07:283][355]CompilerResultsLog:   [2/6] PickupComponent.cpp
+[2021.02.23-09.56.07:283][355]CompilerResultsLog:   [3/6] PickupComponent.gen.cpp
+[2021.02.23-09.56.07:283][355]CompilerResultsLog:   [4/6] UE4Editor-Typhoon-7955.lib
+[2021.02.23-09.56.07:283][355]CompilerResultsLog:      Creating library S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Intermediate\Build\Win64\UE4Editor\Development\Typhoon\UE4Editor-Typhoon-7955.lib and object S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Intermediate\Build\Win64\UE4Editor\Development\Typhoon\UE4Editor-Typhoon-7955.exp
+[2021.02.23-09.56.07:283][355]CompilerResultsLog:   [5/6] UE4Editor-Typhoon-7955.dll
+[2021.02.23-09.56.07:283][355]CompilerResultsLog:      Creating library S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Intermediate\Build\Win64\UE4Editor\Development\Typhoon\UE4Editor-Typhoon-7955.suppressed.lib and object S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Intermediate\Build\Win64\UE4Editor\Development\Typhoon\UE4Editor-Typhoon-7955.suppressed.exp
+[2021.02.23-09.56.07:283][355]CompilerResultsLog:   [6/6] TyphoonEditor.target
+[2021.02.23-09.56.07:283][355]CompilerResultsLog: Total time in Parallel executor: 2,16 seconds
+[2021.02.23-09.56.07:283][355]CompilerResultsLog: Total execution time: 7,77 seconds
+[2021.02.23-09.56.07:283][355]LogMainFrame: MainFrame: Module compiling took 7.887 seconds
+[2021.02.23-09.56.07:291][355]LogClass: Could not find existing class PickupComponent in package /Script/Typhoon for HotReload, assuming new class
+[2021.02.23-09.56.07:306][355]LogContentBrowser: Native class hierarchy updated for 'Typhoon' in 0.0004 seconds. Added 7 classes and 2 folders.
+[2021.02.23-09.56.07:309][355]Display: HotReload successful (12 functions remapped  0 scriptstructs remapped)
+[2021.02.23-09.56.07:375][355]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 3453 classes and 825 folders.
+[2021.02.23-09.56.07:376][355]Display: HotReload took  8.0s.
+[2021.02.23-09.56.07:376][355]Warning: HotReload operation took  8.0s.
+[2021.02.23-09.56.07:402][355]LogSlate: Window 'Add C++ Class' being destroyed
+[2021.02.23-09.56.07:648][355]LogHotReload: New module detected: UE4Editor-Typhoon-7955.dll
+[2021.02.23-09.56.07:722][356]LogHotReload: Starting Hot-Reload from IDE
+[2021.02.23-09.56.07:842][356]LogContentBrowser: Native class hierarchy updated for 'Typhoon' in 0.0005 seconds. Added 7 classes and 2 folders.
+[2021.02.23-09.56.07:848][356]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.02.23-09.56.07:866][356]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 3453 classes and 825 folders.
+[2021.02.23-09.56.07:871][356]Display: HotReload took  0.1s.
+[2021.02.23-10.14.06:619][444]LogRenderer: Reallocating scene render targets to support 1616x1004 Format 10 NumSamples 1 (Frame:1).
+[2021.02.23-10.24.30:822][947]Candidate modules for hot reload:
+[2021.02.23-10.24.30:822][947]  Typhoon
+[2021.02.23-10.24.30:822][947]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Typhoon,3371 TyphoonEditor Win64 Development -Project="S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Typhoon.uproject" "S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Typhoon.uproject"  -IgnoreJunk]
+[2021.02.23-10.24.30:866][947]Warning: Starting HotReload took  0.0s.
+[2021.02.23-10.24.37:080][659]CompilerResultsLog: New page: Compilation - 23 févr. 2021 à 10:24:37
+[2021.02.23-10.24.37:080][659]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (S:\Users\Liamk\Development\Games\Typhoon\Typhoon2).
+[2021.02.23-10.24.37:080][659]CompilerResultsLog: Parsing headers for TyphoonEditor
+[2021.02.23-10.24.37:080][659]CompilerResultsLog:   Running UnrealHeaderTool "S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Typhoon.uproject" "S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Intermediate\Build\Win64\TyphoonEditor\Development\TyphoonEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Liamk\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.02.23-10.24.37:080][659]CompilerResultsLog: Reflection code generated for TyphoonEditor in 4,5905762 seconds
+[2021.02.23-10.24.37:080][659]CompilerResultsLog: Building TyphoonEditor...
+[2021.02.23-10.24.37:081][659]CompilerResultsLog: Using Visual Studio 2019 14.28.29812 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29812) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.23-10.24.37:081][659]CompilerResultsLog: Building 6 actions with 12 processes...
+[2021.02.23-10.24.37:081][659]CompilerResultsLog:   [1/6] Typhoon.init.gen.cpp
+[2021.02.23-10.24.37:081][659]CompilerResultsLog:   [2/6] PickupComponent.cpp
+[2021.02.23-10.24.37:081][659]CompilerResultsLog:    S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Source\Typhoon\PickupComponent.cpp(26) : error C2276: '&': illegal operation on bound member function expression
+[2021.02.23-10.24.37:081][659]CompilerResultsLog:    S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Source\Typhoon\PickupComponent.cpp(26) : error C2672: 'TSparseDynamicDelegate<FComponentBeginOverlapSignature_MCSignature,UPrimitiveComponent,FComponentBeginOverlapSignatureInfoGetter>::__Internal_AddDynamic': no matching overloaded function found
+[2021.02.23-10.24.37:081][659]CompilerResultsLog:    S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Source\Typhoon\PickupComponent.cpp(26) : error C2780: 'void TSparseDynamicDelegate<FComponentBeginOverlapSignature_MCSignature,UPrimitiveComponent,FComponentBeginOverlapSignatureInfoGetter>::__Internal_AddDynamic(UserClass *,TBaseDynamicDelegate<FWeakObjectPtr,RetValType,UPrimitiveComponent *,AActor *,UPrimitiveComponent *,int32,bool,const FHitResult &>::TMethodPtrResolver<UserClass>::FMethodPtr,FName)': expects 3 arguments - 2 provided
+[2021.02.23-10.24.37:081][659]CompilerResultsLog:           with
+[2021.02.23-10.24.37:081][659]CompilerResultsLog:           [
+[2021.02.23-10.24.37:081][659]CompilerResultsLog:               RetValType=void
+[2021.02.23-10.24.37:081][659]CompilerResultsLog:           ]
+[2021.02.23-10.24.37:081][659]CompilerResultsLog:   D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/SparseDelegate.h(359): note: see declaration of 'TSparseDynamicDelegate<FComponentBeginOverlapSignature_MCSignature,UPrimitiveComponent,FComponentBeginOverlapSignatureInfoGetter>::__Internal_AddDynamic'
+[2021.02.23-10.24.37:081][659]CompilerResultsLog:   [3/6] PickupComponent.gen.cpp
+[2021.02.23-10.24.37:081][659]LogMainFrame: MainFrame: Module compiling took 6.262 seconds
+[2021.02.23-10.24.37:081][659]Warning: HotReload failed, recompile failed
+[2021.02.23-10.25.09:198][158]LogSlate: Window 'Message Log' being destroyed
+[2021.02.23-10.25.09:202][158]LogSlate: Window 'Message Log' being destroyed
+[2021.02.23-10.25.10:061][253]Candidate modules for hot reload:
+[2021.02.23-10.25.10:061][253]  Typhoon
+[2021.02.23-10.25.10:061][253]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Typhoon,4879 TyphoonEditor Win64 Development -Project="S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Typhoon.uproject" "S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Typhoon.uproject"  -IgnoreJunk]
+[2021.02.23-10.25.10:101][253]Warning: Starting HotReload took  0.0s.
+[2021.02.23-10.25.12:404][495]CompilerResultsLog: New page: Compilation - 23 févr. 2021 à 10:25:12
+[2021.02.23-10.25.12:404][495]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (S:\Users\Liamk\Development\Games\Typhoon\Typhoon2).
+[2021.02.23-10.25.12:404][495]CompilerResultsLog: Building TyphoonEditor...
+[2021.02.23-10.25.12:404][495]CompilerResultsLog: Using Visual Studio 2019 14.28.29812 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29812) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.23-10.25.12:404][495]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.02.23-10.25.12:404][495]CompilerResultsLog:   [1/4] PickupComponent.cpp
+[2021.02.23-10.25.12:404][495]CompilerResultsLog:   [2/4] UE4Editor-Typhoon-4879.lib
+[2021.02.23-10.25.12:404][495]CompilerResultsLog:      Creating library S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Intermediate\Build\Win64\UE4Editor\Development\Typhoon\UE4Editor-Typhoon-4879.lib and object S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Intermediate\Build\Win64\UE4Editor\Development\Typhoon\UE4Editor-Typhoon-4879.exp
+[2021.02.23-10.25.12:404][495]CompilerResultsLog:   [3/4] UE4Editor-Typhoon-4879.dll
+[2021.02.23-10.25.12:404][495]CompilerResultsLog:      Creating library S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Intermediate\Build\Win64\UE4Editor\Development\Typhoon\UE4Editor-Typhoon-4879.suppressed.lib and object S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Intermediate\Build\Win64\UE4Editor\Development\Typhoon\UE4Editor-Typhoon-4879.suppressed.exp
+[2021.02.23-10.25.12:404][495]CompilerResultsLog:   [4/4] TyphoonEditor.target
+[2021.02.23-10.25.12:404][495]CompilerResultsLog: Total time in Parallel executor: 1,76 seconds
+[2021.02.23-10.25.12:404][495]CompilerResultsLog: Total execution time: 2,23 seconds
+[2021.02.23-10.25.12:404][495]LogMainFrame: MainFrame: Module compiling took 2.346 seconds
+[2021.02.23-10.25.12:415][495]LogClass: Could not find existing class PickupComponent in package /Script/Typhoon for HotReload, assuming new class
+[2021.02.23-10.25.12:415][495]LogClass: Function OnOverlap is new.
+[2021.02.23-10.25.12:436][495]LogHotReload: Re-instancing PickupComponent after hot-reload.
+[2021.02.23-10.25.12:453][495]LogContentBrowser: Native class hierarchy updated for 'Typhoon' in 0.0005 seconds. Added 7 classes and 2 folders.
+[2021.02.23-10.25.12:457][495]Display: HotReload successful (12 functions remapped  0 scriptstructs remapped)
+[2021.02.23-10.25.12:536][495]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 3453 classes and 825 folders.
+[2021.02.23-10.25.12:536][495]Display: HotReload took  2.5s.
+[2021.02.23-10.25.26:427][113]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Actors/MyStageActor.MyStageActor
+[2021.02.23-10.25.38:014][410]LogRenderer: Reallocating scene render targets to support 1616x1008 Format 10 NumSamples 1 (Frame:1).
+[2021.02.23-10.25.49:476][696]BlueprintLog: New page: Compile MyStageActor
+[2021.02.23-10.25.49:638][696]LogUObjectHash: Compacting FUObjectHashTables data took   5.45ms
+[2021.02.23-10.25.50:158][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actors/MyStageActor" FILE="S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Blueprints/Actors/MyStageActor.uasset" SILENT=true
+[2021.02.23-10.25.50:167][748]LogSavePackage: Moving 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/MyStageActor5C6EF4C042687E33E9CB93ACB57E3B3C.tmp' to 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Blueprints/Actors/MyStageActor.uasset'
+[2021.02.23-10.25.50:183][748]AssetCheck: New page: Asset Save: MyStageActor
+[2021.02.23-10.25.50:183][748]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Actors/MyStageActor.MyStageActor
+[2021.02.23-10.25.59:454][816]BlueprintLog: New page: Compile MyStageActor
+[2021.02.23-10.25.59:529][816]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2021.02.23-10.25.59:941][855]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actors/MyStageActor" FILE="S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Blueprints/Actors/MyStageActor.uasset" SILENT=true
+[2021.02.23-10.25.59:950][855]LogSavePackage: Moving 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/MyStageActor24367F8E41EC13F4DCE2DCA26485749E.tmp' to 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Blueprints/Actors/MyStageActor.uasset'
+[2021.02.23-10.25.59:967][855]AssetCheck: New page: Asset Save: MyStageActor
+[2021.02.23-10.25.59:967][855]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Actors/MyStageActor.MyStageActor
+[2021.02.23-10.26.07:300][712]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.02.23-10.26.46:458][785]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2021.02.23-10.26.46:484][785]LogSavePackage: Moving 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/TestLevel_Auto2C757802B4DE491345D039388E2D7F5D3.tmp' to 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/Autosaves/Game/Levels/TestLevel_Auto2.umap'
+[2021.02.23-10.26.46:485][785]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/TestLevel' took 0.047
+[2021.02.23-10.26.46:485][785]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.047
+[2021.02.23-10.26.46:486][785]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Actors/MyStageActor] ([1] browsable assets)...
+[2021.02.23-10.26.46:492][785]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Actors/MyStageActor.MyStageActor]
+[2021.02.23-10.26.46:492][785]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Actors/MyStageActor]
+[2021.02.23-10.26.46:500][785]LogSavePackage: Moving 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/MyStageActor_Auto21B88707F4C90CFCD702A0BB13CD32146.tmp' to 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/Autosaves/Game/Blueprints/Actors/MyStageActor_Auto2.uasset'
+[2021.02.23-10.26.46:501][785]LogFileHelpers: Auto-saving content packages took 0.016
+[2021.02.23-10.26.50:961][878]LogSlate: Window 'MyStageActor' being destroyed
+[2021.02.23-10.26.52:669][ 75]Candidate modules for hot reload:
+[2021.02.23-10.26.52:669][ 75]  Typhoon
+[2021.02.23-10.26.52:669][ 75]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Typhoon,6174 TyphoonEditor Win64 Development -Project="S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Typhoon.uproject" "S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Typhoon.uproject"  -IgnoreJunk]
+[2021.02.23-10.26.52:710][ 75]Warning: Starting HotReload took  0.0s.
+[2021.02.23-10.26.59:425][841]CompilerResultsLog: New page: Compilation - 23 févr. 2021 à 10:26:59
+[2021.02.23-10.26.59:425][841]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (S:\Users\Liamk\Development\Games\Typhoon\Typhoon2).
+[2021.02.23-10.26.59:425][841]CompilerResultsLog: Parsing headers for TyphoonEditor
+[2021.02.23-10.26.59:425][841]CompilerResultsLog:   Running UnrealHeaderTool "S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Typhoon.uproject" "S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Intermediate\Build\Win64\TyphoonEditor\Development\TyphoonEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Liamk\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.02.23-10.26.59:425][841]CompilerResultsLog: Reflection code generated for TyphoonEditor in 4,5078785 seconds
+[2021.02.23-10.26.59:425][841]CompilerResultsLog: Building TyphoonEditor...
+[2021.02.23-10.26.59:425][841]CompilerResultsLog: Using Visual Studio 2019 14.28.29812 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29812) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.23-10.26.59:425][841]CompilerResultsLog: Building 5 actions with 12 processes...
+[2021.02.23-10.26.59:425][841]CompilerResultsLog:   [1/5] PickupComponent.cpp
+[2021.02.23-10.26.59:425][841]CompilerResultsLog:   [2/5] PickupComponent.gen.cpp
+[2021.02.23-10.26.59:425][841]CompilerResultsLog:   [3/5] UE4Editor-Typhoon-6174.lib
+[2021.02.23-10.26.59:425][841]CompilerResultsLog:      Creating library S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Intermediate\Build\Win64\UE4Editor\Development\Typhoon\UE4Editor-Typhoon-6174.lib and object S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Intermediate\Build\Win64\UE4Editor\Development\Typhoon\UE4Editor-Typhoon-6174.exp
+[2021.02.23-10.26.59:425][841]CompilerResultsLog:   [4/5] UE4Editor-Typhoon-6174.dll
+[2021.02.23-10.26.59:425][841]CompilerResultsLog:      Creating library S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Intermediate\Build\Win64\UE4Editor\Development\Typhoon\UE4Editor-Typhoon-6174.suppressed.lib and object S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Intermediate\Build\Win64\UE4Editor\Development\Typhoon\UE4Editor-Typhoon-6174.suppressed.exp
+[2021.02.23-10.26.59:425][841]CompilerResultsLog:   [5/5] TyphoonEditor.target
+[2021.02.23-10.26.59:425][841]CompilerResultsLog: Total time in Parallel executor: 1,60 seconds
+[2021.02.23-10.26.59:425][841]CompilerResultsLog: Total execution time: 6,64 seconds
+[2021.02.23-10.26.59:425][841]LogMainFrame: MainFrame: Module compiling took 6.760 seconds
+[2021.02.23-10.26.59:454][841]LogContentBrowser: Native class hierarchy updated for 'Typhoon' in 0.0005 seconds. Added 7 classes and 2 folders.
+[2021.02.23-10.26.59:458][841]Display: HotReload successful (13 functions remapped  0 scriptstructs remapped)
+[2021.02.23-10.26.59:522][841]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 3453 classes and 825 folders.
+[2021.02.23-10.26.59:522][841]Display: HotReload took  6.9s.
+[2021.02.23-10.27.00:686][953]BlueprintLog: New page: Compile MyStageActor
+[2021.02.23-10.27.00:739][953]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2021.02.23-10.27.01:892][ 84]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.02.23-10.27.05:700][533]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actors/MyStageActor" FILE="S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Blueprints/Actors/MyStageActor.uasset" SILENT=true
+[2021.02.23-10.27.05:708][533]LogSavePackage: Moving 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/MyStageActorDE3A4B4C49C7099310B980B723EA0CF0.tmp' to 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Blueprints/Actors/MyStageActor.uasset'
+[2021.02.23-10.27.05:722][533]AssetCheck: New page: Asset Save: MyStageActor
+[2021.02.23-10.27.05:722][533]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Actors/MyStageActor.MyStageActor
+[2021.02.23-10.27.06:464][618]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.02.23-10.27.06:464][618]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-10.27.07:451][726]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Actors/MyStageActor.MyStageActor
+[2021.02.23-10.29.31:914][403]Candidate modules for hot reload:
+[2021.02.23-10.29.31:914][403]  Typhoon
+[2021.02.23-10.29.31:914][403]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Typhoon,5252 TyphoonEditor Win64 Development -Project="S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Typhoon.uproject" "S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Typhoon.uproject"  -IgnoreJunk]
+[2021.02.23-10.29.31:967][403]Warning: Starting HotReload took  0.1s.
+[2021.02.23-10.29.39:271][246]CompilerResultsLog: New page: Compilation - 23 févr. 2021 à 10:29:39
+[2021.02.23-10.29.39:271][246]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (S:\Users\Liamk\Development\Games\Typhoon\Typhoon2).
+[2021.02.23-10.29.39:271][246]CompilerResultsLog: Parsing headers for TyphoonEditor
+[2021.02.23-10.29.39:271][246]CompilerResultsLog:   Running UnrealHeaderTool "S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Typhoon.uproject" "S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Intermediate\Build\Win64\TyphoonEditor\Development\TyphoonEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Liamk\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.02.23-10.29.39:271][246]CompilerResultsLog: Reflection code generated for TyphoonEditor in 4,4056716 seconds
+[2021.02.23-10.29.39:271][246]CompilerResultsLog: Building TyphoonEditor...
+[2021.02.23-10.29.39:271][246]CompilerResultsLog: Using Visual Studio 2019 14.28.29812 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29812) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.23-10.29.39:271][246]CompilerResultsLog: Building 6 actions with 12 processes...
+[2021.02.23-10.29.39:271][246]CompilerResultsLog:   [1/6] Typhoon.init.gen.cpp
+[2021.02.23-10.29.39:271][246]CompilerResultsLog:   [2/6] PickupComponent.cpp
+[2021.02.23-10.29.39:271][246]CompilerResultsLog:   [3/6] PickupComponent.gen.cpp
+[2021.02.23-10.29.39:271][246]CompilerResultsLog:   [4/6] UE4Editor-Typhoon-5252.lib
+[2021.02.23-10.29.39:271][246]CompilerResultsLog:      Creating library S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Intermediate\Build\Win64\UE4Editor\Development\Typhoon\UE4Editor-Typhoon-5252.lib and object S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Intermediate\Build\Win64\UE4Editor\Development\Typhoon\UE4Editor-Typhoon-5252.exp
+[2021.02.23-10.29.39:271][246]CompilerResultsLog:   [5/6] UE4Editor-Typhoon-5252.dll
+[2021.02.23-10.29.39:271][246]CompilerResultsLog:      Creating library S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Intermediate\Build\Win64\UE4Editor\Development\Typhoon\UE4Editor-Typhoon-5252.suppressed.lib and object S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Intermediate\Build\Win64\UE4Editor\Development\Typhoon\UE4Editor-Typhoon-5252.suppressed.exp
+[2021.02.23-10.29.39:271][246]CompilerResultsLog:   [6/6] TyphoonEditor.target
+[2021.02.23-10.29.39:271][246]CompilerResultsLog: Total time in Parallel executor: 2,32 seconds
+[2021.02.23-10.29.39:271][246]CompilerResultsLog: Total execution time: 7,22 seconds
+[2021.02.23-10.29.39:271][246]LogMainFrame: MainFrame: Module compiling took 7.360 seconds
+[2021.02.23-10.29.39:281][246]LogClass: Could not find existing class PickupComponent in package /Script/Typhoon for HotReload, assuming new class
+[2021.02.23-10.29.39:281][246]LogClass: Function OnOverlap is new.
+[2021.02.23-10.29.39:300][246]LogHotReload: Re-instancing PickupComponent after hot-reload.
+[2021.02.23-10.29.39:323][246]LogContentBrowser: Native class hierarchy updated for 'Typhoon' in 0.0004 seconds. Added 7 classes and 2 folders.
+[2021.02.23-10.29.39:328][246]Display: HotReload successful (12 functions remapped  0 scriptstructs remapped)
+[2021.02.23-10.29.39:411][246]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 3453 classes and 825 folders.
+[2021.02.23-10.29.39:411][246]Display: HotReload took  7.5s.
+[2021.02.23-10.29.46:157][  4]BlueprintLog: New page: Compile MyStageActor
+[2021.02.23-10.29.46:237][  4]LogUObjectHash: Compacting FUObjectHashTables data took   4.38ms
+[2021.02.23-10.30.06:279][363]BlueprintLog: New page: Compile MyStageActor
+[2021.02.23-10.30.06:338][363]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2021.02.23-10.30.06:828][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actors/MyStageActor" FILE="S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Blueprints/Actors/MyStageActor.uasset" SILENT=true
+[2021.02.23-10.30.06:836][417]LogSavePackage: Moving 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/MyStageActorC4A07CE247B3A6093FAD4BB92320D087.tmp' to 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Blueprints/Actors/MyStageActor.uasset'
+[2021.02.23-10.30.06:850][417]AssetCheck: New page: Asset Save: MyStageActor
+[2021.02.23-10.30.06:850][417]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Actors/MyStageActor.MyStageActor
+[2021.02.23-10.30.13:274][185]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.02.23-10.30.20:876][ 81]BlueprintLog: New page: Compile MyStageActor
+[2021.02.23-10.30.20:912][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2021.02.23-10.30.21:382][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actors/MyStageActor" FILE="S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Blueprints/Actors/MyStageActor.uasset" SILENT=true
+[2021.02.23-10.30.21:391][133]LogSavePackage: Moving 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/MyStageActorACC48F5645D945E1345001ABB3F03564.tmp' to 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Blueprints/Actors/MyStageActor.uasset'
+[2021.02.23-10.30.21:406][133]AssetCheck: New page: Asset Save: MyStageActor
+[2021.02.23-10.30.21:406][133]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Actors/MyStageActor.MyStageActor
+[2021.02.23-10.30.40:479][156]BlueprintLog: New page: Compile MyStageActor
+[2021.02.23-10.30.40:518][156]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2021.02.23-10.30.40:980][207]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actors/MyStageActor" FILE="S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Blueprints/Actors/MyStageActor.uasset" SILENT=true
+[2021.02.23-10.30.40:988][207]LogSavePackage: Moving 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/MyStageActor2F75F8284EE9BED8FA995E8C08C61026.tmp' to 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Blueprints/Actors/MyStageActor.uasset'
+[2021.02.23-10.30.41:000][207]AssetCheck: New page: Asset Save: MyStageActor
+[2021.02.23-10.30.41:001][207]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Actors/MyStageActor.MyStageActor
+[2021.02.23-10.30.55:813][943]BlueprintLog: New page: Compile MyStageActor
+[2021.02.23-10.30.55:850][943]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2021.02.23-10.30.56:230][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actors/MyStageActor" FILE="S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Blueprints/Actors/MyStageActor.uasset" SILENT=true
+[2021.02.23-10.30.56:240][984]LogSavePackage: Moving 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/MyStageActor436B8D574E62E1F31816F0AD24BBB7B5.tmp' to 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Blueprints/Actors/MyStageActor.uasset'
+[2021.02.23-10.30.56:253][984]AssetCheck: New page: Asset Save: MyStageActor
+[2021.02.23-10.30.56:253][984]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Actors/MyStageActor.MyStageActor
+[2021.02.23-10.31.07:323][292]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestLevel" FILE="S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Levels/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.02.23-10.31.07:347][292]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2021.02.23-10.31.07:364][292]LogSavePackage: Moving 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/TestLevel07829C0349DA359F2F1C1BACF12B610E.tmp' to 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Levels/TestLevel.umap'
+[2021.02.23-10.31.07:389][292]AssetCheck: New page: Asset Save: TestLevel
+[2021.02.23-10.31.07:389][292]LogContentValidation: Display: Validating World /Game/Levels/TestLevel.TestLevel
+[2021.02.23-10.31.08:255][391]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.23-10.31.08:264][391]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.23-10.31.08:265][391]PIE: New page: PIE session: TestLevel (23 févr. 2021 à 10:31:08)
+[2021.02.23-10.31.08:288][391]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.23-10.31.08:295][391]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006788s)
+[2021.02.23-10.31.08:296][391]LogAIModule: Creating AISystem for world TestLevel
+[2021.02.23-10.31.08:296][391]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027E3853AA00), frame # 90391
+[2021.02.23-10.31.08:296][391]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027E61C85E40), frame # 90391
+[2021.02.23-10.31.08:296][391]LogPlayLevel: PIE: World Init took: (0.001058s)
+[2021.02.23-10.31.08:296][391]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevel.TestLevel to /Game/Levels/UEDPIE_0_TestLevel.TestLevel (0.008088s)
+[2021.02.23-10.31.08:323][391]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2021.02.23-10.31.08:325][391]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.23-10.31.08:325][391]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.23-10.31.08:325][391]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.23-10.31.08:325][391]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.23-10.31.08:325][391]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.23-10.31.08:325][391]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.23-10.31.08:325][391]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.23-10.31.08:325][391]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.23-10.31.08:325][391]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.23-10.31.08:325][391]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.23-10.31.08:331][391]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.23-10.31.08:331][391]LogAudioMixer: Display: 1: FrontRight
+[2021.02.23-10.31.08:365][391]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.02.23-10.31.08:365][391]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.23-10.31.08:365][391]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.23-10.31.08:365][391]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.23-10.31.08:366][391]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.23-10.31.08:376][391]LogInit: FAudioDevice initialized.
+[2021.02.23-10.31.08:386][391]LogLoad: Game class is 'BP_TyphoonGameMode_C'
+[2021.02.23-10.31.08:387][391]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2021.02.23-10.31.08
+[2021.02.23-10.31.08:387][391]LogWorld: Bringing up level for play took: 0.000843
+[2021.02.23-10.31.08:388][391]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2021.02.23-10.31.08:389][391]LogGameMode: Display: Players Ready: 1, Players Needed: 1
+[2021.02.23-10.31.08:389][391]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.23-10.31.08:389][391]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.23-10.31.08:389][391]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.02.23-10.31.08:390][391]LogGameMode: Display: Match In Progress State Changed from None to Countdown
+[2021.02.23-10.31.08:390][391]LogGameState: Match In Progress State Changed from None to Countdown
+[2021.02.23-10.31.08:390][391]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.02.23-10.31.08:390][391]PIE: Server logged in
+[2021.02.23-10.31.08:391][391]PIE: Play in editor total start time 0,129 seconds.
+[2021.02.23-10.31.11:262][733]LogGameMode: Display: Match In Progress State Changed from Countdown to PrepPhase
+[2021.02.23-10.31.11:262][733]LogGameState: Match In Progress State Changed from Countdown to PrepPhase
+[2021.02.23-10.31.11:362][745]LogGameMode: Display: Match In Progress State Changed from PrepPhase to Normal
+[2021.02.23-10.31.11:362][745]LogGameState: Match In Progress State Changed from PrepPhase to Normal
+[2021.02.23-10.31.12:012][823]LogGameMode: Display: Player AORAKI-D8DEEE5F4DFB1 died.
+[2021.02.23-10.31.15:638][258]LogBlueprintUserMessages: [MyStageActor_2] BP_TyphoonCharacter1
+[2021.02.23-10.31.20:619][852]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-10.31.20:619][852]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.23-10.31.20:620][852]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2021.02.23-10.31.20:620][852]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-10.31.20:627][852]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.23-10.31.20:631][852]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-10.31.20:686][852]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-10.31.20:687][852]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027E61C85E40), frame # 91852
+[2021.02.23-10.31.20:687][852]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027E3853AA00), frame # 91852
+[2021.02.23-10.31.20:690][852]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2021.02.23-10.31.20:719][853]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2021.02.23-10.32.23:135][305]Candidate modules for hot reload:
+[2021.02.23-10.32.23:135][305]  Typhoon
+[2021.02.23-10.32.23:135][305]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Typhoon,8508 TyphoonEditor Win64 Development -Project="S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Typhoon.uproject" "S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Typhoon.uproject"  -IgnoreJunk]
+[2021.02.23-10.32.23:180][305]Warning: Starting HotReload took  0.0s.
+[2021.02.23-10.32.25:238][517]CompilerResultsLog: New page: Compilation - 23 févr. 2021 à 10:32:25
+[2021.02.23-10.32.25:238][517]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (S:\Users\Liamk\Development\Games\Typhoon\Typhoon2).
+[2021.02.23-10.32.25:238][517]CompilerResultsLog: Building TyphoonEditor...
+[2021.02.23-10.32.25:238][517]CompilerResultsLog: Using Visual Studio 2019 14.28.29812 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29812) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.23-10.32.25:239][517]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.02.23-10.32.25:239][517]CompilerResultsLog:   [1/4] PickupComponent.cpp
+[2021.02.23-10.32.25:239][517]CompilerResultsLog:   [2/4] UE4Editor-Typhoon-8508.lib
+[2021.02.23-10.32.25:239][517]CompilerResultsLog:      Creating library S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Intermediate\Build\Win64\UE4Editor\Development\Typhoon\UE4Editor-Typhoon-8508.lib and object S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Intermediate\Build\Win64\UE4Editor\Development\Typhoon\UE4Editor-Typhoon-8508.exp
+[2021.02.23-10.32.25:239][517]CompilerResultsLog:   [3/4] UE4Editor-Typhoon-8508.dll
+[2021.02.23-10.32.25:239][517]CompilerResultsLog:      Creating library S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Intermediate\Build\Win64\UE4Editor\Development\Typhoon\UE4Editor-Typhoon-8508.suppressed.lib and object S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Intermediate\Build\Win64\UE4Editor\Development\Typhoon\UE4Editor-Typhoon-8508.suppressed.exp
+[2021.02.23-10.32.25:239][517]CompilerResultsLog:   [4/4] TyphoonEditor.target
+[2021.02.23-10.32.25:239][517]CompilerResultsLog: Total time in Parallel executor: 1,39 seconds
+[2021.02.23-10.32.25:239][517]CompilerResultsLog: Total execution time: 1,98 seconds
+[2021.02.23-10.32.25:239][517]LogMainFrame: MainFrame: Module compiling took 2.107 seconds
+[2021.02.23-10.32.25:265][517]LogHotReload: Re-instancing PickupComponent after hot-reload.
+[2021.02.23-10.32.25:266][517]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2021.02.23-10.32.25:375][517]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.109 s
+[2021.02.23-10.32.25:375][517]LogOutputDevice: Error: === Handled ensure: ===
+[2021.02.23-10.32.25:375][517]LogOutputDevice: Error: 
+[2021.02.23-10.32.25:375][517]LogOutputDevice: Error: Ensure condition failed: bArchetypeReinstanced [File:D:/Build/++UE4/Sync/Engine/Source/Editor/UnrealEd/Private/Kismet2/KismetReinstanceUtilities.cpp] [Line: 1657]
+[2021.02.23-10.32.25:375][517]LogOutputDevice: Error: Reinstancing non-actor (/Game/Levels/TestLevel.TestLevel:PersistentLevel.MyStageActor_2.Pickup); failed to resolve archetype object - property values may be lost.
+[2021.02.23-10.32.25:375][517]LogOutputDevice: Error: Stack: 
+[2021.02.23-10.32.25:375][517]LogOutputDevice: Error: [Callstack] 0x00007ffb486f58ce UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.02.23-10.32.25:375][517]LogOutputDevice: Error: [Callstack] 0x00007ffb47f4c279 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.02.23-10.32.25:375][517]LogOutputDevice: Error: [Callstack] 0x00007ffb47f49d90 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.02.23-10.32.25:375][517]LogOutputDevice: Error: [Callstack] 0x00007ffb47f48ea5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.02.23-10.32.25:375][517]LogOutputDevice: Error: [Callstack] 0x00007ffb47f45ece UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.02.23-10.32.25:375][517]LogOutputDevice: Error: [Callstack] 0x00007ffb47f463ee UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.02.23-10.32.25:375][517]LogOutputDevice: Error: [Callstack] 0x00007ffb36456c97 UE4Editor-HotReload.dll!UnknownFunction []
+[2021.02.23-10.32.25:375][517]LogOutputDevice: Error: [Callstack] 0x00007ffb36456e01 UE4Editor-HotReload.dll!UnknownFunction []
+[2021.02.23-10.32.25:375][517]LogOutputDevice: Error: [Callstack] 0x00007ffb3644f836 UE4Editor-HotReload.dll!UnknownFunction []
+[2021.02.23-10.32.25:375][517]LogOutputDevice: Error: [Callstack] 0x00007ffb4c7bed1d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.02.23-10.32.25:375][517]LogOutputDevice: Error: [Callstack] 0x00007ffb4cb46839 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.02.23-10.32.25:375][517]LogOutputDevice: Error: [Callstack] 0x00007ffb4cb25bc6 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.02.23-10.32.25:375][517]LogOutputDevice: Error: [Callstack] 0x00007ffb4ca44465 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.02.23-10.32.25:375][517]LogOutputDevice: Error: [Callstack] 0x00007ffb4d15986a UE4Editor-Core.dll!UnknownFunction []
+[2021.02.23-10.32.25:375][517]LogOutputDevice: Error: [Callstack] 0x00007ffb4d1799f0 UE4Editor-Core.dll!UnknownFunction []
+[2021.02.23-10.32.25:375][517]LogOutputDevice: Error: [Callstack] 0x00007ffb4d178b08 UE4Editor-Core.dll!UnknownFunction []
+[2021.02.23-10.32.25:375][517]LogOutputDevice: Error: [Callstack] 0x00007ffb3644b9b2 UE4Editor-HotReload.dll!UnknownFunction []
+[2021.02.23-10.32.25:375][517]LogOutputDevice: Error: [Callstack] 0x00007ffb36449617 UE4Editor-HotReload.dll!UnknownFunction []
+[2021.02.23-10.32.25:375][517]LogOutputDevice: Error: [Callstack] 0x00007ffb3644a1ad UE4Editor-HotReload.dll!UnknownFunction []
+[2021.02.23-10.32.25:375][517]LogOutputDevice: Error: [Callstack] 0x00007ffb3645c057 UE4Editor-HotReload.dll!UnknownFunction []
+[2021.02.23-10.32.25:375][517]LogOutputDevice: Error: [Callstack] 0x00007ffb4cedd0a9 UE4Editor-Core.dll!UnknownFunction []
+[2021.02.23-10.32.25:375][517]LogOutputDevice: Error: [Callstack] 0x00007ff6757ca213 UE4Editor.exe!UnknownFunction []
+[2021.02.23-10.32.25:375][517]LogOutputDevice: Error: [Callstack] 0x00007ff6757dba7c UE4Editor.exe!UnknownFunction []
+[2021.02.23-10.32.25:375][517]LogOutputDevice: Error: [Callstack] 0x00007ff6757dbb5a UE4Editor.exe!UnknownFunction []
+[2021.02.23-10.32.25:375][517]LogOutputDevice: Error: [Callstack] 0x00007ff6757ee31d UE4Editor.exe!UnknownFunction []
+[2021.02.23-10.32.25:375][517]LogOutputDevice: Error: [Callstack] 0x00007ff6757f145a UE4Editor.exe!UnknownFunction []
+[2021.02.23-10.32.25:375][517]LogOutputDevice: Error: [Callstack] 0x00007ffc0ab97c24 KERNEL32.DLL!UnknownFunction []
+[2021.02.23-10.32.25:375][517]LogOutputDevice: Error: [Callstack] 0x00007ffc0ca8d4d1 ntdll.dll!UnknownFunction []
+[2021.02.23-10.32.25:376][517]LogOutputDevice: Error: 
+[2021.02.23-10.32.25:377][517]LogStats:                SubmitErrorReport -  0.000 s
+[2021.02.23-10.32.26:621][517]LogStats:                    SendNewReport -  1.244 s
+[2021.02.23-10.32.26:621][517]LogStats:             FDebug::EnsureFailed -  1.355 s
+[2021.02.23-10.32.26:647][517]LogContentBrowser: Native class hierarchy updated for 'Typhoon' in 0.0004 seconds. Added 7 classes and 2 folders.
+[2021.02.23-10.32.26:652][517]Display: HotReload successful (13 functions remapped  0 scriptstructs remapped)
+[2021.02.23-10.32.26:730][517]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 3453 classes and 825 folders.
+[2021.02.23-10.32.26:730][517]Display: HotReload took  3.6s.
+[2021.02.23-10.32.28:282][679]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.23-10.32.28:291][679]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.23-10.32.28:291][679]PIE: New page: PIE session: TestLevel (23 févr. 2021 à 10:32:28)
+[2021.02.23-10.32.28:318][679]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.23-10.32.28:327][679]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009194s)
+[2021.02.23-10.32.28:328][679]LogAIModule: Creating AISystem for world TestLevel
+[2021.02.23-10.32.28:328][679]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027E5C7C3E00), frame # 92679
+[2021.02.23-10.32.28:328][679]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027E5C7BFD80), frame # 92679
+[2021.02.23-10.32.28:329][679]LogPlayLevel: PIE: World Init took: (0.001024s)
+[2021.02.23-10.32.28:329][679]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevel.TestLevel to /Game/Levels/UEDPIE_0_TestLevel.TestLevel (0.010331s)
+[2021.02.23-10.32.28:386][679]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2021.02.23-10.32.28:388][679]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.23-10.32.28:388][679]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.23-10.32.28:388][679]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.23-10.32.28:388][679]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.23-10.32.28:388][679]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.23-10.32.28:388][679]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.23-10.32.28:388][679]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.23-10.32.28:388][679]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.23-10.32.28:388][679]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.23-10.32.28:389][679]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.23-10.32.28:393][679]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.23-10.32.28:393][679]LogAudioMixer: Display: 1: FrontRight
+[2021.02.23-10.32.28:424][679]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.02.23-10.32.28:424][679]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.23-10.32.28:424][679]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.23-10.32.28:424][679]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.23-10.32.28:424][679]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.23-10.32.28:425][679]LogInit: FAudioDevice initialized.
+[2021.02.23-10.32.28:437][679]LogLoad: Game class is 'BP_TyphoonGameMode_C'
+[2021.02.23-10.32.28:438][679]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2021.02.23-10.32.28
+[2021.02.23-10.32.28:438][679]LogWorld: Bringing up level for play took: 0.000800
+[2021.02.23-10.32.28:438][679]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2021.02.23-10.32.28:439][679]LogGameMode: Display: Players Ready: 1, Players Needed: 1
+[2021.02.23-10.32.28:439][679]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.23-10.32.28:439][679]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.23-10.32.28:440][679]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.02.23-10.32.28:440][679]LogGameMode: Display: Match In Progress State Changed from None to Countdown
+[2021.02.23-10.32.28:440][679]LogGameState: Match In Progress State Changed from None to Countdown
+[2021.02.23-10.32.28:440][679]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.02.23-10.32.28:441][679]PIE: Server logged in
+[2021.02.23-10.32.28:441][679]PIE: Play in editor total start time 0,153 seconds.
+[2021.02.23-10.32.31:286][ 18]LogGameMode: Display: Match In Progress State Changed from Countdown to PrepPhase
+[2021.02.23-10.32.31:286][ 18]LogGameState: Match In Progress State Changed from Countdown to PrepPhase
+[2021.02.23-10.32.31:386][ 30]LogGameMode: Display: Match In Progress State Changed from PrepPhase to Normal
+[2021.02.23-10.32.31:386][ 30]LogGameState: Match In Progress State Changed from PrepPhase to Normal
+[2021.02.23-10.33.01:729][179]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-10.33.01:729][179]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.23-10.33.01:729][179]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2021.02.23-10.33.01:730][179]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-10.33.01:740][179]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.23-10.33.01:744][179]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-10.33.01:801][179]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-10.33.01:811][179]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027E5C7BFD80), frame # 96179
+[2021.02.23-10.33.01:811][179]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027E5C7C3E00), frame # 96179
+[2021.02.23-10.33.01:826][179]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2021.02.23-10.33.01:852][180]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2021.02.23-10.33.02:698][280]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.23-10.33.02:705][280]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.23-10.33.02:705][280]PIE: New page: PIE session: TestLevel (23 févr. 2021 à 10:33:02)
+[2021.02.23-10.33.02:705][280]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.23-10.33.02:712][280]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007047s)
+[2021.02.23-10.33.02:713][280]LogAIModule: Creating AISystem for world TestLevel
+[2021.02.23-10.33.02:713][280]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027E21B8EC00), frame # 96280
+[2021.02.23-10.33.02:713][280]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027E5C94D080), frame # 96280
+[2021.02.23-10.33.02:713][280]LogPlayLevel: PIE: World Init took: (0.000877s)
+[2021.02.23-10.33.02:713][280]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevel.TestLevel to /Game/Levels/UEDPIE_0_TestLevel.TestLevel (0.008017s)
+[2021.02.23-10.33.02:739][280]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2021.02.23-10.33.02:740][280]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.23-10.33.02:740][280]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.23-10.33.02:741][280]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.23-10.33.02:741][280]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.23-10.33.02:741][280]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.23-10.33.02:741][280]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.23-10.33.02:741][280]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.23-10.33.02:741][280]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.23-10.33.02:741][280]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.23-10.33.02:741][280]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.23-10.33.02:745][280]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.23-10.33.02:745][280]LogAudioMixer: Display: 1: FrontRight
+[2021.02.23-10.33.02:774][280]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.02.23-10.33.02:774][280]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.23-10.33.02:774][280]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.23-10.33.02:774][280]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.23-10.33.02:775][280]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.23-10.33.02:784][280]LogInit: FAudioDevice initialized.
+[2021.02.23-10.33.02:792][280]LogLoad: Game class is 'BP_TyphoonGameMode_C'
+[2021.02.23-10.33.02:793][280]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2021.02.23-10.33.02
+[2021.02.23-10.33.02:793][280]LogWorld: Bringing up level for play took: 0.000730
+[2021.02.23-10.33.02:793][280]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2021.02.23-10.33.02:794][280]LogGameMode: Display: Players Ready: 1, Players Needed: 1
+[2021.02.23-10.33.02:794][280]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.23-10.33.02:794][280]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.23-10.33.02:794][280]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.02.23-10.33.02:795][280]LogGameMode: Display: Match In Progress State Changed from None to Countdown
+[2021.02.23-10.33.02:795][280]LogGameState: Match In Progress State Changed from None to Countdown
+[2021.02.23-10.33.02:795][280]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.02.23-10.33.02:795][280]PIE: Server logged in
+[2021.02.23-10.33.02:796][280]PIE: Play in editor total start time 0,092 seconds.
+[2021.02.23-10.33.05:706][619]LogGameMode: Display: Match In Progress State Changed from Countdown to PrepPhase
+[2021.02.23-10.33.05:706][619]LogGameState: Match In Progress State Changed from Countdown to PrepPhase
+[2021.02.23-10.33.05:806][631]LogGameMode: Display: Match In Progress State Changed from PrepPhase to Normal
+[2021.02.23-10.33.05:806][631]LogGameState: Match In Progress State Changed from PrepPhase to Normal
+[2021.02.23-10.33.19:919][291]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-10.33.19:919][291]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.23-10.33.19:919][291]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2021.02.23-10.33.19:919][291]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-10.33.19:930][291]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.23-10.33.19:934][291]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-10.33.19:954][291]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-10.33.19:989][291]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027E5C94D080), frame # 98291
+[2021.02.23-10.33.19:989][291]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027E21B8EC00), frame # 98291
+[2021.02.23-10.33.19:992][291]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2021.02.23-10.33.20:018][292]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2021.02.23-10.33.24:635][835]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.02.23-10.33.28:104][232]BlueprintLog: New page: Compile MyStageActor
+[2021.02.23-10.33.28:140][232]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2021.02.23-10.33.28:489][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actors/MyStageActor" FILE="S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Blueprints/Actors/MyStageActor.uasset" SILENT=true
+[2021.02.23-10.33.28:596][269]LogSavePackage: Moving 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/MyStageActor7A788FB44ECDBEC35F86D9BA9A93C92B.tmp' to 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Blueprints/Actors/MyStageActor.uasset'
+[2021.02.23-10.33.28:615][269]AssetCheck: New page: Asset Save: MyStageActor
+[2021.02.23-10.33.28:615][269]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Actors/MyStageActor.MyStageActor
+[2021.02.23-10.33.29:820][409]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.23-10.33.29:828][409]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.23-10.33.29:828][409]PIE: New page: PIE session: TestLevel (23 févr. 2021 à 10:33:29)
+[2021.02.23-10.33.29:828][409]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.23-10.33.29:835][409]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006916s)
+[2021.02.23-10.33.29:835][409]LogAIModule: Creating AISystem for world TestLevel
+[2021.02.23-10.33.29:835][409]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027E44DB5000), frame # 99409
+[2021.02.23-10.33.29:835][409]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027E0195C540), frame # 99409
+[2021.02.23-10.33.29:836][409]LogPlayLevel: PIE: World Init took: (0.000907s)
+[2021.02.23-10.33.29:836][409]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevel.TestLevel to /Game/Levels/UEDPIE_0_TestLevel.TestLevel (0.007910s)
+[2021.02.23-10.33.29:861][409]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2021.02.23-10.33.29:863][409]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.23-10.33.29:863][409]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.23-10.33.29:863][409]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.23-10.33.29:863][409]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.23-10.33.29:863][409]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.23-10.33.29:863][409]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.23-10.33.29:863][409]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.23-10.33.29:863][409]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.23-10.33.29:864][409]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.23-10.33.29:864][409]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.23-10.33.29:868][409]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.23-10.33.29:868][409]LogAudioMixer: Display: 1: FrontRight
+[2021.02.23-10.33.29:897][409]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.02.23-10.33.29:897][409]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.23-10.33.29:897][409]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.23-10.33.29:897][409]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.23-10.33.29:897][409]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.23-10.33.29:907][409]LogInit: FAudioDevice initialized.
+[2021.02.23-10.33.29:914][409]LogLoad: Game class is 'BP_TyphoonGameMode_C'
+[2021.02.23-10.33.29:915][409]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2021.02.23-10.33.29
+[2021.02.23-10.33.29:915][409]LogWorld: Bringing up level for play took: 0.000733
+[2021.02.23-10.33.29:915][409]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2021.02.23-10.33.29:916][409]LogGameMode: Display: Players Ready: 1, Players Needed: 1
+[2021.02.23-10.33.29:916][409]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.23-10.33.29:916][409]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.23-10.33.29:916][409]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.02.23-10.33.29:917][409]LogGameMode: Display: Match In Progress State Changed from None to Countdown
+[2021.02.23-10.33.29:917][409]LogGameState: Match In Progress State Changed from None to Countdown
+[2021.02.23-10.33.29:917][409]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.02.23-10.33.29:917][409]PIE: Server logged in
+[2021.02.23-10.33.29:918][409]PIE: Play in editor total start time 0,091 seconds.
+[2021.02.23-10.33.32:825][747]LogGameMode: Display: Match In Progress State Changed from Countdown to PrepPhase
+[2021.02.23-10.33.32:825][747]LogGameState: Match In Progress State Changed from Countdown to PrepPhase
+[2021.02.23-10.33.32:925][759]LogGameMode: Display: Match In Progress State Changed from PrepPhase to Normal
+[2021.02.23-10.33.32:926][759]LogGameState: Match In Progress State Changed from PrepPhase to Normal
+[2021.02.23-10.33.35:333][ 48]LogBlueprintUserMessages: [MyStageActor_2] BP_TyphoonCharacter
+[2021.02.23-10.33.44:559][ 71]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-10.33.44:559][ 71]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.23-10.33.44:559][ 71]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2021.02.23-10.33.44:559][ 71]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-10.33.44:567][ 71]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.23-10.33.44:571][ 71]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-10.33.44:611][ 71]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-10.33.44:612][ 71]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027E44DB5000), frame # 101071
+[2021.02.23-10.33.44:612][ 71]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027E0195C540), frame # 101071
+[2021.02.23-10.33.44:615][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2021.02.23-10.33.44:646][ 72]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2021.02.23-10.33.45:370][157]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.23-10.33.45:377][157]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.23-10.33.45:378][157]PIE: New page: PIE session: TestLevel (23 févr. 2021 à 10:33:45)
+[2021.02.23-10.33.45:398][157]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.23-10.33.45:404][157]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006699s)
+[2021.02.23-10.33.45:405][157]LogAIModule: Creating AISystem for world TestLevel
+[2021.02.23-10.33.45:405][157]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027E084EE800), frame # 101157
+[2021.02.23-10.33.45:405][157]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027E5C89D080), frame # 101157
+[2021.02.23-10.33.45:405][157]LogPlayLevel: PIE: World Init took: (0.000811s)
+[2021.02.23-10.33.45:405][157]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevel.TestLevel to /Game/Levels/UEDPIE_0_TestLevel.TestLevel (0.007604s)
+[2021.02.23-10.33.45:431][157]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2021.02.23-10.33.45:433][157]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.23-10.33.45:433][157]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.23-10.33.45:433][157]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.23-10.33.45:433][157]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.23-10.33.45:433][157]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.23-10.33.45:433][157]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.23-10.33.45:433][157]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.23-10.33.45:433][157]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.23-10.33.45:433][157]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.23-10.33.45:433][157]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.23-10.33.45:437][157]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.23-10.33.45:437][157]LogAudioMixer: Display: 1: FrontRight
+[2021.02.23-10.33.45:466][157]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.02.23-10.33.45:466][157]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.23-10.33.45:466][157]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.23-10.33.45:466][157]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.23-10.33.45:467][157]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.23-10.33.45:476][157]LogInit: FAudioDevice initialized.
+[2021.02.23-10.33.45:486][157]LogLoad: Game class is 'BP_TyphoonGameMode_C'
+[2021.02.23-10.33.45:487][157]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2021.02.23-10.33.45
+[2021.02.23-10.33.45:487][157]LogWorld: Bringing up level for play took: 0.000719
+[2021.02.23-10.33.45:487][157]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2021.02.23-10.33.45:488][157]LogGameMode: Display: Players Ready: 1, Players Needed: 1
+[2021.02.23-10.33.45:488][157]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.23-10.33.45:488][157]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.23-10.33.45:488][157]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.02.23-10.33.45:489][157]LogGameMode: Display: Match In Progress State Changed from None to Countdown
+[2021.02.23-10.33.45:489][157]LogGameState: Match In Progress State Changed from None to Countdown
+[2021.02.23-10.33.45:489][157]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.02.23-10.33.45:489][157]PIE: Server logged in
+[2021.02.23-10.33.45:490][157]PIE: Play in editor total start time 0,113 seconds.
+[2021.02.23-10.33.48:376][501]LogGameMode: Display: Match In Progress State Changed from Countdown to PrepPhase
+[2021.02.23-10.33.48:376][501]LogGameState: Match In Progress State Changed from Countdown to PrepPhase
+[2021.02.23-10.33.48:476][513]LogGameMode: Display: Match In Progress State Changed from PrepPhase to Normal
+[2021.02.23-10.33.48:476][513]LogGameState: Match In Progress State Changed from PrepPhase to Normal
+[2021.02.23-10.33.50:442][749]LogBlueprintUserMessages: [MyStageActor_2] BP_TyphoonCharacter
+[2021.02.23-10.33.52:089][943]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-10.33.52:089][943]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.23-10.33.52:089][943]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2021.02.23-10.33.52:089][943]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-10.33.52:096][943]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.23-10.33.52:100][943]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-10.33.52:121][943]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-10.33.52:139][943]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027E5C89D080), frame # 101943
+[2021.02.23-10.33.52:139][943]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027E084EE800), frame # 101943
+[2021.02.23-10.33.52:142][943]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2021.02.23-10.33.52:171][944]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2021.02.23-10.33.55:135][298]LogEditorViewport: Clicking on Actor (LMB): MyStageActor_C (MyStageActor)
+[2021.02.23-10.34.07:866][795]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.02.23-10.35.44:302][436]Candidate modules for hot reload:
+[2021.02.23-10.35.44:302][436]  Typhoon
+[2021.02.23-10.35.44:302][436]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Typhoon,7929 TyphoonEditor Win64 Development -Project="S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Typhoon.uproject" "S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Typhoon.uproject"  -IgnoreJunk]
+[2021.02.23-10.35.44:346][436]Warning: Starting HotReload took  0.0s.
+[2021.02.23-10.35.51:144][219]CompilerResultsLog: New page: Compilation - 23 févr. 2021 à 10:35:51
+[2021.02.23-10.35.51:144][219]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (S:\Users\Liamk\Development\Games\Typhoon\Typhoon2).
+[2021.02.23-10.35.51:144][219]CompilerResultsLog: Parsing headers for TyphoonEditor
+[2021.02.23-10.35.51:144][219]CompilerResultsLog:   Running UnrealHeaderTool "S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Typhoon.uproject" "S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Intermediate\Build\Win64\TyphoonEditor\Development\TyphoonEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Liamk\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.02.23-10.35.51:144][219]CompilerResultsLog: Reflection code generated for TyphoonEditor in 4,6550186 seconds
+[2021.02.23-10.35.51:144][219]CompilerResultsLog: Building TyphoonEditor...
+[2021.02.23-10.35.51:144][219]CompilerResultsLog: Using Visual Studio 2019 14.28.29812 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.28.29812) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.23-10.35.51:144][219]CompilerResultsLog: Building 6 actions with 12 processes...
+[2021.02.23-10.35.51:144][219]CompilerResultsLog:   [1/6] Typhoon.init.gen.cpp
+[2021.02.23-10.35.51:144][219]CompilerResultsLog:   [2/6] PickupComponent.cpp
+[2021.02.23-10.35.51:144][219]CompilerResultsLog:   [3/6] PickupComponent.gen.cpp
+[2021.02.23-10.35.51:144][219]CompilerResultsLog:   [4/6] UE4Editor-Typhoon-7929.lib
+[2021.02.23-10.35.51:144][219]CompilerResultsLog:      Creating library S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Intermediate\Build\Win64\UE4Editor\Development\Typhoon\UE4Editor-Typhoon-7929.lib and object S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Intermediate\Build\Win64\UE4Editor\Development\Typhoon\UE4Editor-Typhoon-7929.exp
+[2021.02.23-10.35.51:144][219]CompilerResultsLog:   [5/6] UE4Editor-Typhoon-7929.dll
+[2021.02.23-10.35.51:144][219]CompilerResultsLog:      Creating library S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Intermediate\Build\Win64\UE4Editor\Development\Typhoon\UE4Editor-Typhoon-7929.suppressed.lib and object S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Intermediate\Build\Win64\UE4Editor\Development\Typhoon\UE4Editor-Typhoon-7929.suppressed.exp
+[2021.02.23-10.35.51:144][219]CompilerResultsLog:   [6/6] TyphoonEditor.target
+[2021.02.23-10.35.51:144][219]CompilerResultsLog: Total time in Parallel executor: 1,45 seconds
+[2021.02.23-10.35.51:144][219]CompilerResultsLog: Total execution time: 6,72 seconds
+[2021.02.23-10.35.51:144][219]LogMainFrame: MainFrame: Module compiling took 6.846 seconds
+[2021.02.23-10.35.51:153][219]LogClass: Could not find existing class PickupComponent in package /Script/Typhoon for HotReload, assuming new class
+[2021.02.23-10.35.51:153][219]LogClass: Function OnOverlap is new.
+[2021.02.23-10.35.51:173][219]LogHotReload: Re-instancing PickupComponent after hot-reload.
+[2021.02.23-10.35.51:195][219]LogScript: Warning: Attempted to access TRASH_PickupComponent_8 via property Pickup, but TRASH_PickupComponent_8 is pending kill
+	MyStageActor_C /Engine/Transient.World_3:PersistentLevel.MyStageActor_C_10
+	Function /Game/Blueprints/Actors/MyStageActor.MyStageActor_C:UserConstructionScript:000E
+[2021.02.23-10.35.51:195][219]LogScript: Warning: Accessed None attempting to assign variable on an object
+	MyStageActor_C /Engine/Transient.World_3:PersistentLevel.MyStageActor_C_10
+	Function /Game/Blueprints/Actors/MyStageActor.MyStageActor_C:UserConstructionScript:0023
+[2021.02.23-10.35.51:196][219]LogScript: Warning: Attempted to access TRASH_PickupComponent_13 via property Pickup, but TRASH_PickupComponent_13 is pending kill
+	MyStageActor_C /Engine/Transient.World_8:PersistentLevel.MyStageActor_C_0
+	Function /Game/Blueprints/Actors/MyStageActor.MyStageActor_C:UserConstructionScript:000E
+[2021.02.23-10.35.51:196][219]LogScript: Warning: Accessed None attempting to assign variable on an object
+	MyStageActor_C /Engine/Transient.World_8:PersistentLevel.MyStageActor_C_0
+	Function /Game/Blueprints/Actors/MyStageActor.MyStageActor_C:UserConstructionScript:0023
+[2021.02.23-10.35.51:197][219]LogScript: Warning: Attempted to access TRASH_PickupComponent_13 via property Pickup, but TRASH_PickupComponent_13 is pending kill
+	MyStageActor_C /Game/Levels/TestLevel.TestLevel:PersistentLevel.MyStageActor_2
+	Function /Game/Blueprints/Actors/MyStageActor.MyStageActor_C:UserConstructionScript:000E
+[2021.02.23-10.35.51:197][219]LogScript: Warning: Accessed None attempting to assign variable on an object
+	MyStageActor_C /Game/Levels/TestLevel.TestLevel:PersistentLevel.MyStageActor_2
+	Function /Game/Blueprints/Actors/MyStageActor.MyStageActor_C:UserConstructionScript:0023
+[2021.02.23-10.35.51:206][219]LogContentBrowser: Native class hierarchy updated for 'Typhoon' in 0.0005 seconds. Added 7 classes and 2 folders.
+[2021.02.23-10.35.51:210][219]Display: HotReload successful (12 functions remapped  0 scriptstructs remapped)
+[2021.02.23-10.35.51:286][219]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 3453 classes and 825 folders.
+[2021.02.23-10.35.51:286][219]Display: HotReload took  7.0s.
+[2021.02.23-10.35.52:116][292]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.23-10.35.52:126][292]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.23-10.35.52:126][292]PIE: New page: PIE session: TestLevel (23 févr. 2021 à 10:35:52)
+[2021.02.23-10.35.52:158][292]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.23-10.35.52:166][292]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007158s)
+[2021.02.23-10.35.52:166][292]LogAIModule: Creating AISystem for world TestLevel
+[2021.02.23-10.35.52:166][292]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027E098F2200), frame # 106292
+[2021.02.23-10.35.52:166][292]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027E22AC9300), frame # 106292
+[2021.02.23-10.35.52:166][292]LogPlayLevel: PIE: World Init took: (0.000910s)
+[2021.02.23-10.35.52:167][292]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevel.TestLevel to /Game/Levels/UEDPIE_0_TestLevel.TestLevel (0.008184s)
+[2021.02.23-10.35.52:231][292]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2021.02.23-10.35.52:233][292]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.23-10.35.52:233][292]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.23-10.35.52:233][292]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.23-10.35.52:233][292]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.23-10.35.52:233][292]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.23-10.35.52:233][292]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.23-10.35.52:233][292]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.23-10.35.52:233][292]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.23-10.35.52:233][292]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.23-10.35.52:233][292]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.23-10.35.52:238][292]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.23-10.35.52:238][292]LogAudioMixer: Display: 1: FrontRight
+[2021.02.23-10.35.52:268][292]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.02.23-10.35.52:268][292]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.23-10.35.52:268][292]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.23-10.35.52:268][292]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.23-10.35.52:268][292]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.23-10.35.52:277][292]LogInit: FAudioDevice initialized.
+[2021.02.23-10.35.52:286][292]LogLoad: Game class is 'BP_TyphoonGameMode_C'
+[2021.02.23-10.35.52:287][292]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2021.02.23-10.35.52
+[2021.02.23-10.35.52:287][292]LogWorld: Bringing up level for play took: 0.000738
+[2021.02.23-10.35.52:287][292]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2021.02.23-10.35.52:289][292]LogGameMode: Display: Players Ready: 1, Players Needed: 1
+[2021.02.23-10.35.52:289][292]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.23-10.35.52:289][292]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.23-10.35.52:289][292]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.02.23-10.35.52:290][292]LogGameMode: Display: Match In Progress State Changed from None to Countdown
+[2021.02.23-10.35.52:290][292]LogGameState: Match In Progress State Changed from None to Countdown
+[2021.02.23-10.35.52:290][292]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.02.23-10.35.52:290][292]PIE: Server logged in
+[2021.02.23-10.35.52:290][292]PIE: Play in editor total start time 0,168 seconds.
+[2021.02.23-10.35.55:121][628]LogGameMode: Display: Match In Progress State Changed from Countdown to PrepPhase
+[2021.02.23-10.35.55:122][628]LogGameState: Match In Progress State Changed from Countdown to PrepPhase
+[2021.02.23-10.35.55:222][640]LogGameMode: Display: Match In Progress State Changed from PrepPhase to Normal
+[2021.02.23-10.35.55:222][640]LogGameState: Match In Progress State Changed from PrepPhase to Normal
+[2021.02.23-10.35.58:610][ 43]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-10.35.58:610][ 43]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.23-10.35.58:610][ 43]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2021.02.23-10.35.58:610][ 43]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-10.35.58:616][ 43]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.23-10.35.58:620][ 43]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-10.35.58:666][ 43]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-10.35.58:673][ 43]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027E22AC9300), frame # 107043
+[2021.02.23-10.35.58:673][ 43]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027E098F2200), frame # 107043
+[2021.02.23-10.35.58:689][ 43]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2021.02.23-10.35.58:719][ 44]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2021.02.23-10.36.02:726][511]LogScript: Warning: Accessed None trying to read property Pickup
+	MyStageActor_C /Engine/Transient.World_3:PersistentLevel.MyStageActor_C_10
+	Function /Game/Blueprints/Actors/MyStageActor.MyStageActor_C:UserConstructionScript:000E
+[2021.02.23-10.36.02:726][511]LogScript: Warning: Accessed None attempting to assign variable on an object
+	MyStageActor_C /Engine/Transient.World_3:PersistentLevel.MyStageActor_C_10
+	Function /Game/Blueprints/Actors/MyStageActor.MyStageActor_C:UserConstructionScript:0023
+[2021.02.23-10.36.02:726][511]LogScript: Warning: Accessed None trying to read property Pickup
+	MyStageActor_C /Game/Levels/TestLevel.TestLevel:PersistentLevel.MyStageActor_2
+	Function /Game/Blueprints/Actors/MyStageActor.MyStageActor_C:UserConstructionScript:000E
+[2021.02.23-10.36.02:726][511]LogScript: Warning: Accessed None attempting to assign variable on an object
+	MyStageActor_C /Game/Levels/TestLevel.TestLevel:PersistentLevel.MyStageActor_2
+	Function /Game/Blueprints/Actors/MyStageActor.MyStageActor_C:UserConstructionScript:0023
+[2021.02.23-10.36.02:727][511]LogScript: Warning: Accessed None trying to read property Pickup
+	MyStageActor_C /Engine/Transient.World_8:PersistentLevel.MyStageActor_C_0
+	Function /Game/Blueprints/Actors/MyStageActor.MyStageActor_C:UserConstructionScript:000E
+[2021.02.23-10.36.02:727][511]LogScript: Warning: Accessed None attempting to assign variable on an object
+	MyStageActor_C /Engine/Transient.World_8:PersistentLevel.MyStageActor_C_0
+	Function /Game/Blueprints/Actors/MyStageActor.MyStageActor_C:UserConstructionScript:0023
+[2021.02.23-10.36.03:169][563]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.02.23-10.36.04:321][695]LogScript: Warning: Accessed None trying to read property Pickup
+	MyStageActor_C /Engine/Transient.World_3:PersistentLevel.MyStageActor_C_10
+	Function /Game/Blueprints/Actors/MyStageActor.MyStageActor_C:UserConstructionScript:000E
+[2021.02.23-10.36.04:321][695]LogScript: Warning: Accessed None attempting to assign variable on an object
+	MyStageActor_C /Engine/Transient.World_3:PersistentLevel.MyStageActor_C_10
+	Function /Game/Blueprints/Actors/MyStageActor.MyStageActor_C:UserConstructionScript:0023
+[2021.02.23-10.36.04:322][695]LogScript: Warning: Accessed None trying to read property Pickup
+	MyStageActor_C /Game/Levels/TestLevel.TestLevel:PersistentLevel.MyStageActor_2
+	Function /Game/Blueprints/Actors/MyStageActor.MyStageActor_C:UserConstructionScript:000E
+[2021.02.23-10.36.04:322][695]LogScript: Warning: Accessed None attempting to assign variable on an object
+	MyStageActor_C /Game/Levels/TestLevel.TestLevel:PersistentLevel.MyStageActor_2
+	Function /Game/Blueprints/Actors/MyStageActor.MyStageActor_C:UserConstructionScript:0023
+[2021.02.23-10.36.04:322][695]LogScript: Warning: Accessed None trying to read property Pickup
+	MyStageActor_C /Engine/Transient.World_8:PersistentLevel.MyStageActor_C_0
+	Function /Game/Blueprints/Actors/MyStageActor.MyStageActor_C:UserConstructionScript:000E
+[2021.02.23-10.36.04:323][695]LogScript: Warning: Accessed None attempting to assign variable on an object
+	MyStageActor_C /Engine/Transient.World_8:PersistentLevel.MyStageActor_C_0
+	Function /Game/Blueprints/Actors/MyStageActor.MyStageActor_C:UserConstructionScript:0023
+[2021.02.23-10.36.06:849][991]BlueprintLog: New page: Compile MyStageActor
+[2021.02.23-10.36.06:891][991]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2021.02.23-10.36.07:379][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actors/MyStageActor" FILE="S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Blueprints/Actors/MyStageActor.uasset" SILENT=true
+[2021.02.23-10.36.07:389][ 45]LogSavePackage: Moving 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/MyStageActor88621703471E86285EDF9DA66050EE07.tmp' to 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Blueprints/Actors/MyStageActor.uasset'
+[2021.02.23-10.36.07:404][ 45]AssetCheck: New page: Asset Save: MyStageActor
+[2021.02.23-10.36.07:404][ 45]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Actors/MyStageActor.MyStageActor
+[2021.02.23-10.36.09:721][319]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.23-10.36.09:729][319]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.23-10.36.09:729][319]PIE: New page: PIE session: TestLevel (23 févr. 2021 à 10:36:09)
+[2021.02.23-10.36.09:758][319]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.23-10.36.09:765][319]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006909s)
+[2021.02.23-10.36.09:765][319]LogAIModule: Creating AISystem for world TestLevel
+[2021.02.23-10.36.09:765][319]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027E1F64FE00), frame # 108319
+[2021.02.23-10.36.09:766][319]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027E5DA04E00), frame # 108319
+[2021.02.23-10.36.09:766][319]LogPlayLevel: PIE: World Init took: (0.000906s)
+[2021.02.23-10.36.09:766][319]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevel.TestLevel to /Game/Levels/UEDPIE_0_TestLevel.TestLevel (0.007933s)
+[2021.02.23-10.36.09:792][319]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2021.02.23-10.36.09:793][319]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.23-10.36.09:793][319]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.23-10.36.09:793][319]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.23-10.36.09:793][319]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.23-10.36.09:793][319]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.23-10.36.09:793][319]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.23-10.36.09:793][319]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.23-10.36.09:793][319]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.23-10.36.09:794][319]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.23-10.36.09:794][319]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.23-10.36.09:798][319]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.23-10.36.09:798][319]LogAudioMixer: Display: 1: FrontRight
+[2021.02.23-10.36.09:826][319]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.02.23-10.36.09:827][319]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.23-10.36.09:827][319]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.23-10.36.09:827][319]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.23-10.36.09:827][319]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.23-10.36.09:837][319]LogInit: FAudioDevice initialized.
+[2021.02.23-10.36.09:847][319]LogLoad: Game class is 'BP_TyphoonGameMode_C'
+[2021.02.23-10.36.09:848][319]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2021.02.23-10.36.09
+[2021.02.23-10.36.09:848][319]LogWorld: Bringing up level for play took: 0.000918
+[2021.02.23-10.36.09:848][319]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2021.02.23-10.36.09:850][319]LogGameMode: Display: Players Ready: 1, Players Needed: 1
+[2021.02.23-10.36.09:850][319]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.23-10.36.09:850][319]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.23-10.36.09:850][319]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.02.23-10.36.09:851][319]LogGameMode: Display: Match In Progress State Changed from None to Countdown
+[2021.02.23-10.36.09:851][319]LogGameState: Match In Progress State Changed from None to Countdown
+[2021.02.23-10.36.09:851][319]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.02.23-10.36.09:851][319]PIE: Server logged in
+[2021.02.23-10.36.09:851][319]PIE: Play in editor total start time 0,123 seconds.
+[2021.02.23-10.36.12:725][661]LogGameMode: Display: Match In Progress State Changed from Countdown to PrepPhase
+[2021.02.23-10.36.12:725][661]LogGameState: Match In Progress State Changed from Countdown to PrepPhase
+[2021.02.23-10.36.12:825][673]LogGameMode: Display: Match In Progress State Changed from PrepPhase to Normal
+[2021.02.23-10.36.12:825][673]LogGameState: Match In Progress State Changed from PrepPhase to Normal
+[2021.02.23-10.36.14:366][858]LogBlueprintUserMessages: [MyStageActor_2] BP_TyphoonCharacter
+[2021.02.23-10.36.15:229][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-10.36.15:229][957]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.23-10.36.15:229][957]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2021.02.23-10.36.15:230][957]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-10.36.15:239][957]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.23-10.36.15:243][957]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-10.36.15:280][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-10.36.15:281][957]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027E5DA04E00), frame # 108957
+[2021.02.23-10.36.15:281][957]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027E1F64FE00), frame # 108957
+[2021.02.23-10.36.15:284][957]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2021.02.23-10.36.15:314][958]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2021.02.23-10.36.17:429][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestLevel" FILE="S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Levels/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.02.23-10.36.17:455][201]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2021.02.23-10.36.17:474][201]LogSavePackage: Moving 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/TestLevel216E906641E9606A715AF7AD7A9AC2E0.tmp' to 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Levels/TestLevel.umap'
+[2021.02.23-10.36.17:498][201]AssetCheck: New page: Asset Save: TestLevel
+[2021.02.23-10.36.17:498][201]LogContentValidation: Display: Validating World /Game/Levels/TestLevel.TestLevel
+[2021.02.23-10.36.25:226][104]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/GameFramework/BP_TyphoonGameMode.BP_TyphoonGameMode
+[2021.02.23-10.36.30:937][756]LogSavePackage: Moving 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/BP_TyphoonGameMode37155BBA48600BC2F58ADABB01E79B12.tmp' to 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Blueprints/GameFramework/BP_TyphoonGameMode.uasset'
+[2021.02.23-10.36.30:952][756]AssetCheck: New page: Asset Save: BP_TyphoonGameMode
+[2021.02.23-10.36.30:952][756]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/GameFramework/BP_TyphoonGameMode.BP_TyphoonGameMode
+[2021.02.23-10.36.31:815][859]BlueprintLog: New page: Compile BP_TyphoonGameMode
+[2021.02.23-10.36.31:853][859]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2021.02.23-10.36.32:239][902]LogSavePackage: Moving 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/BP_TyphoonGameMode40F4B9AE4C9FAB20304D81943FF77557.tmp' to 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Blueprints/GameFramework/BP_TyphoonGameMode.uasset'
+[2021.02.23-10.36.32:250][902]AssetCheck: New page: Asset Save: BP_TyphoonGameMode
+[2021.02.23-10.36.32:250][902]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/GameFramework/BP_TyphoonGameMode.BP_TyphoonGameMode
+[2021.02.23-10.36.33:915][ 93]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.23-10.36.33:922][ 93]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.23-10.36.33:923][ 93]PIE: New page: PIE session: TestLevel (23 févr. 2021 à 10:36:33)
+[2021.02.23-10.36.33:949][ 93]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.23-10.36.33:955][ 93]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006791s)
+[2021.02.23-10.36.33:956][ 93]LogAIModule: Creating AISystem for world TestLevel
+[2021.02.23-10.36.33:956][ 93]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027E19AA9E00), frame # 111093
+[2021.02.23-10.36.33:956][ 93]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027E5DA0A700), frame # 111093
+[2021.02.23-10.36.33:956][ 93]LogPlayLevel: PIE: World Init took: (0.000891s)
+[2021.02.23-10.36.33:956][ 93]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevel.TestLevel to /Game/Levels/UEDPIE_0_TestLevel.TestLevel (0.007779s)
+[2021.02.23-10.36.33:984][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2021.02.23-10.36.33:985][ 93]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.23-10.36.33:986][ 93]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.23-10.36.33:986][ 93]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.23-10.36.33:986][ 93]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.23-10.36.33:986][ 93]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.23-10.36.33:986][ 93]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.23-10.36.33:986][ 93]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.23-10.36.33:986][ 93]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.23-10.36.33:986][ 93]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.23-10.36.33:986][ 93]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.23-10.36.33:991][ 93]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.23-10.36.33:991][ 93]LogAudioMixer: Display: 1: FrontRight
+[2021.02.23-10.36.34:020][ 93]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.02.23-10.36.34:021][ 93]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.23-10.36.34:021][ 93]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.23-10.36.34:021][ 93]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.23-10.36.34:021][ 93]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.23-10.36.34:031][ 93]LogInit: FAudioDevice initialized.
+[2021.02.23-10.36.34:040][ 93]LogLoad: Game class is 'BP_TyphoonGameMode_C'
+[2021.02.23-10.36.34:041][ 93]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2021.02.23-10.36.34
+[2021.02.23-10.36.34:041][ 93]LogWorld: Bringing up level for play took: 0.000725
+[2021.02.23-10.36.34:041][ 93]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2021.02.23-10.36.34:042][ 93]LogGameMode: Display: Players Ready: 1, Players Needed: 1
+[2021.02.23-10.36.34:042][ 93]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.23-10.36.34:042][ 93]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.23-10.36.34:042][ 93]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.02.23-10.36.34:043][ 93]LogGameMode: Display: Match In Progress State Changed from None to Countdown
+[2021.02.23-10.36.34:043][ 93]LogGameState: Match In Progress State Changed from None to Countdown
+[2021.02.23-10.36.34:043][ 93]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.02.23-10.36.34:043][ 93]PIE: Server logged in
+[2021.02.23-10.36.34:044][ 93]PIE: Play in editor total start time 0,122 seconds.
+[2021.02.23-10.36.34:923][196]LogGameMode: Display: Match In Progress State Changed from Countdown to PrepPhase
+[2021.02.23-10.36.34:923][196]LogGameState: Match In Progress State Changed from Countdown to PrepPhase
+[2021.02.23-10.36.35:023][208]LogGameMode: Display: Match In Progress State Changed from PrepPhase to Normal
+[2021.02.23-10.36.35:023][208]LogGameState: Match In Progress State Changed from PrepPhase to Normal
+[2021.02.23-10.36.35:556][272]LogBlueprintUserMessages: [MyStageActor_2] BP_TyphoonCharacter
+[2021.02.23-10.36.37:230][469]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-10.36.37:230][469]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.23-10.36.37:230][469]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2021.02.23-10.36.37:230][469]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-10.36.37:241][469]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.23-10.36.37:245][469]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-10.36.37:291][469]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-10.36.37:292][469]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027E5DA0A700), frame # 111469
+[2021.02.23-10.36.37:292][469]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027E19AA9E00), frame # 111469
+[2021.02.23-10.36.37:295][469]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2021.02.23-10.36.37:323][470]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2021.02.23-10.37.34:061][210]BlueprintLog: New page: Compile MyStageActor
+[2021.02.23-10.37.34:102][210]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2021.02.23-10.37.34:480][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actors/MyStageActor" FILE="S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Blueprints/Actors/MyStageActor.uasset" SILENT=true
+[2021.02.23-10.37.34:490][250]LogSavePackage: Moving 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/MyStageActorA4822A0E41A407B200E1E0806AE5F9F0.tmp' to 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Blueprints/Actors/MyStageActor.uasset'
+[2021.02.23-10.37.34:503][250]AssetCheck: New page: Asset Save: MyStageActor
+[2021.02.23-10.37.34:503][250]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Actors/MyStageActor.MyStageActor
+[2021.02.23-10.37.40:966][ 12]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.23-10.37.40:973][ 12]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.23-10.37.40:973][ 12]PIE: New page: PIE session: TestLevel (23 févr. 2021 à 10:37:40)
+[2021.02.23-10.37.40:998][ 12]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.23-10.37.41:004][ 12]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006630s)
+[2021.02.23-10.37.41:005][ 12]LogAIModule: Creating AISystem for world TestLevel
+[2021.02.23-10.37.41:005][ 12]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027E56AF3E00), frame # 119012
+[2021.02.23-10.37.41:005][ 12]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027E3E05C7C0), frame # 119012
+[2021.02.23-10.37.41:006][ 12]LogPlayLevel: PIE: World Init took: (0.001017s)
+[2021.02.23-10.37.41:006][ 12]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevel.TestLevel to /Game/Levels/UEDPIE_0_TestLevel.TestLevel (0.007779s)
+[2021.02.23-10.37.41:034][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2021.02.23-10.37.41:035][ 12]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.23-10.37.41:035][ 12]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.23-10.37.41:035][ 12]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.23-10.37.41:035][ 12]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.23-10.37.41:035][ 12]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.23-10.37.41:035][ 12]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.23-10.37.41:035][ 12]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.23-10.37.41:035][ 12]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.23-10.37.41:035][ 12]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.23-10.37.41:035][ 12]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.23-10.37.41:039][ 12]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.23-10.37.41:040][ 12]LogAudioMixer: Display: 1: FrontRight
+[2021.02.23-10.37.41:069][ 12]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.02.23-10.37.41:069][ 12]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.23-10.37.41:069][ 12]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.23-10.37.41:069][ 12]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.23-10.37.41:070][ 12]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.23-10.37.41:079][ 12]LogInit: FAudioDevice initialized.
+[2021.02.23-10.37.41:088][ 12]LogLoad: Game class is 'BP_TyphoonGameMode_C'
+[2021.02.23-10.37.41:089][ 12]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2021.02.23-10.37.41
+[2021.02.23-10.37.41:089][ 12]LogWorld: Bringing up level for play took: 0.000759
+[2021.02.23-10.37.41:089][ 12]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2021.02.23-10.37.41:090][ 12]LogGameMode: Display: Players Ready: 1, Players Needed: 1
+[2021.02.23-10.37.41:090][ 12]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.23-10.37.41:090][ 12]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.23-10.37.41:090][ 12]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.02.23-10.37.41:091][ 12]LogGameMode: Display: Match In Progress State Changed from None to Countdown
+[2021.02.23-10.37.41:091][ 12]LogGameState: Match In Progress State Changed from None to Countdown
+[2021.02.23-10.37.41:091][ 12]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.02.23-10.37.41:091][ 12]PIE: Server logged in
+[2021.02.23-10.37.41:092][ 12]PIE: Play in editor total start time 0,12 seconds.
+[2021.02.23-10.37.41:969][115]LogGameMode: Display: Match In Progress State Changed from Countdown to PrepPhase
+[2021.02.23-10.37.41:969][115]LogGameState: Match In Progress State Changed from Countdown to PrepPhase
+[2021.02.23-10.37.42:069][127]LogGameMode: Display: Match In Progress State Changed from PrepPhase to Normal
+[2021.02.23-10.37.42:069][127]LogGameState: Match In Progress State Changed from PrepPhase to Normal
+[2021.02.23-10.37.45:294][514]LogBlueprintUserMessages: [MyStageActor_2] BP_TyphoonCharacter
+[2021.02.23-10.37.45:969][592]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-10.37.45:969][592]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.23-10.37.45:969][592]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2021.02.23-10.37.45:969][592]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-10.37.45:976][592]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.23-10.37.45:980][592]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-10.37.46:019][592]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-10.37.46:020][592]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027E3E05C7C0), frame # 119592
+[2021.02.23-10.37.46:020][592]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027E56AF3E00), frame # 119592
+[2021.02.23-10.37.46:023][592]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2021.02.23-10.37.46:050][593]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2021.02.23-10.37.49:543][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestLevel" FILE="S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Levels/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.02.23-10.37.49:569][  2]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2021.02.23-10.37.49:585][  2]LogSavePackage: Moving 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/TestLevel0D833C124E6D5EE1AC8D6AA7F27D5D0D.tmp' to 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Levels/TestLevel.umap'
+[2021.02.23-10.37.49:609][  2]AssetCheck: New page: Asset Save: TestLevel
+[2021.02.23-10.37.49:609][  2]LogContentValidation: Display: Validating World /Game/Levels/TestLevel.TestLevel
+[2021.02.23-10.37.51:043][164]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms

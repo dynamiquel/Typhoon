@@ -43125,6 +43125,8 @@
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Source" t="Include">
         <e p="Typhoon" t="Include">
+          <e p="PickupComponent.cpp" t="Include" />
+          <e p="PickupComponent.h" t="Include" />
           <e p="StageActor.cpp" t="Include" />
           <e p="StageActor.h" t="Include" />
           <e p="Typhoon.Build.cs" t="Include" />
@@ -43144,6 +43146,7 @@
         <e p="Typhoon.Target.cs" t="Include" />
         <e p="TyphoonEditor.Target.cs" t="Include" />
       </e>
+      <e p="Typhoon.png" t="Include" />
       <e p="Typhoon.sln" t="IncludeFlat" />
       <e p="Typhoon.uproject" t="Include" />
       <e p="Visualizers" t="Include" />
