@@ -3,15 +3,18 @@
 #pragma once
 
 #include "CoreMinimal.h"
+
+#include "TyphoonPlayerState.h"
 #include "GameFramework/GameMode.h"
 #include "TyphoonGameMode.generated.h"
 
 namespace MatchInProgressState
 {
 	extern const FName None;
-	extern const FName Countdown;		    // Actors are ticking, but the match has not yet started
-	extern const FName PrepPhase;			// Normal gameplay is occurring. Specific games will have their own state machine inside this state
-	extern const FName Normal;		        // Match has ended so we aren't accepting new players, but actors are still ticking
+	extern const FName Countdown;		    // All actors have spawned but players can't move.
+	extern const FName PrepPhase;			// Just a bonus timed state. Doesn't do anything on its own.
+	extern const FName Normal;		        // Where normal gameplay occurs.
+	extern const FName GameEnd;				// Gameplay ended.
 }
 
 UCLASS(minimalapi)
@@ -24,6 +27,9 @@ public:
 
 	float GetPrepPhaseDuration() const { return PrepPhaseDuration; }
 	float GetCountdownRemaining() const;
+	void HandleManDied(ATyphoonPlayerState* HisTings);
+	void HandleMansOuttaLivesInnit(ATyphoonPlayerState* MaTings);
+	int32 GetPlayersRemaining() const;
 
 protected:
 	virtual void InitGame(const FString& MapName, const FString& Options, FString& ErrorMessage) override;
@@ -34,7 +40,7 @@ protected:
 	virtual void PreLogin(const FString& Options, const FString& Address, const FUniqueNetIdRepl& UniqueId, FString& ErrorMessage) override;
 	virtual APlayerController* Login(UPlayer* NewPlayer, ENetRole InRemoteRole, const FString& Portal, const FString& Options, const FUniqueNetIdRepl& UniqueId, FString& ErrorMessage) override;
 	void ProcessLoginOptions(AController* Controller, const FString Options);
-	
+
 	int32 GetMinPlayers() const { return MinimumPlayersToStart; }
 	FName GetMatchInProgressState() const { return MatchInProgressState; }
 
@@ -50,6 +56,11 @@ protected:
 	void OnCountdownEnded();
 	void OnPrepPhaseEnded();
 
+	void HandleGameOver();
+
+	UFUNCTION()
+	void HandlePlayerRespawnEnded(AController* Controller, FTransform SpawnTransform);
+
 private:
 	UPROPERTY(EditAnywhere, meta = (AllowPrivateAccess = true))
 	int32 MinimumPlayersToStart = 1;
@@ -61,6 +72,12 @@ private:
 	// Duration of the Preparation phase.
 	UPROPERTY(EditAnywhere, meta = (AllowPrivateAccess = true))
 	float PrepPhaseDuration = 15.f;
+
+	UPROPERTY(EditAnywhere, meta = (AllowPrivateAccess = true))
+	int32 StartLives = 3;
+
+	UPROPERTY(EditAnywhere, meta = (AllowPrivateAccess = true))
+	float RespawnDelay = 1.5f;
 
 	// Current game phase.
 	FName MatchInProgressState = MatchInProgressState::None;

@@ -109,9 +109,9 @@ void EmptyLinkFunctionForGeneratedCodeStageActor() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AStageActor_OnStagePlay_Statics::Function_MetaDataParams[] = {
-		{ "Comment", "// Do BeginPlay stuff here instead.\n" },
+		{ "Comment", "// Do BeginPlay stuff here instead. BP.\n" },
 		{ "ModuleRelativePath", "StageActor.h" },
-		{ "ToolTip", "Do BeginPlay stuff here instead." },
+		{ "ToolTip", "Do BeginPlay stuff here instead. BP." },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AStageActor_OnStagePlay_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AStageActor, nullptr, "OnStagePlay", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08080800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AStageActor_OnStagePlay_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AStageActor_OnStagePlay_Statics::Function_MetaDataParams)) };
@@ -155,7 +155,7 @@ void EmptyLinkFunctionForGeneratedCodeStageActor() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_AStageActor_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AStageActor_CheckNewStage, "CheckNewStage" }, // 595553128
 		{ &Z_Construct_UFunction_AStageActor_OnStageHide, "OnStageHide" }, // 2125642276
-		{ &Z_Construct_UFunction_AStageActor_OnStagePlay, "OnStagePlay" }, // 2650854918
+		{ &Z_Construct_UFunction_AStageActor_OnStagePlay, "OnStagePlay" }, // 3228173186
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStageActor_Statics::Class_MetaDataParams[] = {
@@ -214,7 +214,7 @@ void EmptyLinkFunctionForGeneratedCodeStageActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AStageActor, 1842878547);
+	IMPLEMENT_CLASS(AStageActor, 3784389098);
 	template<> TYPHOON_API UClass* StaticClass<AStageActor>()
 	{
 		return AStageActor::StaticClass();

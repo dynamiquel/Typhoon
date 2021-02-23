@@ -22,11 +22,13 @@ public:
 	DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnStageCompleteSignature,
         const int32, NewStageValue);
 
-	UPROPERTY(BlueprintAssignable, Category="Custom")
+	UPROPERTY(BlueprintAssignable, Category="GameState")
 	FOnStageCompleteSignature OnStageComplete;
 
-	UFUNCTION(BlueprintCallable)
+	UFUNCTION(BlueprintCallable, Category="GameState")
 	void CompleteStage();
+
+	int32 GetCurrentStage() const { return CurrentStage; }
 
 protected:
 	// Current game state.
@@ -63,6 +65,7 @@ protected:
 	void HandleCountdownStarted();
 	void HandlePrepPhaseStarted();
 	void HandleGameStarted();
+	void HandleGameOver();
 
 	// Called when the Countdown state starts.
 	UFUNCTION(BlueprintImplementableEvent)

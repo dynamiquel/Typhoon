@@ -76,6 +76,14 @@ void ATyphoonGameState::HandleGameStarted()
 	BP_OnGameStarted();
 }
 
+void ATyphoonGameState::HandleGameOver()
+{
+	if (GetLocalRole() == ROLE_Authority)
+	{
+		
+	}
+}
+
 void ATyphoonGameState::OnRep_MatchInProgressState()
 {	
 	if (GetMatchInProgressState() == MatchInProgressState::Countdown)
@@ -84,6 +92,8 @@ void ATyphoonGameState::OnRep_MatchInProgressState()
 		HandlePrepPhaseStarted();
 	else if (GetMatchInProgressState() == MatchInProgressState::Normal)
 		HandleGameStarted();
+	else if (GetMatchInProgressState() == MatchInProgressState::GameEnd)
+		HandleGameOver();
 }
 
 void ATyphoonGameState::CompleteStage()

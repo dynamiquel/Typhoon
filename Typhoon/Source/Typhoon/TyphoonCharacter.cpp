@@ -59,6 +59,13 @@ void ATyphoonCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerI
 	PlayerInputComponent->BindTouch(IE_Released, this, &ATyphoonCharacter::TouchStopped);
 }
 
+void ATyphoonCharacter::BeginPlay()
+{
+	Super::BeginPlay();
+
+	SpawnLocation = GetTransform();
+}
+
 void ATyphoonCharacter::MoveRight(float Value)
 {
 	// add movement in that direction

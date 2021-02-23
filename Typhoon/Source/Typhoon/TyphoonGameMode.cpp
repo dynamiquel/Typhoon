@@ -11,9 +11,10 @@
 namespace MatchInProgressState
 {
 	const FName None = FName(TEXT("None"));
-	const FName Countdown = FName(TEXT("Countdown"));		    // Actors are ticking, but the match has not yet started
-	const FName PrepPhase = FName(TEXT("PrepPhase"));			// Normal gameplay is occurring. Specific games will have their own state machine inside this state
-	const FName Normal = FName(TEXT("Normal"));		            // Match has ended so we aren't accepting new players, but actors are still ticking
+	const FName Countdown = FName(TEXT("Countdown"));		    // All actors have spawned but players can't move.
+	const FName PrepPhase = FName(TEXT("PrepPhase"));			// Just a bonus timed state. Doesn't do anything on its own.
+	const FName Normal = FName(TEXT("Normal"));		            // Where normal gameplay occurs.
+	const FName GameEnd = FName(TEXT("GameEnd"));				// Gameplay ended.
 }
 
 ATyphoonGameMode::ATyphoonGameMode()
@@ -29,6 +30,68 @@ ATyphoonGameMode::ATyphoonGameMode()
 float ATyphoonGameMode::GetCountdownRemaining() const
 {
 	return GetWorld()->GetTimerManager().GetTimerRemaining(CountdownTimer);
+}
+
+void ATyphoonGameMode::HandleManDied(ATyphoonPlayerState* HisTings)
+{
+	UE_LOG(LogGameMode, Display, TEXT("Player %s died."), *HisTings->GetPlayerName());
+
+	HisTings->SetLives(HisTings->GetLives() - 1);
+
+	AController* Controller = HisTings->GetPawn()->GetController();
+	
+	FTransform SpawnTransform;
+	if (HisTings->GetSpawnPoint())
+		SpawnTransform = HisTings->GetSpawnPoint()->GetTransform();
+	else
+		SpawnTransform = Cast<ATyphoonCharacter>(HisTings->GetPawn())->GetSpawnLocation();
+
+	HisTings->GetPawn()->Destroy();
+	HisTings->HandlePlayerDied();
+	
+	if (HisTings->GetLives() >= 0)
+	{
+		// Respawn delay.
+		FTimerHandle TimerHandle;
+		FTimerDelegate TimerDelegate = FTimerDelegate::CreateUObject(this, &ATyphoonGameMode::HandlePlayerRespawnEnded,
+		                                                             Controller, SpawnTransform);
+		GetWorld()->GetTimerManager().SetTimer(TimerHandle, TimerDelegate, RespawnDelay, false);
+	}
+	else
+		HandleMansOuttaLivesInnit(HisTings);
+}
+
+void ATyphoonGameMode::HandleMansOuttaLivesInnit(ATyphoonPlayerState* MaTings)
+{
+	UE_LOG(LogGameMode, Display, TEXT("Player %s has lost."), *MaTings->GetPlayerName());
+
+	MaTings->SetTimeFinished(FDateTime::UtcNow());
+
+	const int32 PlayersRemaining = GetPlayersRemaining();
+
+	UE_LOG(LogGameMode, Display, TEXT("Players remaining: %d"), PlayersRemaining);
+
+	if (PlayersRemaining == 0)
+	{
+		ATyphoonGameState* FullGameState = GetGameState<ATyphoonGameState>();
+		if (FullGameState)
+			FullGameState->SetMatchInProgressState(MatchInProgressState::GameEnd);
+	}
+}
+
+int32 ATyphoonGameMode::GetPlayersRemaining() const
+{
+	// Loops through all the players to check if they have died.
+	int32 PlayersRemaining = 0;
+	for (APlayerState* Player : GameState->PlayerArray)
+	{
+		ATyphoonPlayerState* FullPlayerState = Cast<ATyphoonPlayerState>(Player);
+
+		if (FullPlayerState->GetTimeFinished() <= FDateTime::MinValue())
+			PlayersRemaining++;
+	}
+
+	return PlayersRemaining;
 }
 
 void ATyphoonGameMode::InitGame(const FString& MapName, const FString& Options, FString& ErrorMessage)
@@ -69,6 +132,12 @@ void ATyphoonGameMode::HandleMatchHasStarted()
 void ATyphoonGameMode::HandleStartingNewPlayer_Implementation(APlayerController* NewPlayer)
 {
 	Super::HandleStartingNewPlayer_Implementation(NewPlayer);
+
+	ATyphoonPlayerState* PlayerState = Cast<ATyphoonPlayerState>(NewPlayer->PlayerState);
+	if (PlayerState)
+	{
+		PlayerState->SetLives(StartLives);
+	}
 
 	// Check to see if we have enough players to start the match.
 	if (MatchState == MatchState::WaitingToStart && ReadyToStartMatch())
@@ -136,6 +205,8 @@ void ATyphoonGameMode::OnMatchInProgressStateSet()
 		HandlePrepPhaseStarted();
 	else if (GetMatchInProgressState() == MatchInProgressState::Normal)
 		HandleGameStarted();
+	else if (GetMatchInProgressState() == MatchInProgressState::GameEnd)
+		HandleGameOver();
 }
 
 void ATyphoonGameMode::HandleCountdownStarted()
@@ -159,10 +230,9 @@ void ATyphoonGameMode::HandleGameStarted()
 
 void ATyphoonGameMode::OnCountdownEnded()
 {
-	ATyphoonGameState* FullGameState = GetGameState<ATyphoonGameState>();
-	if (FullGameState)
+	if (GameState)
 	{
-		TArray<APlayerState*> PlayerStates = FullGameState->PlayerArray;
+		TArray<APlayerState*> PlayerStates = GameState->PlayerArray;
 
 		for (APlayerState* PlayerState : PlayerStates)
 		{
@@ -177,4 +247,15 @@ void ATyphoonGameMode::OnCountdownEnded()
 void ATyphoonGameMode::OnPrepPhaseEnded()
 {
 	SetMatchInProgressState(MatchInProgressState::Normal);
+}
+
+void ATyphoonGameMode::HandleGameOver()
+{
+	
+}
+
+void ATyphoonGameMode::HandlePlayerRespawnEnded(AController* Controller, FTransform SpawnTransform)
+{
+	APawn* Pawn = Cast<APawn>(GetWorld()->SpawnActor(DefaultPawnClass, &SpawnTransform));
+	Controller->Possess(Pawn);
 }

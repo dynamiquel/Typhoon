@@ -21,11 +21,24 @@ void AStageActor::BeginPlay()
 	// Don't bother subscribing if it's supposed to start straight away.
 	if (StageToActivate > 0)
 	{
-		StageHide();
-
 		ATyphoonGameState* GameState = GetWorld()->GetGameState<ATyphoonGameState>();
 		if (GameState)
 		{
+			// Don't bother subscribing if the stage conditions have already been met.
+			if (bOnlySpawnOnExactStage)
+			{
+				if (GameState->GetCurrentStage() == StageToActivate)
+					StagePlay();
+			}
+			else
+			{
+				if (GameState->GetCurrentStage() >= StageToActivate)
+					StagePlay();
+			}
+		
+			StageHide();
+
+			// Subscribe to be notified when the level stage changes.
 			GameState->OnStageComplete.AddDynamic(this, &AStageActor::CheckNewStage);
 		}
 	}
@@ -35,6 +48,11 @@ void AStageActor::BeginPlay()
 
 void AStageActor::StagePlay()
 {
+	// Unsubscribe to prevent re-triggers.
+	ATyphoonGameState* GameState = GetWorld()->GetGameState<ATyphoonGameState>();
+	if (GameState)
+		GameState->OnStageComplete.RemoveDynamic(this, &AStageActor::CheckNewStage);
+
 	SetActorHiddenInGame(false);
 	
 	// Notify BP.

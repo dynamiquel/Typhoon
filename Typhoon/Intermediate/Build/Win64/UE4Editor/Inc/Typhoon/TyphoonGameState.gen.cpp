@@ -179,6 +179,7 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonGameState() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATyphoonGameState_CompleteStage_Statics::Function_MetaDataParams[] = {
+		{ "Category", "GameState" },
 		{ "ModuleRelativePath", "TyphoonGameState.h" },
 	};
 #endif
@@ -265,7 +266,7 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonGameState() {}
 		{ &Z_Construct_UFunction_ATyphoonGameState_BP_OnCountdownStarted, "BP_OnCountdownStarted" }, // 2259811962
 		{ &Z_Construct_UFunction_ATyphoonGameState_BP_OnGameStarted, "BP_OnGameStarted" }, // 1762299940
 		{ &Z_Construct_UFunction_ATyphoonGameState_BP_OnPrepPhaseStarted, "BP_OnPrepPhaseStarted" }, // 211749464
-		{ &Z_Construct_UFunction_ATyphoonGameState_CompleteStage, "CompleteStage" }, // 784759500
+		{ &Z_Construct_UFunction_ATyphoonGameState_CompleteStage, "CompleteStage" }, // 2164022300
 		{ &Z_Construct_UFunction_ATyphoonGameState_OnRep_MatchInProgressState, "OnRep_MatchInProgressState" }, // 2232815454
 		{ &Z_Construct_UDelegateFunction_ATyphoonGameState_OnStageCompleteSignature__DelegateSignature, "OnStageCompleteSignature__DelegateSignature" }, // 2367170676
 	};
@@ -333,7 +334,7 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonGameState() {}
 	const UE4CodeGen_Private::FNamePropertyParams Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_MatchInProgressState = { "MatchInProgressState", "OnRep_MatchInProgressState", (EPropertyFlags)0x0020080100020835, UE4CodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATyphoonGameState, MatchInProgressState), METADATA_PARAMS(Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_MatchInProgressState_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_MatchInProgressState_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_OnStageComplete_MetaData[] = {
-		{ "Category", "Custom" },
+		{ "Category", "GameState" },
 		{ "ModuleRelativePath", "TyphoonGameState.h" },
 	};
 #endif
@@ -374,7 +375,7 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonGameState() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATyphoonGameState, 2036612344);
+	IMPLEMENT_CLASS(ATyphoonGameState, 2047030908);
 	template<> TYPHOON_API UClass* StaticClass<ATyphoonGameState>()
 	{
 		return ATyphoonGameState::StaticClass();

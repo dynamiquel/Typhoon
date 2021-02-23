@@ -18,10 +18,12 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+	// Do the typical BeginPlay stuff here instead. C++.
 	virtual void StagePlay();
 	virtual void StageHide();
 
-	// Do BeginPlay stuff here instead.
+	// Do BeginPlay stuff here instead. BP.
 	UFUNCTION(BlueprintImplementableEvent)
 	void OnStagePlay();
 

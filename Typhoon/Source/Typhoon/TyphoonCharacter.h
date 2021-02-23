@@ -19,8 +19,12 @@ class ATyphoonCharacter : public ACharacter
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class USpringArmComponent* CameraBoom;
 
-protected:
+public:
+	FTransform& GetSpawnLocation() { return SpawnLocation; }
 
+protected:
+	virtual void BeginPlay() override;
+	
 	/** Called for side to side input */
 	void MoveRight(float Val);
 
@@ -34,6 +38,9 @@ protected:
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
 	// End of APawn interface
 
+private:
+	// Where this pawn spawned.
+	FTransform SpawnLocation;
 
 public:
 	ATyphoonCharacter();

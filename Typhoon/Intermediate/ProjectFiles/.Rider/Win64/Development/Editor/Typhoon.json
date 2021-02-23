@@ -15244,6 +15244,9 @@
 				"Engine",
 				"InputCore"
 			],
+			"PrivateDependencyModules": [
+				"Engine"
+			],
 			"PublicIncludePaths": [
 				"S:\\Users\\Liamk\\Development\\Games\\Typhoon\\Typhoon2\\Typhoon\\Source"
 			],
