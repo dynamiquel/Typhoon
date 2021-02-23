@@ -286,7 +286,7 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonGameState() {}
 		{ "ModuleRelativePath", "TyphoonGameState.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_CurrentStage = { "CurrentStage", nullptr, (EPropertyFlags)0x0020080000000034, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATyphoonGameState, CurrentStage), METADATA_PARAMS(Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_CurrentStage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_CurrentStage_MetaData)) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_CurrentStage = { "CurrentStage", nullptr, (EPropertyFlags)0x0020080000020835, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATyphoonGameState, CurrentStage), METADATA_PARAMS(Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_CurrentStage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_CurrentStage_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_PrepPhaseDuration_MetaData[] = {
 		{ "Category", "GameState" },
@@ -375,7 +375,7 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonGameState() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATyphoonGameState, 2047030908);
+	IMPLEMENT_CLASS(ATyphoonGameState, 2345721623);
 	template<> TYPHOON_API UClass* StaticClass<ATyphoonGameState>()
 	{
 		return ATyphoonGameState::StaticClass();

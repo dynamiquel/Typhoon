@@ -26,6 +26,13 @@ void EmptyLinkFunctionForGeneratedCodeStageActor() {}
 		P_THIS->CheckNewStage(Z_Param_NewStage);
 		P_NATIVE_END;
 	}
+	static FName NAME_AStageActor_OnStageChanged = FName(TEXT("OnStageChanged"));
+	void AStageActor::OnStageChanged(int32 NewStage)
+	{
+		StageActor_eventOnStageChanged_Parms Parms;
+		Parms.NewStage=NewStage;
+		ProcessEvent(FindFunctionChecked(NAME_AStageActor_OnStageChanged),&Parms);
+	}
 	static FName NAME_AStageActor_OnStageHide = FName(TEXT("OnStageHide"));
 	void AStageActor::OnStageHide()
 	{
@@ -73,6 +80,34 @@ void EmptyLinkFunctionForGeneratedCodeStageActor() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AStageActor_CheckNewStage_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AStageActor_OnStageChanged_Statics
+	{
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_NewStage;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UFunction_AStageActor_OnStageChanged_Statics::NewProp_NewStage = { "NewStage", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(StageActor_eventOnStageChanged_Parms, NewStage), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AStageActor_OnStageChanged_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AStageActor_OnStageChanged_Statics::NewProp_NewStage,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AStageActor_OnStageChanged_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "StageActor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AStageActor_OnStageChanged_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AStageActor, nullptr, "OnStageChanged", nullptr, nullptr, sizeof(StageActor_eventOnStageChanged_Parms), Z_Construct_UFunction_AStageActor_OnStageChanged_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AStageActor_OnStageChanged_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08080800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AStageActor_OnStageChanged_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AStageActor_OnStageChanged_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AStageActor_OnStageChanged()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AStageActor_OnStageChanged_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -141,6 +176,10 @@ void EmptyLinkFunctionForGeneratedCodeStageActor() {}
 		static void NewProp_bOnlySpawnOnExactStage_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bOnlySpawnOnExactStage;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_StageToDestroy_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_StageToDestroy;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_StageToActivate_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FIntPropertyParams NewProp_StageToActivate;
@@ -154,6 +193,7 @@ void EmptyLinkFunctionForGeneratedCodeStageActor() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AStageActor_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AStageActor_CheckNewStage, "CheckNewStage" }, // 595553128
+		{ &Z_Construct_UFunction_AStageActor_OnStageChanged, "OnStageChanged" }, // 1699903300
 		{ &Z_Construct_UFunction_AStageActor_OnStageHide, "OnStageHide" }, // 2125642276
 		{ &Z_Construct_UFunction_AStageActor_OnStagePlay, "OnStagePlay" }, // 3228173186
 	};
@@ -176,15 +216,28 @@ void EmptyLinkFunctionForGeneratedCodeStageActor() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AStageActor_Statics::NewProp_bOnlySpawnOnExactStage = { "bOnlySpawnOnExactStage", nullptr, (EPropertyFlags)0x0040000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AStageActor), &Z_Construct_UClass_AStageActor_Statics::NewProp_bOnlySpawnOnExactStage_SetBit, METADATA_PARAMS(Z_Construct_UClass_AStageActor_Statics::NewProp_bOnlySpawnOnExactStage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStageActor_Statics::NewProp_bOnlySpawnOnExactStage_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStageActor_Statics::NewProp_StageToDestroy_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "StageActor" },
+		{ "Comment", "// Stage which the actor gets destroyed. -1 = no destroy.\n" },
+		{ "ModuleRelativePath", "StageActor.h" },
+		{ "ToolTip", "Stage which the actor gets destroyed. -1 = no destroy." },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AStageActor_Statics::NewProp_StageToDestroy = { "StageToDestroy", nullptr, (EPropertyFlags)0x0040000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStageActor, StageToDestroy), METADATA_PARAMS(Z_Construct_UClass_AStageActor_Statics::NewProp_StageToDestroy_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStageActor_Statics::NewProp_StageToDestroy_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStageActor_Statics::NewProp_StageToActivate_MetaData[] = {
 		{ "AllowPrivateAccess", "TRUE" },
 		{ "Category", "StageActor" },
+		{ "Comment", "// Stage which the actor activates.\n" },
 		{ "ModuleRelativePath", "StageActor.h" },
+		{ "ToolTip", "Stage which the actor activates." },
 	};
 #endif
 	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AStageActor_Statics::NewProp_StageToActivate = { "StageToActivate", nullptr, (EPropertyFlags)0x0040000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStageActor, StageToActivate), METADATA_PARAMS(Z_Construct_UClass_AStageActor_Statics::NewProp_StageToActivate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AStageActor_Statics::NewProp_StageToActivate_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AStageActor_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStageActor_Statics::NewProp_bOnlySpawnOnExactStage,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStageActor_Statics::NewProp_StageToDestroy,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStageActor_Statics::NewProp_StageToActivate,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AStageActor_Statics::StaticCppClassTypeInfo = {
@@ -214,7 +267,7 @@ void EmptyLinkFunctionForGeneratedCodeStageActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AStageActor, 3784389098);
+	IMPLEMENT_CLASS(AStageActor, 733684658);
 	template<> TYPHOON_API UClass* StaticClass<AStageActor>()
 	{
 		return AStageActor::StaticClass();

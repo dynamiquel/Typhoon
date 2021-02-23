@@ -56,7 +56,7 @@ protected:
 	UPROPERTY(Replicated, BlueprintReadOnly, VisibleInstanceOnly, Category = GameState)
 	float PrepPhaseDuration;
 
-	UPROPERTY(Replicated, BlueprintReadOnly, Category = GameState)
+	UPROPERTY(Replicated, BlueprintReadOnly, VisibleInstanceOnly, Category = GameState)
 	int32 CurrentStage;
 	
 	virtual void HandleMatchHasStarted() override;

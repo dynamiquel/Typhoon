@@ -24,7 +24,13 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	DECLARE_FUNCTION(execCheckNewStage);
 
 
-#define Typhoon_Source_Typhoon_StageActor_h_12_EVENT_PARMS
+#define Typhoon_Source_Typhoon_StageActor_h_12_EVENT_PARMS \
+	struct StageActor_eventOnStageChanged_Parms \
+	{ \
+		int32 NewStage; \
+	};
+
+
 #define Typhoon_Source_Typhoon_StageActor_h_12_CALLBACK_WRAPPERS
 #define Typhoon_Source_Typhoon_StageActor_h_12_INCLASS_NO_PURE_DECLS \
 private: \
@@ -70,6 +76,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AStageActor); \
 
 #define Typhoon_Source_Typhoon_StageActor_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__StageToActivate() { return STRUCT_OFFSET(AStageActor, StageToActivate); } \
+	FORCEINLINE static uint32 __PPO__StageToDestroy() { return STRUCT_OFFSET(AStageActor, StageToDestroy); } \
 	FORCEINLINE static uint32 __PPO__bOnlySpawnOnExactStage() { return STRUCT_OFFSET(AStageActor, bOnlySpawnOnExactStage); }
 
 

@@ -48,10 +48,11 @@ void AStageActor::BeginPlay()
 
 void AStageActor::StagePlay()
 {
+	bActivated = true;
 	// Unsubscribe to prevent re-triggers.
-	ATyphoonGameState* GameState = GetWorld()->GetGameState<ATyphoonGameState>();
+	/*ATyphoonGameState* GameState = GetWorld()->GetGameState<ATyphoonGameState>();
 	if (GameState)
-		GameState->OnStageComplete.RemoveDynamic(this, &AStageActor::CheckNewStage);
+		GameState->OnStageComplete.RemoveDynamic(this, &AStageActor::CheckNewStage);*/
 
 	SetActorHiddenInGame(false);
 	
@@ -67,6 +68,16 @@ void AStageActor::StageHide()
 	OnStageHide();
 }
 
+void AStageActor::StageDestroy()
+{
+	Destroy();
+}
+
+void AStageActor::StageChanged(int32 NewStage)
+{
+	OnStageChanged(NewStage);
+}
+
 // Called every frame
 void AStageActor::Tick(float DeltaTime)
 {
@@ -74,16 +85,22 @@ void AStageActor::Tick(float DeltaTime)
 
 }
 
-void AStageActor::CheckNewStage(int32 NewStage)
-{
+void AStageActor::CheckNewStage(const int32 NewStage)
+{	
 	if (bOnlySpawnOnExactStage)
 	{
-		if (NewStage == StageToActivate)
-			StagePlay();
+		if (!bActivated && NewStage == StageToActivate)
+			StagePlay();		
+		else if (StageToDestroy >= 0 && NewStage == StageToDestroy)
+			StageDestroy();
 	}
 	else
 	{
-		if (NewStage >= StageToActivate)
+		if (!bActivated && NewStage >= StageToActivate)
 			StagePlay();
+		else if (StageToDestroy >= 0 && NewStage >= StageToDestroy)
+			StageDestroy();
 	}
+
+	OnStageChanged(NewStage);
 }
