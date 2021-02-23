@@ -6,15 +6,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72cc79e1-d92a-4104-95ec-e5069c5f7369" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Typhoon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Typhoon/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor.modules" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor.modules" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/Actors/MyStageActor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Actors/MyStageActor.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/GameFramework/BP_TyphoonGameMode.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/GameFramework/BP_TyphoonGameMode.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Levels/TestLevel.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Levels/TestLevel.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/ActionHistory.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/ActionHistory.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/DependencyCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/DependencyCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/HotReload.state" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/HotReload.state" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/Metadata-HotReload.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/Metadata-HotReload.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Typhoon/StageActor.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Typhoon/StageActor.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Typhoon/StageActor.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Typhoon/StageActor.generated.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Typhoon/Typhoon.init.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Typhoon/Typhoon.init.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Typhoon/TyphoonGameMode.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Typhoon/TyphoonGameMode.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Typhoon/TyphoonGameMode.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Typhoon/TyphoonGameMode.generated.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/Typhoon.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/Typhoon.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Typhoon/PickupComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Typhoon/PickupComponent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/Typhoon_2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/Typhoon_2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Typhoon/StageActor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Typhoon/StageActor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Typhoon/StageActor.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Typhoon/StageActor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Typhoon/TyphoonGameMode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Typhoon/TyphoonGameMode.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Typhoon/TyphoonGameMode.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Typhoon/TyphoonGameMode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Typhoon/TyphoonGameState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Typhoon/TyphoonGameState.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,18 +49,18 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Source/Typhoon/TyphoonPlayerController.cpp" />
       <option value="$PROJECT_DIR$/Source/Typhoon/TyphoonPlayerController.h" />
-      <option value="$PROJECT_DIR$/Source/Typhoon/TyphoonGameState.cpp" />
       <option value="$PROJECT_DIR$/Source/Typhoon/TyphoonCharacter.cpp" />
       <option value="$PROJECT_DIR$/Source/Typhoon/TyphoonCharacter.h" />
       <option value="$PROJECT_DIR$/Source/Typhoon/TyphoonPlayerState.cpp" />
-      <option value="$PROJECT_DIR$/Source/Typhoon/TyphoonGameMode.h" />
-      <option value="$PROJECT_DIR$/Source/Typhoon/TyphoonGameMode.cpp" />
       <option value="$PROJECT_DIR$/Source/Typhoon/TyphoonPlayerState.h" />
       <option value="$PROJECT_DIR$/Source/Typhoon/TyphoonGameState.h" />
-      <option value="$PROJECT_DIR$/Source/Typhoon/StageActor.h" />
-      <option value="$PROJECT_DIR$/Source/Typhoon/StageActor.cpp" />
       <option value="$PROJECT_DIR$/Source/Typhoon/PickupComponent.h" />
       <option value="$PROJECT_DIR$/Source/Typhoon/PickupComponent.cpp" />
+      <option value="$PROJECT_DIR$/Source/Typhoon/TyphoonGameMode.h" />
+      <option value="$PROJECT_DIR$/Source/Typhoon/TyphoonGameMode.cpp" />
+      <option value="$PROJECT_DIR$/Source/Typhoon/TyphoonGameState.cpp" />
+      <option value="$PROJECT_DIR$/Source/Typhoon/StageActor.cpp" />
+      <option value="$PROJECT_DIR$/Source/Typhoon/StageActor.h" />
     </changedPaths>
   </component>
   <component name="MacroExpansionManager">
@@ -291,7 +306,7 @@
       <workItem from="1614008300406" duration="6354000" />
       <workItem from="1614017924461" duration="16761000" />
       <workItem from="1614071482634" duration="949000" />
-      <workItem from="1614073061739" duration="3951000" />
+      <workItem from="1614073061739" duration="8250000" />
     </task>
     <servers />
   </component>

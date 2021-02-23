@@ -30,6 +30,7 @@ public:
 	void HandleManDied(ATyphoonPlayerState* HisTings);
 	void HandleMansOuttaLivesInnit(ATyphoonPlayerState* MaTings);
 	int32 GetPlayersRemaining() const;
+	void HandleCompleteStage(OUT int32& NewStage) const;
 
 protected:
 	virtual void InitGame(const FString& MapName, const FString& Options, FString& ErrorMessage) override;
@@ -78,6 +79,9 @@ private:
 
 	UPROPERTY(EditAnywhere, meta = (AllowPrivateAccess = true))
 	float RespawnDelay = 1.5f;
+
+	UPROPERTY(EditAnywhere, meta = (AllowPrivateAccess = true))
+	FTransform StartPoint;
 
 	// Current game phase.
 	FName MatchInProgressState = MatchInProgressState::None;

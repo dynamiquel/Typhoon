@@ -85,6 +85,10 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonGameMode() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_StartPoint_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_StartPoint;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_RespawnDelay_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_RespawnDelay;
@@ -123,6 +127,14 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonGameMode() {}
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATyphoonGameMode_Statics::NewProp_StartPoint_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "TyphoonGameMode" },
+		{ "ModuleRelativePath", "TyphoonGameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ATyphoonGameMode_Statics::NewProp_StartPoint = { "StartPoint", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATyphoonGameMode, StartPoint), Z_Construct_UScriptStruct_FTransform, METADATA_PARAMS(Z_Construct_UClass_ATyphoonGameMode_Statics::NewProp_StartPoint_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATyphoonGameMode_Statics::NewProp_StartPoint_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATyphoonGameMode_Statics::NewProp_RespawnDelay_MetaData[] = {
 		{ "AllowPrivateAccess", "TRUE" },
@@ -168,6 +180,7 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonGameMode() {}
 #endif
 	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ATyphoonGameMode_Statics::NewProp_MinimumPlayersToStart = { "MinimumPlayersToStart", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATyphoonGameMode, MinimumPlayersToStart), METADATA_PARAMS(Z_Construct_UClass_ATyphoonGameMode_Statics::NewProp_MinimumPlayersToStart_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATyphoonGameMode_Statics::NewProp_MinimumPlayersToStart_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATyphoonGameMode_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATyphoonGameMode_Statics::NewProp_StartPoint,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATyphoonGameMode_Statics::NewProp_RespawnDelay,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATyphoonGameMode_Statics::NewProp_StartLives,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATyphoonGameMode_Statics::NewProp_PrepPhaseDuration,
@@ -201,7 +214,7 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATyphoonGameMode, 1926128566);
+	IMPLEMENT_CLASS(ATyphoonGameMode, 247350089);
 	template<> TYPHOON_API UClass* StaticClass<ATyphoonGameMode>()
 	{
 		return ATyphoonGameMode::StaticClass();

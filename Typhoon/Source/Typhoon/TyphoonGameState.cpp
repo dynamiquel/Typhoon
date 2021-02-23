@@ -99,9 +99,14 @@ void ATyphoonGameState::OnRep_MatchInProgressState()
 void ATyphoonGameState::CompleteStage()
 {
 	if (GetLocalRole() == ROLE_Authority)
-		CurrentStage++;
+	{
+		ATyphoonGameMode* GameMode = Cast<ATyphoonGameMode>(AuthorityGameMode);
+		if (!GameMode)
+			return;
 
-	OnStageComplete.Broadcast(CurrentStage);
+		GameMode->HandleCompleteStage(CurrentStage);
+		OnStageComplete.Broadcast(CurrentStage);
+	}
 }
 
 void ATyphoonGameState::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const

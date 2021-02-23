@@ -26,6 +26,13 @@ void EmptyLinkFunctionForGeneratedCodeStageActor() {}
 		P_THIS->CheckNewStage(Z_Param_NewStage);
 		P_NATIVE_END;
 	}
+	DEFINE_FUNCTION(AStageActor::execStagePlay_Replicated)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->StagePlay_Replicated_Implementation();
+		P_NATIVE_END;
+	}
 	static FName NAME_AStageActor_OnStageChanged = FName(TEXT("OnStageChanged"));
 	void AStageActor::OnStageChanged(int32 NewStage)
 	{
@@ -43,11 +50,17 @@ void EmptyLinkFunctionForGeneratedCodeStageActor() {}
 	{
 		ProcessEvent(FindFunctionChecked(NAME_AStageActor_OnStagePlay),NULL);
 	}
+	static FName NAME_AStageActor_StagePlay_Replicated = FName(TEXT("StagePlay_Replicated"));
+	void AStageActor::StagePlay_Replicated()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AStageActor_StagePlay_Replicated),NULL);
+	}
 	void AStageActor::StaticRegisterNativesAStageActor()
 	{
 		UClass* Class = AStageActor::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "CheckNewStage", &AStageActor::execCheckNewStage },
+			{ "StagePlay_Replicated", &AStageActor::execStagePlay_Replicated },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -159,6 +172,28 @@ void EmptyLinkFunctionForGeneratedCodeStageActor() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AStageActor_StagePlay_Replicated_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AStageActor_StagePlay_Replicated_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "StageActor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AStageActor_StagePlay_Replicated_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AStageActor, nullptr, "StagePlay_Replicated", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00084CC0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AStageActor_StagePlay_Replicated_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AStageActor_StagePlay_Replicated_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AStageActor_StagePlay_Replicated()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AStageActor_StagePlay_Replicated_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AStageActor_NoRegister()
 	{
 		return AStageActor::StaticClass();
@@ -196,6 +231,7 @@ void EmptyLinkFunctionForGeneratedCodeStageActor() {}
 		{ &Z_Construct_UFunction_AStageActor_OnStageChanged, "OnStageChanged" }, // 1699903300
 		{ &Z_Construct_UFunction_AStageActor_OnStageHide, "OnStageHide" }, // 2125642276
 		{ &Z_Construct_UFunction_AStageActor_OnStagePlay, "OnStagePlay" }, // 3228173186
+		{ &Z_Construct_UFunction_AStageActor_StagePlay_Replicated, "StagePlay_Replicated" }, // 4230226442
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStageActor_Statics::Class_MetaDataParams[] = {
@@ -267,7 +303,7 @@ void EmptyLinkFunctionForGeneratedCodeStageActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AStageActor, 733684658);
+	IMPLEMENT_CLASS(AStageActor, 1943140097);
 	template<> TYPHOON_API UClass* StaticClass<AStageActor>()
 	{
 		return AStageActor::StaticClass();

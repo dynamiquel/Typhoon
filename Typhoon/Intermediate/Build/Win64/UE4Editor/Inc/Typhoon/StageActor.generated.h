@@ -15,13 +15,17 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define Typhoon_Source_Typhoon_StageActor_h_12_SPARSE_DATA
 #define Typhoon_Source_Typhoon_StageActor_h_12_RPC_WRAPPERS \
+	virtual void StagePlay_Replicated_Implementation(); \
  \
-	DECLARE_FUNCTION(execCheckNewStage);
+	DECLARE_FUNCTION(execCheckNewStage); \
+	DECLARE_FUNCTION(execStagePlay_Replicated);
 
 
 #define Typhoon_Source_Typhoon_StageActor_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual void StagePlay_Replicated_Implementation(); \
  \
-	DECLARE_FUNCTION(execCheckNewStage);
+	DECLARE_FUNCTION(execCheckNewStage); \
+	DECLARE_FUNCTION(execStagePlay_Replicated);
 
 
 #define Typhoon_Source_Typhoon_StageActor_h_12_EVENT_PARMS \

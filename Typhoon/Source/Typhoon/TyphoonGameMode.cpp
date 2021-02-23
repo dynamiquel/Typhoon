@@ -94,6 +94,23 @@ int32 ATyphoonGameMode::GetPlayersRemaining() const
 	return PlayersRemaining;
 }
 
+void ATyphoonGameMode::HandleCompleteStage(OUT int32& NewStage) const
+{
+	const int32 CurrentStage = NewStage;
+	NewStage = -1;
+	
+	ATyphoonGameState* FullGameState = GetGameState<ATyphoonGameState>();
+	if (FullGameState)
+	{
+		NewStage = CurrentStage + 1;
+
+		for (APlayerState* Player : FullGameState->PlayerArray)
+		{
+			Player->GetPawn()->TeleportTo(StartPoint.GetLocation(), StartPoint.Rotator());
+		}
+	}
+}
+
 void ATyphoonGameMode::InitGame(const FString& MapName, const FString& Options, FString& ErrorMessage)
 {
 	Super::InitGame(MapName, Options, ErrorMessage);

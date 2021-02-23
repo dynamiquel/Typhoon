@@ -36,6 +36,10 @@ protected:
 	UFUNCTION(BlueprintImplementableEvent)
     void OnStageChanged(int32 NewStage);
 
+	// Doesn't seem to be required.
+	UFUNCTION(Reliable, NetMulticast)
+	void StagePlay_Replicated();
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;

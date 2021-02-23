@@ -35,7 +35,7 @@ void AStageActor::BeginPlay()
 				if (GameState->GetCurrentStage() >= StageToActivate)
 					StagePlay();
 			}
-		
+	
 			StageHide();
 
 			// Subscribe to be notified when the level stage changes.
@@ -78,6 +78,16 @@ void AStageActor::StageChanged(int32 NewStage)
 	OnStageChanged(NewStage);
 }
 
+void AStageActor::StagePlay_Replicated_Implementation()
+{
+	if (GetLocalRole() == ROLE_Authority)
+		GEngine->AddOnScreenDebugMessage(-1, 2.5f, FColor::Orange, TEXT("swerver"));
+	else
+		GEngine->AddOnScreenDebugMessage(-1, 2.5f, FColor::Orange, TEXT("client"));
+
+	StagePlay();
+}
+
 // Called every frame
 void AStageActor::Tick(float DeltaTime)
 {
@@ -86,16 +96,20 @@ void AStageActor::Tick(float DeltaTime)
 }
 
 void AStageActor::CheckNewStage(const int32 NewStage)
-{	
+{
+	if (GetLocalRole() != ROLE_Authority)
+		return;
+	
 	if (bOnlySpawnOnExactStage)
 	{
 		if (!bActivated && NewStage == StageToActivate)
-			StagePlay();		
+			StagePlay();
 		else if (StageToDestroy >= 0 && NewStage == StageToDestroy)
 			StageDestroy();
 	}
 	else
 	{
+		
 		if (!bActivated && NewStage >= StageToActivate)
 			StagePlay();
 		else if (StageToDestroy >= 0 && NewStage >= StageToDestroy)
