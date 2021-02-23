@@ -24,6 +24,12 @@ void UPickupComponent::BeginPlay()
 	// ...
 	if (Collider)
 		Collider->OnComponentBeginOverlap.AddDynamic(this, &UPickupComponent::OnOverlap);
+	else
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 2.5f, FColor::Orange,
+                                         FString::Printf(
+                                             TEXT("%s: Pickup collider not set up."), *GetOwner()->GetName()));
+	}
 }
 
 void UPickupComponent::OnOverlap(class UPrimitiveComponent* HitComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
