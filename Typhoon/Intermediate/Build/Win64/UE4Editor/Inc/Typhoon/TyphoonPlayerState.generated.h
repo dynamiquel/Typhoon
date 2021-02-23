@@ -18,6 +18,7 @@ struct FDateTime;
 #define Typhoon_Source_Typhoon_TyphoonPlayerState_h_17_SPARSE_DATA
 #define Typhoon_Source_Typhoon_TyphoonPlayerState_h_17_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execAddPoints); \
 	DECLARE_FUNCTION(execSetSpawnPoint); \
 	DECLARE_FUNCTION(execGetSpawnPoint); \
 	DECLARE_FUNCTION(execSetTimeFinished); \
@@ -29,6 +30,7 @@ struct FDateTime;
 
 #define Typhoon_Source_Typhoon_TyphoonPlayerState_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execAddPoints); \
 	DECLARE_FUNCTION(execSetSpawnPoint); \
 	DECLARE_FUNCTION(execGetSpawnPoint); \
 	DECLARE_FUNCTION(execSetTimeFinished); \

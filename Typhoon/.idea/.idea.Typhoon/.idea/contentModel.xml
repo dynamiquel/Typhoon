@@ -43127,8 +43127,12 @@
         <e p="Typhoon" t="Include">
           <e p="PickupComponent.cpp" t="Include" />
           <e p="PickupComponent.h" t="Include" />
+          <e p="Projectile.cpp" t="Include" />
+          <e p="Projectile.h" t="Include" />
           <e p="StageActor.cpp" t="Include" />
           <e p="StageActor.h" t="Include" />
+          <e p="Turret.cpp" t="Include" />
+          <e p="Turret.h" t="Include" />
           <e p="Typhoon.Build.cs" t="Include" />
           <e p="Typhoon.cpp" t="Include" />
           <e p="Typhoon.h" t="Include" />

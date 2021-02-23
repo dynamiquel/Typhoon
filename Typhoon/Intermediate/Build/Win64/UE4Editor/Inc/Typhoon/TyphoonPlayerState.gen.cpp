@@ -20,6 +20,14 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonPlayerState() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FDateTime();
 // End Cross Module References
+	DEFINE_FUNCTION(ATyphoonPlayerState::execAddPoints)
+	{
+		P_GET_PROPERTY(FFloatProperty,Z_Param_Points);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->AddPoints(Z_Param_Points);
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(ATyphoonPlayerState::execSetSpawnPoint)
 	{
 		P_GET_OBJECT(AActor,Z_Param_NewSpawnPoint);
@@ -81,6 +89,7 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonPlayerState() {}
 	{
 		UClass* Class = ATyphoonPlayerState::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "AddPoints", &ATyphoonPlayerState::execAddPoints },
 			{ "GetLives", &ATyphoonPlayerState::execGetLives },
 			{ "GetSpawnPoint", &ATyphoonPlayerState::execGetSpawnPoint },
 			{ "GetTimeFinished", &ATyphoonPlayerState::execGetTimeFinished },
@@ -90,6 +99,39 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonPlayerState() {}
 			{ "SetTimeFinished", &ATyphoonPlayerState::execSetTimeFinished },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_ATyphoonPlayerState_AddPoints_Statics
+	{
+		struct TyphoonPlayerState_eventAddPoints_Parms
+		{
+			float Points;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Points;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ATyphoonPlayerState_AddPoints_Statics::NewProp_Points = { "Points", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TyphoonPlayerState_eventAddPoints_Parms, Points), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ATyphoonPlayerState_AddPoints_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATyphoonPlayerState_AddPoints_Statics::NewProp_Points,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATyphoonPlayerState_AddPoints_Statics::Function_MetaDataParams[] = {
+		{ "Category", "PlayerState" },
+		{ "ModuleRelativePath", "TyphoonPlayerState.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ATyphoonPlayerState_AddPoints_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATyphoonPlayerState, nullptr, "AddPoints", nullptr, nullptr, sizeof(TyphoonPlayerState_eventAddPoints_Parms), Z_Construct_UFunction_ATyphoonPlayerState_AddPoints_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ATyphoonPlayerState_AddPoints_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATyphoonPlayerState_AddPoints_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ATyphoonPlayerState_AddPoints_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ATyphoonPlayerState_AddPoints()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATyphoonPlayerState_AddPoints_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_ATyphoonPlayerState_GetLives_Statics
 	{
@@ -379,6 +421,7 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonPlayerState() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_Typhoon,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ATyphoonPlayerState_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_ATyphoonPlayerState_AddPoints, "AddPoints" }, // 253081353
 		{ &Z_Construct_UFunction_ATyphoonPlayerState_GetLives, "GetLives" }, // 255924718
 		{ &Z_Construct_UFunction_ATyphoonPlayerState_GetSpawnPoint, "GetSpawnPoint" }, // 2527630401
 		{ &Z_Construct_UFunction_ATyphoonPlayerState_GetTimeFinished, "GetTimeFinished" }, // 3678131623
@@ -470,7 +513,7 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonPlayerState() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATyphoonPlayerState, 2630691714);
+	IMPLEMENT_CLASS(ATyphoonPlayerState, 4104520153);
 	template<> TYPHOON_API UClass* StaticClass<ATyphoonPlayerState>()
 	{
 		return ATyphoonPlayerState::StaticClass();

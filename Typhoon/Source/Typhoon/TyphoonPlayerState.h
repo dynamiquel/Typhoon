@@ -38,6 +38,9 @@ public:
 	UFUNCTION(BlueprintCallable, Category=PlayerState)
     void SetSpawnPoint(AActor* NewSpawnPoint) { SpawnPoint = NewSpawnPoint; }
 
+	UFUNCTION(BlueprintCallable, Category=PlayerState)
+	void AddPoints(float Points);
+
 	void HandlePlayerDied();
 
 protected:

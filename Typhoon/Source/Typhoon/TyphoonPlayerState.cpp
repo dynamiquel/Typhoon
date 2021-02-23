@@ -34,6 +34,12 @@ void ATyphoonPlayerState::KillPlayer()
 	}
 }
 
+void ATyphoonPlayerState::AddPoints(float Points)
+{
+	if (GetLocalRole() == ROLE_Authority)
+		SetScore(GetScore() + Points);
+}
+
 void ATyphoonPlayerState::HandlePlayerDied()
 {
 	if (GetLocalRole() == ROLE_Authority)
