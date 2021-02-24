@@ -30,8 +30,9 @@ public:
 	void HandleManDied(ATyphoonPlayerState* HisTings);
 	void HandleMansOuttaLivesInnit(ATyphoonPlayerState* MaTings);
 	int32 GetPlayersRemaining() const;
-	void HandleCompleteStage(OUT int32& NewStage) const;
-	void HandleGameOver();
+	void HandleCompleteStage(OUT int32& NewStage, OUT bool& GameWon) const;
+	void HandleGameOver(const bool GameWon);
+	int32 GetWinStage() const { return WinStage; }
 
 protected:
 	virtual void InitGame(const FString& MapName, const FString& Options, FString& ErrorMessage) override;
@@ -84,6 +85,9 @@ private:
 
 	UPROPERTY(EditAnywhere, meta = (AllowPrivateAccess = true))
 	TSubclassOf<APawn> DeathSpectatorPawn;
+
+	UPROPERTY(EditAnywhere, meta = (AllowPrivateAccess = true))
+	int32 WinStage;
 
 	// Current game phase.
 	FName MatchInProgressState = MatchInProgressState::None;

@@ -22,11 +22,14 @@ protected:
 	UFUNCTION(BlueprintImplementableEvent)
     void OnLifetimeExceeded();
 
+	UFUNCTION(BlueprintImplementableEvent)
+    void OnActivate();
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	void Activate(float AdditionalVelocity = 0.f, float AdditionalRange = 0.f);
+	void Activate(float AdditionalVelocity = 0.f, float AdditionalRange = 0.f, AActor* ToTrack = nullptr);
 
 private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Components", meta = (AllowPrivateAccess = "true"))
@@ -40,6 +43,13 @@ private:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
 	float Lifetime = 5.f;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
+	AActor* ActorToTrack;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
+	bool DisableInitialVelocity;
+
+	
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Components", meta = (AllowPrivateAccess = "true"))
 	class UProjectileMovementComponent* ProjectileMovement;
 };

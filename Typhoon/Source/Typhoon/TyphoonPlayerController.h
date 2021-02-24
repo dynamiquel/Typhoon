@@ -16,7 +16,7 @@ class TYPHOON_API ATyphoonPlayerController : public APlayerController
 	UFUNCTION(Reliable, Client)
     void HandleBeginPlayAfterCountdown();
 	UFUNCTION(Reliable, Client)
-	void HandleGameOver();
+	void HandleGameOver(const bool GameWon);
 
 	protected:
 	virtual void BeginPlay() override;
@@ -26,7 +26,7 @@ class TYPHOON_API ATyphoonPlayerController : public APlayerController
     void OnBeginPlayAfterCountdown();
 
 	UFUNCTION(BlueprintImplementableEvent)
-	void OnGameOver();
+	void OnGameOver(bool GameWon);
 
 	void DisablePawnInput();
 

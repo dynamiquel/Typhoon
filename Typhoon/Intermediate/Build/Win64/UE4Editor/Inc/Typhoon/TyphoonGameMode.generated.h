@@ -75,7 +75,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATyphoonGameMode); \
 	FORCEINLINE static uint32 __PPO__StartLives() { return STRUCT_OFFSET(ATyphoonGameMode, StartLives); } \
 	FORCEINLINE static uint32 __PPO__RespawnDelay() { return STRUCT_OFFSET(ATyphoonGameMode, RespawnDelay); } \
 	FORCEINLINE static uint32 __PPO__StartPoint() { return STRUCT_OFFSET(ATyphoonGameMode, StartPoint); } \
-	FORCEINLINE static uint32 __PPO__DeathSpectatorPawn() { return STRUCT_OFFSET(ATyphoonGameMode, DeathSpectatorPawn); }
+	FORCEINLINE static uint32 __PPO__DeathSpectatorPawn() { return STRUCT_OFFSET(ATyphoonGameMode, DeathSpectatorPawn); } \
+	FORCEINLINE static uint32 __PPO__WinStage() { return STRUCT_OFFSET(ATyphoonGameMode, WinStage); }
 
 
 #define Typhoon_Source_Typhoon_TyphoonGameMode_h_20_PROLOG

@@ -81,6 +81,10 @@ public:
 	UFUNCTION(BlueprintImplementableEvent)
 	void UpdateTarget();
 
+protected:
+	UFUNCTION(BlueprintImplementableEvent)
+	void OnFire();
+
 private:
 	FTimerHandle AITickHandle;
 	FTimerHandle FireRateHandle;

@@ -29,12 +29,18 @@ static inline void FOnStageCompleteSignature_DelegateWrapper(const FMulticastScr
 #define Typhoon_Source_Typhoon_TyphoonGameState_h_13_SPARSE_DATA
 #define Typhoon_Source_Typhoon_TyphoonGameState_h_13_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetGameWon); \
+	DECLARE_FUNCTION(execGetEndStage); \
+	DECLARE_FUNCTION(execGetCurrentStage); \
 	DECLARE_FUNCTION(execCompleteStage); \
 	DECLARE_FUNCTION(execOnRep_MatchInProgressState);
 
 
 #define Typhoon_Source_Typhoon_TyphoonGameState_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execGetGameWon); \
+	DECLARE_FUNCTION(execGetEndStage); \
+	DECLARE_FUNCTION(execGetCurrentStage); \
 	DECLARE_FUNCTION(execCompleteStage); \
 	DECLARE_FUNCTION(execOnRep_MatchInProgressState);
 
@@ -57,7 +63,9 @@ public: \
 		CountdownEndTime, \
 		PrepPhaseDuration, \
 		CurrentStage, \
-		NETFIELD_REP_END=CurrentStage	}; \
+		EndStage, \
+		GameWon, \
+		NETFIELD_REP_END=GameWon	}; \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
@@ -77,7 +85,9 @@ public: \
 		CountdownEndTime, \
 		PrepPhaseDuration, \
 		CurrentStage, \
-		NETFIELD_REP_END=CurrentStage	}; \
+		EndStage, \
+		GameWon, \
+		NETFIELD_REP_END=GameWon	}; \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
@@ -113,7 +123,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATyphoonGameState); \
 	FORCEINLINE static uint32 __PPO__GameStartTime() { return STRUCT_OFFSET(ATyphoonGameState, GameStartTime); } \
 	FORCEINLINE static uint32 __PPO__CountdownEndTime() { return STRUCT_OFFSET(ATyphoonGameState, CountdownEndTime); } \
 	FORCEINLINE static uint32 __PPO__PrepPhaseDuration() { return STRUCT_OFFSET(ATyphoonGameState, PrepPhaseDuration); } \
-	FORCEINLINE static uint32 __PPO__CurrentStage() { return STRUCT_OFFSET(ATyphoonGameState, CurrentStage); }
+	FORCEINLINE static uint32 __PPO__CurrentStage() { return STRUCT_OFFSET(ATyphoonGameState, CurrentStage); } \
+	FORCEINLINE static uint32 __PPO__EndStage() { return STRUCT_OFFSET(ATyphoonGameState, EndStage); } \
+	FORCEINLINE static uint32 __PPO__GameWon() { return STRUCT_OFFSET(ATyphoonGameState, GameWon); }
 
 
 #define Typhoon_Source_Typhoon_TyphoonGameState_h_10_PROLOG \

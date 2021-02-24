@@ -107,7 +107,7 @@ void ATurret::Fire()
 		const FRotator SpawnRotation = BulletSpawnPoint->GetComponentRotation();
 
 		AProjectile* TempBullet = GetWorld()->SpawnActor<AProjectile>(BulletActor, SpawnLocation, SpawnRotation);
-		TempBullet->Activate(BulletVelocity, BulletMaxRange);
+		TempBullet->Activate(BulletVelocity, BulletMaxRange, CurrentTarget);
 	}
 	else
 	{
@@ -116,6 +116,7 @@ void ATurret::Fire()
 	}
 
 	//GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Blue, TEXT("Fired"));
+	OnFire();
 }
 
 void ATurret::AITick(float DeltaTime)

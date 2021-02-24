@@ -2,6 +2,10 @@
 	"BuildId": "13144385",
 	"Modules": 
 	{
+<<<<<<< Updated upstream
 		"Typhoon": "UE4Editor-Typhoon.dll"
+=======
+		"Typhoon": "UE4Editor-Typhoon-6327.dll"
+>>>>>>> Stashed changes
 	}
 }

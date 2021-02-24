@@ -25,11 +25,16 @@ void AProjectile::Tick(float DeltaTime)
 
 }
 
-void AProjectile::Activate(float AdditionalVelocity, float AdditionalRange)
+void AProjectile::Activate(float AdditionalVelocity, float AdditionalRange, AActor* ToTrack)
 {
-	ProjectileMesh->SetPhysicsLinearVelocity(GetActorForwardVector() * (Velocity + AdditionalVelocity));
+	ActorToTrack = ToTrack;
+	
+	if (!DisableInitialVelocity)
+		ProjectileMesh->SetPhysicsLinearVelocity(GetActorForwardVector() * (Velocity + AdditionalVelocity));
 
 	FTimerHandle LifetimeHandle;
 	GetWorld()->GetTimerManager().SetTimer(LifetimeHandle, this, &AProjectile::OnLifetimeExceeded, Lifetime + AdditionalRange);
+
+	OnActivate();
 }
 

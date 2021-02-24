@@ -101,16 +101,21 @@ int32 ATyphoonGameMode::GetPlayersRemaining() const
 	return PlayersRemaining;
 }
 
-void ATyphoonGameMode::HandleCompleteStage(OUT int32& NewStage) const
+void ATyphoonGameMode::HandleCompleteStage(OUT int32& NewStage, OUT bool& GameWon) const
 {
 	const int32 CurrentStage = NewStage;
 	NewStage = -1;
+	GameWon = false;
 	
 	ATyphoonGameState* FullGameState = GetGameState<ATyphoonGameState>();
 	if (FullGameState)
 	{
 		NewStage = CurrentStage + 1;
 
+		if (NewStage >= WinStage)
+		{
+			GameWon = true;
+		}
 		for (APlayerState* Player : FullGameState->PlayerArray)
 		{
 			Player->GetPawn()->TeleportTo(StartPoint.GetLocation(), StartPoint.Rotator());
@@ -230,8 +235,6 @@ void ATyphoonGameMode::OnMatchInProgressStateSet()
 		HandlePrepPhaseStarted();
 	else if (GetMatchInProgressState() == MatchInProgressState::Normal)
 		HandleGameStarted();
-	else if (GetMatchInProgressState() == MatchInProgressState::GameEnd)
-		HandleGameOver();
 }
 
 void ATyphoonGameMode::HandleCountdownStarted()
@@ -274,19 +277,25 @@ void ATyphoonGameMode::OnPrepPhaseEnded()
 	SetMatchInProgressState(MatchInProgressState::Normal);
 }
 
-void ATyphoonGameMode::HandleGameOver()
+void ATyphoonGameMode::HandleGameOver(const bool GameWon)
 {
 	UE_LOG(LogGameMode, Display, TEXT("Game over."));
+	
 	if (GameState)
 	{
 		for (APlayerState* PlayerState : GameState->PlayerArray)
 		{
 			ATyphoonPlayerState* FullPlayerState = Cast<ATyphoonPlayerState>(PlayerState);
-			
+		
 			ATyphoonPlayerController* PlayerController = Cast<ATyphoonPlayerController>(FullPlayerState->PlayerController);
 			if (PlayerController)
-				PlayerController->HandleGameOver();
+				PlayerController->HandleGameOver(GameWon);
 		}
+	}
+
+	if (GameWon)
+	{
+		UE_LOG(LogGameMode, Display, TEXT("Game won."));
 	}
 }
 

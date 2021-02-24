@@ -28,7 +28,14 @@ public:
 	UFUNCTION(BlueprintCallable, Category="GameState")
 	void CompleteStage();
 
+	UFUNCTION(BlueprintCallable, Category="GameState")
 	int32 GetCurrentStage() const { return CurrentStage; }
+
+	UFUNCTION(BlueprintCallable, Category="GameState")
+	int32 GetEndStage() const { return EndStage; }
+
+	UFUNCTION(BlueprintCallable, Category="GameState")
+	bool GetGameWon() const { return GameWon; }
 
 protected:
 	// Current game state.
@@ -42,7 +49,7 @@ protected:
 	// Time when the game 'started' (MatchInProgressState == MatchInProgressState::PrepPhase).
 	UPROPERTY(Replicated, BlueprintReadOnly, VisibleInstanceOnly, Category = GameState)
 	FDateTime GameStartTime = 0;
-
+	
 	/**
 	 * @brief Retrieved from TyphoonGameMode.
 	 * \n Since it may be a few ms off from the GameMode, it should only really be used for aesthetics,
@@ -58,6 +65,12 @@ protected:
 
 	UPROPERTY(Replicated, BlueprintReadOnly, VisibleInstanceOnly, Category = GameState)
 	int32 CurrentStage;
+
+	UPROPERTY(Replicated, BlueprintReadOnly, VisibleInstanceOnly, Category = GameState)
+	int32 EndStage;
+
+	UPROPERTY(Replicated, BlueprintReadOnly, VisibleInstanceOnly, Category = GameState)
+	bool GameWon;
 	
 	virtual void HandleMatchHasStarted() override;
 	virtual void ReceivedGameModeClass() override;

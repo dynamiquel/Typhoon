@@ -60,6 +60,27 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonGameState() {}
 		}
 		return ReturnFunction;
 	}
+	DEFINE_FUNCTION(ATyphoonGameState::execGetGameWon)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(bool*)Z_Param__Result=P_THIS->GetGameWon();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(ATyphoonGameState::execGetEndStage)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(int32*)Z_Param__Result=P_THIS->GetEndStage();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(ATyphoonGameState::execGetCurrentStage)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(int32*)Z_Param__Result=P_THIS->GetCurrentStage();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(ATyphoonGameState::execCompleteStage)
 	{
 		P_FINISH;
@@ -94,6 +115,9 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonGameState() {}
 		UClass* Class = ATyphoonGameState::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "CompleteStage", &ATyphoonGameState::execCompleteStage },
+			{ "GetCurrentStage", &ATyphoonGameState::execGetCurrentStage },
+			{ "GetEndStage", &ATyphoonGameState::execGetEndStage },
+			{ "GetGameWon", &ATyphoonGameState::execGetGameWon },
 			{ "OnRep_MatchInProgressState", &ATyphoonGameState::execOnRep_MatchInProgressState },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
@@ -193,6 +217,110 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonGameState() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_ATyphoonGameState_GetCurrentStage_Statics
+	{
+		struct TyphoonGameState_eventGetCurrentStage_Parms
+		{
+			int32 ReturnValue;
+		};
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UFunction_ATyphoonGameState_GetCurrentStage_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TyphoonGameState_eventGetCurrentStage_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ATyphoonGameState_GetCurrentStage_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATyphoonGameState_GetCurrentStage_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATyphoonGameState_GetCurrentStage_Statics::Function_MetaDataParams[] = {
+		{ "Category", "GameState" },
+		{ "ModuleRelativePath", "TyphoonGameState.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ATyphoonGameState_GetCurrentStage_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATyphoonGameState, nullptr, "GetCurrentStage", nullptr, nullptr, sizeof(TyphoonGameState_eventGetCurrentStage_Parms), Z_Construct_UFunction_ATyphoonGameState_GetCurrentStage_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ATyphoonGameState_GetCurrentStage_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATyphoonGameState_GetCurrentStage_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ATyphoonGameState_GetCurrentStage_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ATyphoonGameState_GetCurrentStage()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATyphoonGameState_GetCurrentStage_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ATyphoonGameState_GetEndStage_Statics
+	{
+		struct TyphoonGameState_eventGetEndStage_Parms
+		{
+			int32 ReturnValue;
+		};
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UFunction_ATyphoonGameState_GetEndStage_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TyphoonGameState_eventGetEndStage_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ATyphoonGameState_GetEndStage_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATyphoonGameState_GetEndStage_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATyphoonGameState_GetEndStage_Statics::Function_MetaDataParams[] = {
+		{ "Category", "GameState" },
+		{ "ModuleRelativePath", "TyphoonGameState.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ATyphoonGameState_GetEndStage_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATyphoonGameState, nullptr, "GetEndStage", nullptr, nullptr, sizeof(TyphoonGameState_eventGetEndStage_Parms), Z_Construct_UFunction_ATyphoonGameState_GetEndStage_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ATyphoonGameState_GetEndStage_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATyphoonGameState_GetEndStage_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ATyphoonGameState_GetEndStage_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ATyphoonGameState_GetEndStage()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATyphoonGameState_GetEndStage_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ATyphoonGameState_GetGameWon_Statics
+	{
+		struct TyphoonGameState_eventGetGameWon_Parms
+		{
+			bool ReturnValue;
+		};
+		static void NewProp_ReturnValue_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_ATyphoonGameState_GetGameWon_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+	{
+		((TyphoonGameState_eventGetGameWon_Parms*)Obj)->ReturnValue = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_ATyphoonGameState_GetGameWon_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(TyphoonGameState_eventGetGameWon_Parms), &Z_Construct_UFunction_ATyphoonGameState_GetGameWon_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ATyphoonGameState_GetGameWon_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATyphoonGameState_GetGameWon_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATyphoonGameState_GetGameWon_Statics::Function_MetaDataParams[] = {
+		{ "Category", "GameState" },
+		{ "ModuleRelativePath", "TyphoonGameState.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ATyphoonGameState_GetGameWon_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATyphoonGameState, nullptr, "GetGameWon", nullptr, nullptr, sizeof(TyphoonGameState_eventGetGameWon_Parms), Z_Construct_UFunction_ATyphoonGameState_GetGameWon_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ATyphoonGameState_GetGameWon_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATyphoonGameState_GetGameWon_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ATyphoonGameState_GetGameWon_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ATyphoonGameState_GetGameWon()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATyphoonGameState_GetGameWon_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_ATyphoonGameState_OnRep_MatchInProgressState_Statics
 	{
 #if WITH_METADATA
@@ -226,6 +354,15 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonGameState() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GameWon_MetaData[];
+#endif
+		static void NewProp_GameWon_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_GameWon;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_EndStage_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_EndStage;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentStage_MetaData[];
 #endif
@@ -267,6 +404,9 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonGameState() {}
 		{ &Z_Construct_UFunction_ATyphoonGameState_BP_OnGameStarted, "BP_OnGameStarted" }, // 1762299940
 		{ &Z_Construct_UFunction_ATyphoonGameState_BP_OnPrepPhaseStarted, "BP_OnPrepPhaseStarted" }, // 211749464
 		{ &Z_Construct_UFunction_ATyphoonGameState_CompleteStage, "CompleteStage" }, // 2164022300
+		{ &Z_Construct_UFunction_ATyphoonGameState_GetCurrentStage, "GetCurrentStage" }, // 1788110583
+		{ &Z_Construct_UFunction_ATyphoonGameState_GetEndStage, "GetEndStage" }, // 2434242188
+		{ &Z_Construct_UFunction_ATyphoonGameState_GetGameWon, "GetGameWon" }, // 218905117
 		{ &Z_Construct_UFunction_ATyphoonGameState_OnRep_MatchInProgressState, "OnRep_MatchInProgressState" }, // 2232815454
 		{ &Z_Construct_UDelegateFunction_ATyphoonGameState_OnStageCompleteSignature__DelegateSignature, "OnStageCompleteSignature__DelegateSignature" }, // 2367170676
 	};
@@ -280,6 +420,24 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonGameState() {}
 		{ "ToolTip", "A bit more than the standard GameState." },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_GameWon_MetaData[] = {
+		{ "Category", "GameState" },
+		{ "ModuleRelativePath", "TyphoonGameState.h" },
+	};
+#endif
+	void Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_GameWon_SetBit(void* Obj)
+	{
+		((ATyphoonGameState*)Obj)->GameWon = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_GameWon = { "GameWon", nullptr, (EPropertyFlags)0x0020080000020835, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ATyphoonGameState), &Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_GameWon_SetBit, METADATA_PARAMS(Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_GameWon_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_GameWon_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_EndStage_MetaData[] = {
+		{ "Category", "GameState" },
+		{ "ModuleRelativePath", "TyphoonGameState.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_EndStage = { "EndStage", nullptr, (EPropertyFlags)0x0020080000020835, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATyphoonGameState, EndStage), METADATA_PARAMS(Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_EndStage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_EndStage_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_CurrentStage_MetaData[] = {
 		{ "Category", "GameState" },
@@ -340,6 +498,8 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonGameState() {}
 #endif
 	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_OnStageComplete = { "OnStageComplete", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATyphoonGameState, OnStageComplete), Z_Construct_UDelegateFunction_ATyphoonGameState_OnStageCompleteSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_OnStageComplete_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_OnStageComplete_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATyphoonGameState_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_GameWon,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_EndStage,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_CurrentStage,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_PrepPhaseDuration,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATyphoonGameState_Statics::NewProp_CountdownEndTime,
@@ -375,7 +535,7 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonGameState() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATyphoonGameState, 2345721623);
+	IMPLEMENT_CLASS(ATyphoonGameState, 980568915);
 	template<> TYPHOON_API UClass* StaticClass<ATyphoonGameState>()
 	{
 		return ATyphoonGameState::StaticClass();
@@ -390,6 +550,8 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonGameState() {}
 		static const FName Name_CountdownEndTime(TEXT("CountdownEndTime"));
 		static const FName Name_PrepPhaseDuration(TEXT("PrepPhaseDuration"));
 		static const FName Name_CurrentStage(TEXT("CurrentStage"));
+		static const FName Name_EndStage(TEXT("EndStage"));
+		static const FName Name_GameWon(TEXT("GameWon"));
 
 		const bool bIsValid = true
 			&& Name_MatchInProgressState == ClassReps[(int32)ENetFields_Private::MatchInProgressState].Property->GetFName()
@@ -397,7 +559,9 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonGameState() {}
 			&& Name_GameStartTime == ClassReps[(int32)ENetFields_Private::GameStartTime].Property->GetFName()
 			&& Name_CountdownEndTime == ClassReps[(int32)ENetFields_Private::CountdownEndTime].Property->GetFName()
 			&& Name_PrepPhaseDuration == ClassReps[(int32)ENetFields_Private::PrepPhaseDuration].Property->GetFName()
-			&& Name_CurrentStage == ClassReps[(int32)ENetFields_Private::CurrentStage].Property->GetFName();
+			&& Name_CurrentStage == ClassReps[(int32)ENetFields_Private::CurrentStage].Property->GetFName()
+			&& Name_EndStage == ClassReps[(int32)ENetFields_Private::EndStage].Property->GetFName()
+			&& Name_GameWon == ClassReps[(int32)ENetFields_Private::GameWon].Property->GetFName();
 
 		checkf(bIsValid, TEXT("UHT Generated Rep Indices do not match runtime populated Rep Indices for properties in ATyphoonGameState"));
 	}

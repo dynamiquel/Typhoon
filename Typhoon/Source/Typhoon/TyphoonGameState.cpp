@@ -39,6 +39,7 @@ void ATyphoonGameState::ReceivedGameModeClass()
 			return;
 		
 		PrepPhaseDuration = GameMode->GetPrepPhaseDuration();
+		EndStage = GameMode->GetWinStage();
 	}
 }
 
@@ -84,7 +85,7 @@ void ATyphoonGameState::HandleGameOver()
 		if (!GameMode)
 			return;
 
-		GameMode->HandleGameOver();
+		GameMode->HandleGameOver(GameWon);
 	}
 }
 
@@ -108,8 +109,11 @@ void ATyphoonGameState::CompleteStage()
 		if (!GameMode)
 			return;
 
-		GameMode->HandleCompleteStage(CurrentStage);
+		GameMode->HandleCompleteStage(CurrentStage, GameWon);
 		OnStageComplete.Broadcast(CurrentStage);
+
+		if (GameWon)
+			GameMode->HandleGameOver(GameWon);
 	}
 }
 
@@ -123,5 +127,6 @@ void ATyphoonGameState::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& Ou
 	DOREPLIFETIME( ATyphoonGameState, CountdownEndTime );
 	DOREPLIFETIME( ATyphoonGameState, PrepPhaseDuration );
 	DOREPLIFETIME( ATyphoonGameState, CurrentStage );
-
+	DOREPLIFETIME( ATyphoonGameState, EndStage );
+	DOREPLIFETIME( ATyphoonGameState, GameWon );
 }

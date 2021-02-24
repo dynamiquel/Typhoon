@@ -18,9 +18,9 @@ void ATyphoonPlayerController::HandleBeginPlayAfterCountdown_Implementation()
 	OnBeginPlayAfterCountdown();
 }
 
-void ATyphoonPlayerController::HandleGameOver_Implementation()
+void ATyphoonPlayerController::HandleGameOver_Implementation(const bool GameWon)
 {
-	OnGameOver();
+	OnGameOver(GameWon);
 }
 
 void ATyphoonPlayerController::BeginPlay()
