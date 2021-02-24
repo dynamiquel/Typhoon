@@ -75,3 +75,4 @@ Typhoon/Plugins/*/Intermediate/*
 
 # Rider files
 Typhoon/.idea/*
+Typhoon/Content/ChameleonDemo/ChameleonDemoHall_BuiltData.uasset
