@@ -3,7 +3,6 @@
 ## Contributors
 - Liam HALL (Programmer)
 - Bradley ASHELY (Programmer)
-- Callum MAXWELL (Programmer)
 - Savir SOHAL (Designer)
 - Charlie LEWIN (Designer)
 - Zhi CHEN (Designer)
