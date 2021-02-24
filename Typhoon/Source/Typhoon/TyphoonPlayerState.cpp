@@ -2,7 +2,6 @@
 
 
 #include "TyphoonPlayerState.h"
-
 #include "GeneratedCodeHelpers.h"
 #include "TyphoonGameMode.h"
 #include "TyphoonGameState.h"
@@ -28,6 +27,11 @@ void ATyphoonPlayerState::KillPlayer()
 	// Only allows the server to execute the following logic.
 	if (GetLocalRole() == ROLE_Authority)
 	{
+		if (GodMode)
+		{
+			return;
+		}
+		
 		ATyphoonGameMode* GameMode = GetWorld()->GetAuthGameMode<ATyphoonGameMode>();
 		if (GameMode)
 			GameMode->HandleManDied(this);
@@ -38,6 +42,12 @@ void ATyphoonPlayerState::AddPoints(float Points)
 {
 	if (GetLocalRole() == ROLE_Authority)
 		SetScore(GetScore() + Points);
+}
+
+void ATyphoonPlayerState::ToggleGodMode()
+{
+	if (GetLocalRole() == ROLE_Authority)
+		GodMode = !GodMode;
 }
 
 void ATyphoonPlayerState::HandlePlayerDied()
@@ -65,4 +75,6 @@ void ATyphoonPlayerState::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& 
 	DOREPLIFETIME( ATyphoonPlayerState, Lives );
 	DOREPLIFETIME( ATyphoonPlayerState, TimeFinished );
 	DOREPLIFETIME( ATyphoonPlayerState, Deaths );
+	DOREPLIFETIME( ATyphoonPlayerState, SpawnPoint );
+	DOREPLIFETIME( ATyphoonPlayerState, GodMode );
 }

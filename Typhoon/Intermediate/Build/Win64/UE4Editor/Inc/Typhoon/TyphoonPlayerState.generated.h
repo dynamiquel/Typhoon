@@ -18,6 +18,7 @@ struct FDateTime;
 #define Typhoon_Source_Typhoon_TyphoonPlayerState_h_17_SPARSE_DATA
 #define Typhoon_Source_Typhoon_TyphoonPlayerState_h_17_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execToggleGodMode); \
 	DECLARE_FUNCTION(execAddPoints); \
 	DECLARE_FUNCTION(execSetSpawnPoint); \
 	DECLARE_FUNCTION(execGetSpawnPoint); \
@@ -30,6 +31,7 @@ struct FDateTime;
 
 #define Typhoon_Source_Typhoon_TyphoonPlayerState_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execToggleGodMode); \
 	DECLARE_FUNCTION(execAddPoints); \
 	DECLARE_FUNCTION(execSetSpawnPoint); \
 	DECLARE_FUNCTION(execGetSpawnPoint); \
@@ -56,7 +58,8 @@ public: \
 		Deaths, \
 		TimeFinished, \
 		SpawnPoint, \
-		NETFIELD_REP_END=SpawnPoint	}; \
+		GodMode, \
+		NETFIELD_REP_END=GodMode	}; \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
@@ -74,7 +77,8 @@ public: \
 		Deaths, \
 		TimeFinished, \
 		SpawnPoint, \
-		NETFIELD_REP_END=SpawnPoint	}; \
+		GodMode, \
+		NETFIELD_REP_END=GodMode	}; \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
@@ -108,7 +112,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATyphoonPlayerState); \
 	FORCEINLINE static uint32 __PPO__Lives() { return STRUCT_OFFSET(ATyphoonPlayerState, Lives); } \
 	FORCEINLINE static uint32 __PPO__Deaths() { return STRUCT_OFFSET(ATyphoonPlayerState, Deaths); } \
 	FORCEINLINE static uint32 __PPO__TimeFinished() { return STRUCT_OFFSET(ATyphoonPlayerState, TimeFinished); } \
-	FORCEINLINE static uint32 __PPO__SpawnPoint() { return STRUCT_OFFSET(ATyphoonPlayerState, SpawnPoint); }
+	FORCEINLINE static uint32 __PPO__SpawnPoint() { return STRUCT_OFFSET(ATyphoonPlayerState, SpawnPoint); } \
+	FORCEINLINE static uint32 __PPO__GodMode() { return STRUCT_OFFSET(ATyphoonPlayerState, GodMode); }
 
 
 #define Typhoon_Source_Typhoon_TyphoonPlayerState_h_14_PROLOG \

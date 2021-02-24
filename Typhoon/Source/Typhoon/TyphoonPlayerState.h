@@ -41,6 +41,9 @@ public:
 	UFUNCTION(BlueprintCallable, Category=PlayerState)
 	void AddPoints(float Points);
 
+	UFUNCTION(BlueprintCallable, Category=PlayerState)
+	void ToggleGodMode();
+
 	void HandlePlayerDied();
 
 	// Keeps reference to player controller.
@@ -68,6 +71,9 @@ private:
 	// Where to spawn the player when they respawn.
 	UPROPERTY(Replicated, VisibleAnywhere, Category=PlayerState, meta = (AllowPrivateAccess = true))
 	AActor* SpawnPoint;
+
+	UPROPERTY(Replicated, VisibleAnywhere, Category=PlayerState, meta = (AllowPrivateAccess = true))
+	bool GodMode;
 
 	virtual void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 };

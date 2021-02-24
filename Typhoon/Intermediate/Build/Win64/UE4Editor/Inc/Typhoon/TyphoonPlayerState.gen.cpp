@@ -20,6 +20,13 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonPlayerState() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FDateTime();
 // End Cross Module References
+	DEFINE_FUNCTION(ATyphoonPlayerState::execToggleGodMode)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->ToggleGodMode();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(ATyphoonPlayerState::execAddPoints)
 	{
 		P_GET_PROPERTY(FFloatProperty,Z_Param_Points);
@@ -97,6 +104,7 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonPlayerState() {}
 			{ "SetLives", &ATyphoonPlayerState::execSetLives },
 			{ "SetSpawnPoint", &ATyphoonPlayerState::execSetSpawnPoint },
 			{ "SetTimeFinished", &ATyphoonPlayerState::execSetTimeFinished },
+			{ "ToggleGodMode", &ATyphoonPlayerState::execToggleGodMode },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -385,6 +393,29 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonPlayerState() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_ATyphoonPlayerState_ToggleGodMode_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATyphoonPlayerState_ToggleGodMode_Statics::Function_MetaDataParams[] = {
+		{ "Category", "PlayerState" },
+		{ "ModuleRelativePath", "TyphoonPlayerState.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ATyphoonPlayerState_ToggleGodMode_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATyphoonPlayerState, nullptr, "ToggleGodMode", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATyphoonPlayerState_ToggleGodMode_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ATyphoonPlayerState_ToggleGodMode_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ATyphoonPlayerState_ToggleGodMode()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATyphoonPlayerState_ToggleGodMode_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_ATyphoonPlayerState_NoRegister()
 	{
 		return ATyphoonPlayerState::StaticClass();
@@ -396,6 +427,11 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonPlayerState() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GodMode_MetaData[];
+#endif
+		static void NewProp_GodMode_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_GodMode;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpawnPoint_MetaData[];
 #endif
@@ -430,6 +466,7 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonPlayerState() {}
 		{ &Z_Construct_UFunction_ATyphoonPlayerState_SetLives, "SetLives" }, // 863440341
 		{ &Z_Construct_UFunction_ATyphoonPlayerState_SetSpawnPoint, "SetSpawnPoint" }, // 2218070551
 		{ &Z_Construct_UFunction_ATyphoonPlayerState_SetTimeFinished, "SetTimeFinished" }, // 454449935
+		{ &Z_Construct_UFunction_ATyphoonPlayerState_ToggleGodMode, "ToggleGodMode" }, // 3158913454
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATyphoonPlayerState_Statics::Class_MetaDataParams[] = {
@@ -440,6 +477,18 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonPlayerState() {}
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATyphoonPlayerState_Statics::NewProp_GodMode_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "PlayerState" },
+		{ "ModuleRelativePath", "TyphoonPlayerState.h" },
+	};
+#endif
+	void Z_Construct_UClass_ATyphoonPlayerState_Statics::NewProp_GodMode_SetBit(void* Obj)
+	{
+		((ATyphoonPlayerState*)Obj)->GodMode = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ATyphoonPlayerState_Statics::NewProp_GodMode = { "GodMode", nullptr, (EPropertyFlags)0x0040000000020021, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ATyphoonPlayerState), &Z_Construct_UClass_ATyphoonPlayerState_Statics::NewProp_GodMode_SetBit, METADATA_PARAMS(Z_Construct_UClass_ATyphoonPlayerState_Statics::NewProp_GodMode_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATyphoonPlayerState_Statics::NewProp_GodMode_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATyphoonPlayerState_Statics::NewProp_SpawnPoint_MetaData[] = {
 		{ "AllowPrivateAccess", "TRUE" },
@@ -481,6 +530,7 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonPlayerState() {}
 #endif
 	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ATyphoonPlayerState_Statics::NewProp_Lives = { "Lives", nullptr, (EPropertyFlags)0x0040000000020021, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATyphoonPlayerState, Lives), METADATA_PARAMS(Z_Construct_UClass_ATyphoonPlayerState_Statics::NewProp_Lives_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATyphoonPlayerState_Statics::NewProp_Lives_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATyphoonPlayerState_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATyphoonPlayerState_Statics::NewProp_GodMode,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATyphoonPlayerState_Statics::NewProp_SpawnPoint,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATyphoonPlayerState_Statics::NewProp_TimeFinished,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATyphoonPlayerState_Statics::NewProp_Deaths,
@@ -513,7 +563,7 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonPlayerState() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATyphoonPlayerState, 4104520153);
+	IMPLEMENT_CLASS(ATyphoonPlayerState, 1900979877);
 	template<> TYPHOON_API UClass* StaticClass<ATyphoonPlayerState>()
 	{
 		return ATyphoonPlayerState::StaticClass();
@@ -526,12 +576,14 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonPlayerState() {}
 		static const FName Name_Deaths(TEXT("Deaths"));
 		static const FName Name_TimeFinished(TEXT("TimeFinished"));
 		static const FName Name_SpawnPoint(TEXT("SpawnPoint"));
+		static const FName Name_GodMode(TEXT("GodMode"));
 
 		const bool bIsValid = true
 			&& Name_Lives == ClassReps[(int32)ENetFields_Private::Lives].Property->GetFName()
 			&& Name_Deaths == ClassReps[(int32)ENetFields_Private::Deaths].Property->GetFName()
 			&& Name_TimeFinished == ClassReps[(int32)ENetFields_Private::TimeFinished].Property->GetFName()
-			&& Name_SpawnPoint == ClassReps[(int32)ENetFields_Private::SpawnPoint].Property->GetFName();
+			&& Name_SpawnPoint == ClassReps[(int32)ENetFields_Private::SpawnPoint].Property->GetFName()
+			&& Name_GodMode == ClassReps[(int32)ENetFields_Private::GodMode].Property->GetFName();
 
 		checkf(bIsValid, TEXT("UHT Generated Rep Indices do not match runtime populated Rep Indices for properties in ATyphoonPlayerState"));
 	}
