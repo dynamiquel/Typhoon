@@ -13,6 +13,7 @@ class TYPHOON_API ATyphoonGameState : public AGameState
 	GENERATED_BODY()
 
 public:
+	UFUNCTION(BlueprintCallable, Category="GameState")
 	FName GetMatchInProgressState() const { return MatchInProgressState; }
 	void SetMatchInProgressState(FName NewState);
 	

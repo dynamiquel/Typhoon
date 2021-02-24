@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "Typhoon",
-			"Path": "C:\\Users\\Bradley\\Desktop\\Game\\Typhoon\\Typhoon\\Source\\Typhoon.Target.cs",
+			"Path": "S:\\Users\\Liamk\\Development\\Games\\Typhoon\\Typhoon2\\Typhoon\\Source\\Typhoon.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "TyphoonEditor",
-			"Path": "C:\\Users\\Bradley\\Desktop\\Game\\Typhoon\\Typhoon\\Source\\TyphoonEditor.Target.cs",
+			"Path": "S:\\Users\\Liamk\\Development\\Games\\Typhoon\\Typhoon2\\Typhoon\\Source\\TyphoonEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

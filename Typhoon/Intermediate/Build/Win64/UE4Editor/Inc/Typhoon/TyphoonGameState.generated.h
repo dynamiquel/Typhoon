@@ -13,7 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define TYPHOON_TyphoonGameState_generated_h
 
-#define Typhoon_Source_Typhoon_TyphoonGameState_h_23_DELEGATE \
+#define Typhoon_Source_Typhoon_TyphoonGameState_h_24_DELEGATE \
 struct TyphoonGameState_eventOnStageCompleteSignature_Parms \
 { \
 	int32 NewStageValue; \
@@ -33,7 +33,8 @@ static inline void FOnStageCompleteSignature_DelegateWrapper(const FMulticastScr
 	DECLARE_FUNCTION(execGetEndStage); \
 	DECLARE_FUNCTION(execGetCurrentStage); \
 	DECLARE_FUNCTION(execCompleteStage); \
-	DECLARE_FUNCTION(execOnRep_MatchInProgressState);
+	DECLARE_FUNCTION(execOnRep_MatchInProgressState); \
+	DECLARE_FUNCTION(execGetMatchInProgressState);
 
 
 #define Typhoon_Source_Typhoon_TyphoonGameState_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
@@ -42,7 +43,8 @@ static inline void FOnStageCompleteSignature_DelegateWrapper(const FMulticastScr
 	DECLARE_FUNCTION(execGetEndStage); \
 	DECLARE_FUNCTION(execGetCurrentStage); \
 	DECLARE_FUNCTION(execCompleteStage); \
-	DECLARE_FUNCTION(execOnRep_MatchInProgressState);
+	DECLARE_FUNCTION(execOnRep_MatchInProgressState); \
+	DECLARE_FUNCTION(execGetMatchInProgressState);
 
 
 #define Typhoon_Source_Typhoon_TyphoonGameState_h_13_EVENT_PARMS

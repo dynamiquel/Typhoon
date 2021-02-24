@@ -4219,7 +4219,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/BoxShadow.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/Button.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Button.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4227,7 +4235,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Button_Disabled.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/Button_Hovered.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Button_Hovered.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4235,7 +4251,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Button_Pressed.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/Check.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Check.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4243,7 +4267,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/CheckBox.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/CheckBox_Checked.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/CheckBox_Checked.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4251,7 +4283,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/CheckBox_Checked_Hovered.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/CheckBox_Hovered.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/CheckBox_Hovered.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4259,7 +4299,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/CheckBox_Undetermined.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/CheckBox_Undetermined_Hovered.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/CheckBox_Undetermined_Hovered.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4267,7 +4315,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Checker.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/Circle.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Circle.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4275,7 +4331,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/ColorGradingWheel.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/ColorPicker_Mode_16x.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/ColorPicker_Mode_16x.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4283,7 +4347,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/ColorPicker_Separator.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/ColorPicker_SliderHandle.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/ColorPicker_SliderHandle.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4291,7 +4363,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/ColorSpectrum.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/ColorWheel.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/ColorWheel.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4299,7 +4379,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/ColumnHeader.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/ColumnHeaderMenuButton_Hovered.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/ColumnHeaderMenuButton_Hovered.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4307,7 +4395,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/ColumnHeaderMenuButton_Normal.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/ColumnHeader_Arrow.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/ColumnHeader_Arrow.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4315,7 +4411,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/ColumnHeader_Hovered.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/ComboArrow.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/ComboArrow.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4323,7 +4427,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/CursorPing.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/DebugBorder.PNG",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/DebugBorder.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4331,7 +4443,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Delimiter.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/DownArrow.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/DownArrow.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4339,7 +4459,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/DropZoneIndicator_Above.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/DropZoneIndicator_Below.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/DropZoneIndicator_Below.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4347,7 +4475,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/DropZoneIndicator_Onto.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/EditableTextSelectionBackground.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/EditableTextSelectionBackground.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4355,11 +4491,23 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/EventMessage_Default.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/ExpansionButton_CloseOverlay.png",
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/ExpansionButton_CloseOverlay.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/GroupBorder.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/GroupBorder.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4371,7 +4519,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/HeaderSplitterGrip.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/LastColumnHeader_Hovered.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/LastColumnHeader_Hovered.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4379,7 +4535,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/NoiseBackground.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/ProgressBar_Background.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/ProgressBar_Background.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4387,7 +4551,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/ProgressBar_Fill.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/ProgressBar_Marquee.PNG",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/ProgressBar_Marquee.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4395,7 +4567,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/RadioButton_SelectedBack_16x.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/RadioButton_Selected_16x.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/RadioButton_Selected_16x.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4403,7 +4583,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/RadioButton_Unselected_16x.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/RoundedSelection_16x.PNG",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/RoundedSelection_16x.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4411,7 +4599,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Scrollbar_Background_Horizontal.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/Scrollbar_Background_Vertical.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Scrollbar_Background_Vertical.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4419,7 +4615,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Scrollbar_Thumb.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/ScrollBorderShadowBottom.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/ScrollBorderShadowBottom.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4427,7 +4631,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/ScrollBorderShadowTop.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/ScrollBoxShadowBottom.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/ScrollBoxShadowBottom.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4435,7 +4647,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/ScrollBoxShadowLeft.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/ScrollBoxShadowRight.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/ScrollBoxShadowRight.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4443,7 +4663,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/ScrollBoxShadowTop.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/SearchGlass.PNG",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/SearchGlass.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4451,7 +4679,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Selection.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/Selector.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Selector.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4459,7 +4695,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Separator.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/SmallCheck.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/SmallCheck.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4467,7 +4711,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/SmallCheckBox.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/SmallCheckBox_Checked.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/SmallCheckBox_Checked.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4475,7 +4727,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/SmallCheckBox_Checked_Hovered.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/SmallCheckBox_Hovered.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/SmallCheckBox_Hovered.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4483,7 +4743,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/SmallCheckBox_Undetermined.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/SmallCheckBox_Undetermined_Hovered.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/SmallCheckBox_Undetermined_Hovered.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4491,7 +4759,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/SortDownArrow.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/SortDownArrows.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/SortDownArrows.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4499,7 +4775,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/SortUpArrow.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/SortUpArrows.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/SortUpArrows.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4507,7 +4791,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/SpinArrows.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/Spinbox.PNG",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Spinbox.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4515,7 +4807,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Spinbox_Fill.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/Spinbox_Fill_Dark.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Spinbox_Fill_Dark.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4523,7 +4823,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Spinbox_Fill_Hovered.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/Spinbox_Fill_Hovered_Dark.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Spinbox_Fill_Hovered_Dark.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4531,7 +4839,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Spinbox_Hovered.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/SplitterHandleHighlight.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/SplitterHandleHighlight.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4539,7 +4855,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/SubmenuArrow.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/TableViewHeader.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/TableViewHeader.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4547,7 +4871,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/TableViewMajorColumn.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/TextBlockHighlightShape.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/TextBlockHighlightShape.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4555,7 +4887,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/TextBlockHighlightShape_Empty.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/TextBox.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/TextBox.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4563,7 +4903,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/TextBoxLabelBorder.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/TextBox_Dark.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/TextBox_Dark.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4571,7 +4919,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/TextBox_Hovered.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/TextBox_Hovered_Dark.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/TextBox_Hovered_Dark.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4579,7 +4935,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/TextBox_ReadOnly.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/TextBox_Special.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/TextBox_Special.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4587,7 +4951,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/TextBox_Special_Hovered.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/Throbber_Piece.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Throbber_Piece.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4595,7 +4967,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/TreeArrow_Collapsed.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/TreeArrow_Collapsed_Hovered.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/TreeArrow_Collapsed_Hovered.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4603,7 +4983,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/TreeArrow_Expanded.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/TreeArrow_Expanded_Hovered.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/TreeArrow_Expanded_Hovered.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4611,7 +4999,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/UpArrow.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/VerticalBoxDragIndicator.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/VerticalBoxDragIndicator.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4619,7 +5015,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/VerticalBoxDragIndicatorShort.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/VolumeControl_High.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/VolumeControl_High.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4627,7 +5031,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/VolumeControl_Low.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/VolumeControl_Mid.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/VolumeControl_Mid.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4635,7 +5047,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/VolumeControl_Muted.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/VolumeControl_Off.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/VolumeControl_Off.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4643,7 +5063,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/WhiteGroupBorder.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/X.PNG",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/X.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4651,7 +5079,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Window/WindowBackground.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/Window/WindowBorder.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Window/WindowBorder.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4659,7 +5095,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Window/WindowButton_Close_Hovered.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/Window/WindowButton_Close_Normal.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Window/WindowButton_Close_Normal.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4667,7 +5111,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Window/WindowButton_Close_Pressed.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/Window/WindowButton_Maximize_Disabled.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Window/WindowButton_Maximize_Disabled.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4675,7 +5127,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Window/WindowButton_Maximize_Hovered.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/Window/WindowButton_Maximize_Normal.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Window/WindowButton_Maximize_Normal.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4683,7 +5143,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Window/WindowButton_Maximize_Pressed.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/Window/WindowButton_Minimize_Disabled.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Window/WindowButton_Minimize_Disabled.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4691,7 +5159,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Window/WindowButton_Minimize_Hovered.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/Window/WindowButton_Minimize_Normal.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Window/WindowButton_Minimize_Normal.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4699,7 +5175,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Window/WindowButton_Minimize_Pressed.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/Window/WindowButton_Restore_Hovered.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Window/WindowButton_Restore_Hovered.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4707,7 +5191,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Window/WindowButton_Restore_Normal.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/Window/WindowButton_Restore_Pressed.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Window/WindowButton_Restore_Pressed.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4715,7 +5207,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Window/WindowOutline.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/Window/WindowTitle.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Window/WindowTitle.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4723,7 +5223,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Window/WindowTitle_Flashing.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Common/Window/WindowTitle_Inactive.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Common/Window/WindowTitle_Inactive.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4731,7 +5239,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/CrashTracker/MouseCursor.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/CrashTracker/Record.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/CrashTracker/Record.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4739,7 +5255,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Docking/AppTabContentArea.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Docking/AppTabWellSeparator.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Docking/AppTabWellSeparator.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4747,7 +5271,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Docking/AppTab_Active.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Docking/AppTab_ColorOverlay.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Docking/AppTab_ColorOverlay.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4755,7 +5287,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Docking/AppTab_ColorOverlayIcon.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Docking/AppTab_Foreground.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Docking/AppTab_Foreground.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4763,7 +5303,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Docking/AppTab_Hovered.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Docking/AppTab_Inactive.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Docking/AppTab_Inactive.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4771,7 +5319,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Docking/CloseApp_Hovered.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Docking/CloseApp_Normal.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Docking/CloseApp_Normal.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4779,7 +5335,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Docking/CloseApp_Pressed.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Docking/DockingIndicator_Center.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Docking/DockingIndicator_Center.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4787,7 +5351,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Docking/OuterDockingIndicator.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Docking/ShowTabwellButton_Hovered.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Docking/ShowTabwellButton_Hovered.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4795,7 +5367,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Docking/ShowTabwellButton_Normal.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Docking/ShowTabwellButton_Pressed.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Docking/ShowTabwellButton_Pressed.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4803,7 +5383,23 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Docking/TabContentArea.psd",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Docking/TabContextButton.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Docking/TabContextButton.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Docking/TabWellSeparator.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Docking/TabWellSeparator.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4811,7 +5407,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Docking/Tab_Active.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Docking/Tab_ColorOverlay.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Docking/Tab_ColorOverlay.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4819,7 +5423,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Docking/Tab_ColorOverlayIcon.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Docking/Tab_Foreground.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Docking/Tab_Foreground.psd",
 			"Type": "UFS"
 		},
 		{
@@ -4827,7 +5439,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Docking/Tab_Hovered.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Docking/Tab_Inactive.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Docking/Tab_Inactive.psd",
 			"Type": "UFS"
 		},
 		{
@@ -5135,6 +5755,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Old/Menu_Background.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Old/Menu_Background_Inverted_Border_Bold.png",
 			"Type": "UFS"
 		},
@@ -5147,7 +5771,15 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Content/Slate/Old/ToolBar_Background.psd",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Content/Slate/Old/ToolTip_Background.png",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Content/Slate/Old/ToolTip_Background.psd",
 			"Type": "UFS"
 		},
 		{

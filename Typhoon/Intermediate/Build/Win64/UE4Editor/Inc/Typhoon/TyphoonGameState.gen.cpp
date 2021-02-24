@@ -95,6 +95,13 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonGameState() {}
 		P_THIS->OnRep_MatchInProgressState();
 		P_NATIVE_END;
 	}
+	DEFINE_FUNCTION(ATyphoonGameState::execGetMatchInProgressState)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(FName*)Z_Param__Result=P_THIS->GetMatchInProgressState();
+		P_NATIVE_END;
+	}
 	static FName NAME_ATyphoonGameState_BP_OnCountdownStarted = FName(TEXT("BP_OnCountdownStarted"));
 	void ATyphoonGameState::BP_OnCountdownStarted()
 	{
@@ -118,6 +125,7 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonGameState() {}
 			{ "GetCurrentStage", &ATyphoonGameState::execGetCurrentStage },
 			{ "GetEndStage", &ATyphoonGameState::execGetEndStage },
 			{ "GetGameWon", &ATyphoonGameState::execGetGameWon },
+			{ "GetMatchInProgressState", &ATyphoonGameState::execGetMatchInProgressState },
 			{ "OnRep_MatchInProgressState", &ATyphoonGameState::execOnRep_MatchInProgressState },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
@@ -321,6 +329,39 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonGameState() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_ATyphoonGameState_GetMatchInProgressState_Statics
+	{
+		struct TyphoonGameState_eventGetMatchInProgressState_Parms
+		{
+			FName ReturnValue;
+		};
+		static const UE4CodeGen_Private::FNamePropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FNamePropertyParams Z_Construct_UFunction_ATyphoonGameState_GetMatchInProgressState_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TyphoonGameState_eventGetMatchInProgressState_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ATyphoonGameState_GetMatchInProgressState_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATyphoonGameState_GetMatchInProgressState_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATyphoonGameState_GetMatchInProgressState_Statics::Function_MetaDataParams[] = {
+		{ "Category", "GameState" },
+		{ "ModuleRelativePath", "TyphoonGameState.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ATyphoonGameState_GetMatchInProgressState_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATyphoonGameState, nullptr, "GetMatchInProgressState", nullptr, nullptr, sizeof(TyphoonGameState_eventGetMatchInProgressState_Parms), Z_Construct_UFunction_ATyphoonGameState_GetMatchInProgressState_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ATyphoonGameState_GetMatchInProgressState_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATyphoonGameState_GetMatchInProgressState_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ATyphoonGameState_GetMatchInProgressState_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ATyphoonGameState_GetMatchInProgressState()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATyphoonGameState_GetMatchInProgressState_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_ATyphoonGameState_OnRep_MatchInProgressState_Statics
 	{
 #if WITH_METADATA
@@ -407,6 +448,7 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonGameState() {}
 		{ &Z_Construct_UFunction_ATyphoonGameState_GetCurrentStage, "GetCurrentStage" }, // 1788110583
 		{ &Z_Construct_UFunction_ATyphoonGameState_GetEndStage, "GetEndStage" }, // 2434242188
 		{ &Z_Construct_UFunction_ATyphoonGameState_GetGameWon, "GetGameWon" }, // 218905117
+		{ &Z_Construct_UFunction_ATyphoonGameState_GetMatchInProgressState, "GetMatchInProgressState" }, // 2648259826
 		{ &Z_Construct_UFunction_ATyphoonGameState_OnRep_MatchInProgressState, "OnRep_MatchInProgressState" }, // 2232815454
 		{ &Z_Construct_UDelegateFunction_ATyphoonGameState_OnStageCompleteSignature__DelegateSignature, "OnStageCompleteSignature__DelegateSignature" }, // 2367170676
 	};
@@ -535,7 +577,7 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonGameState() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATyphoonGameState, 980568915);
+	IMPLEMENT_CLASS(ATyphoonGameState, 3270360203);
 	template<> TYPHOON_API UClass* StaticClass<ATyphoonGameState>()
 	{
 		return ATyphoonGameState::StaticClass();

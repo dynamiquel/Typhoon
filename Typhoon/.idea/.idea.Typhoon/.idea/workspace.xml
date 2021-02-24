@@ -6,44 +6,78 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72cc79e1-d92a-4104-95ec-e5069c5f7369" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Typhoon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Typhoon/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binaries/Win64/TyphoonEditor.target" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/TyphoonEditor.target" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-Typhoon.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-Typhoon.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor.modules" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor.modules" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Actors/BP_CannonBall.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Actors/BP_CannonBall.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Actors/BP_EndDoor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Actors/BP_EndDoor.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Actors/BP_Projectile.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Actors/BP_Projectile.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Actors/BP_Turret.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Actors/BP_Turret.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/GameFramework/BP_TyphoonGameMode.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/GameFramework/BP_TyphoonGameMode.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Pawns/BP_2DCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Pawns/BP_2DCharacter.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/Widgets/WBP_Hud.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Widgets/WBP_Hud.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Levels/TestLevel.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Levels/TestLevel.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRules/TyphoonModuleRules.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRules/TyphoonModuleRules.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRules/TyphoonModuleRulesManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRules/TyphoonModuleRulesManifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/ActionHistory.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/ActionHistory.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/DependencyCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/DependencyCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.pch.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.pch.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/HotReload.state" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/HotReload.state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/Makefile.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/Makefile.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/Metadata-HotReload.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/Metadata-HotReload.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/Metadata.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/Metadata.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/TyphoonEditor.uhtmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/TyphoonEditor.uhtmanifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/TyphoonEditor.uhtpath" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/TyphoonEditor.uhtpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/StageActor.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/StageActor.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/StageActor.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/StageActor.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/StageActor.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/StageActor.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/StageActor.gen.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/StageActor.gen.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/Typhoon.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/Typhoon.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/Typhoon.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/Typhoon.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/Typhoon.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/Typhoon.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/Typhoon.init.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/Typhoon.init.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/Typhoon.init.gen.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/Typhoon.init.gen.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/Typhoon.init.gen.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/Typhoon.init.gen.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonCharacter.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonCharacter.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonCharacter.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonCharacter.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonCharacter.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonCharacter.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonCharacter.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonCharacter.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonCharacter.gen.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonCharacter.gen.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonCharacter.gen.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonCharacter.gen.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonGameMode.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonGameMode.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonGameMode.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonGameMode.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonGameMode.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonGameMode.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonGameMode.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonGameMode.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonGameMode.gen.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonGameMode.gen.cpp.obj.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonGameMode.gen.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonGameMode.gen.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonGameState.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonGameState.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonGameState.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonGameState.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonGameState.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonGameState.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonGameState.gen.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonGameState.gen.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonPlayerController.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonPlayerController.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonPlayerController.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonPlayerController.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonPlayerController.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonPlayerController.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonPlayerController.gen.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonPlayerController.gen.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonPlayerState.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonPlayerState.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonPlayerState.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonPlayerState.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonPlayerState.gen.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonPlayerState.gen.cpp.obj.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonPlayerState.gen.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/TyphoonPlayerState.gen.cpp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/UE4Editor-Typhoon.dll.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/UE4Editor-Typhoon.dll.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/UE4Editor-Typhoon.dll.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/UE4Editor-Typhoon.dll.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/UE4Editor-Typhoon.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/UE4Editor-Typhoon.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/UE4Editor-Typhoon.lib.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/UE4Editor-Typhoon.lib.response" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/UE4Editor-Typhoon.lib.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/UE4Editor-Typhoon.lib.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/UE4Editor-Typhoon.suppressed.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/UE4Editor-Typhoon.suppressed.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Typhoon/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Typhoon/Timestamp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Typhoon/Typhoon.init.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Typhoon/Typhoon.init.gen.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Typhoon/TyphoonGameMode.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Typhoon/TyphoonGameMode.gen.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Typhoon/TyphoonGameMode.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Typhoon/TyphoonGameMode.generated.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Typhoon/TyphoonGameState.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Typhoon/TyphoonGameState.gen.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Typhoon/TyphoonGameState.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Typhoon/TyphoonGameState.generated.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Typhoon/TyphoonPlayerController.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Typhoon/TyphoonPlayerController.gen.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Typhoon/TyphoonPlayerController.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Typhoon/TyphoonPlayerController.generated.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/TargetInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/TargetInfo.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-6A361E944AE77E690D2DF08E9719C4FE/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-BA21723D4ACA81E2167C629FE1E59A78/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-6E218549457ED79CD595C0A8CB765881/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-A7DC1D704617F2339A670CBC08EED2DA/CrashReportClient.ini" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/Engine.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/Typhoon.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/Typhoon.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Typhoon/Projectile.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Typhoon/Projectile.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Typhoon/Projectile.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Typhoon/Projectile.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Typhoon/Turret.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Typhoon/Turret.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Typhoon/Turret.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Typhoon/Turret.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Typhoon/TyphoonGameMode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Typhoon/TyphoonGameMode.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Typhoon/TyphoonGameMode.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Typhoon/TyphoonGameMode.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Typhoon/TyphoonGameState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Typhoon/TyphoonGameState.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Typhoon/TyphoonGameState.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Typhoon/TyphoonGameState.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Typhoon/TyphoonPlayerController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Typhoon/TyphoonPlayerController.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Typhoon/TyphoonPlayerController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Typhoon/TyphoonPlayerController.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,10 +110,10 @@
       <option value="$PROJECT_DIR$/Source/Typhoon/TyphoonGameMode.cpp" />
       <option value="$PROJECT_DIR$/Source/Typhoon/TyphoonGameMode.h" />
       <option value="$PROJECT_DIR$/Source/Typhoon/TyphoonGameState.cpp" />
-      <option value="$PROJECT_DIR$/Source/Typhoon/TyphoonGameState.h" />
       <option value="$PROJECT_DIR$/Source/Typhoon/Turret.cpp" />
       <option value="$PROJECT_DIR$/Source/Typhoon/Projectile.cpp" />
       <option value="$PROJECT_DIR$/Source/Typhoon/Projectile.h" />
+      <option value="$PROJECT_DIR$/Source/Typhoon/TyphoonGameState.h" />
     </changedPaths>
   </component>
   <component name="MacroExpansionManager">
@@ -327,6 +361,7 @@
       <workItem from="1614071482634" duration="949000" />
       <workItem from="1614073061739" duration="21028000" />
       <workItem from="1614162950814" duration="11445000" />
+      <workItem from="1614193759920" duration="623000" />
     </task>
     <servers />
   </component>

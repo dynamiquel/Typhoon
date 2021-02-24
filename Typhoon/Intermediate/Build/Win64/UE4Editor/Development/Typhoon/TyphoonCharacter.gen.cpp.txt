@@ -1,9 +1,9 @@
-C:\Users\Bradley\Desktop\Game\Typhoon\Typhoon\Intermediate\Build\Win64\UE4Editor\Development\Typhoon\Definitions.Typhoon.h
-E:\UE\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-E:\UE\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\Bradley\Desktop\Game\Typhoon\Typhoon\Source\Typhoon/TyphoonCharacter.h
-E:\UE\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
-E:\UE\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
-E:\UE\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
-E:\UE\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-C:\Users\Bradley\Desktop\Game\Typhoon\Typhoon\Intermediate\Build\Win64\UE4Editor\Inc\Typhoon\TyphoonCharacter.generated.h
+S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Intermediate\Build\Win64\UE4Editor\Development\Typhoon\Definitions.Typhoon.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Source\Typhoon/TyphoonCharacter.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+S:\Users\Liamk\Development\Games\Typhoon\Typhoon2\Typhoon\Intermediate\Build\Win64\UE4Editor\Inc\Typhoon\TyphoonCharacter.generated.h
