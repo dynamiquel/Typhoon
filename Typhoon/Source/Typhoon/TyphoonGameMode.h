@@ -31,6 +31,7 @@ public:
 	void HandleMansOuttaLivesInnit(ATyphoonPlayerState* MaTings);
 	int32 GetPlayersRemaining() const;
 	void HandleCompleteStage(OUT int32& NewStage) const;
+	void HandleGameOver();
 
 protected:
 	virtual void InitGame(const FString& MapName, const FString& Options, FString& ErrorMessage) override;
@@ -57,8 +58,6 @@ protected:
 	void OnCountdownEnded();
 	void OnPrepPhaseEnded();
 
-	void HandleGameOver();
-
 	UFUNCTION()
 	void HandlePlayerRespawnEnded(AController* Controller, FTransform SpawnTransform);
 
@@ -82,6 +81,9 @@ private:
 
 	UPROPERTY(EditAnywhere, meta = (AllowPrivateAccess = true))
 	FTransform StartPoint;
+
+	UPROPERTY(EditAnywhere, meta = (AllowPrivateAccess = true))
+	TSubclassOf<APawn> DeathSpectatorPawn;
 
 	// Current game phase.
 	FName MatchInProgressState = MatchInProgressState::None;

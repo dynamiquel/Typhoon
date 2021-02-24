@@ -14,8 +14,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define TYPHOON_TyphoonCharacter_generated_h
 
 #define Typhoon_Source_Typhoon_TyphoonCharacter_h_12_SPARSE_DATA
-#define Typhoon_Source_Typhoon_TyphoonCharacter_h_12_RPC_WRAPPERS
-#define Typhoon_Source_Typhoon_TyphoonCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define Typhoon_Source_Typhoon_TyphoonCharacter_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execResetSpeed);
+
+
+#define Typhoon_Source_Typhoon_TyphoonCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execResetSpeed);
+
+
 #define Typhoon_Source_Typhoon_TyphoonCharacter_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATyphoonCharacter(); \

@@ -80,7 +80,11 @@ void ATyphoonGameState::HandleGameOver()
 {
 	if (GetLocalRole() == ROLE_Authority)
 	{
-		
+		ATyphoonGameMode* GameMode = Cast<ATyphoonGameMode>(AuthorityGameMode);
+		if (!GameMode)
+			return;
+
+		GameMode->HandleGameOver();
 	}
 }
 

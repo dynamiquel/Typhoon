@@ -46,7 +46,14 @@ void ATyphoonGameMode::HandleManDied(ATyphoonPlayerState* HisTings)
 	else
 		SpawnTransform = Cast<ATyphoonCharacter>(HisTings->GetPawn())->GetSpawnLocation();
 
+	FTransform DeathCameraSpawnTransform = HisTings->GetPawn()->GetTransform();
+	
 	HisTings->GetPawn()->Destroy();
+
+	APawn* DeathCamera = Cast<APawn>(GetWorld()->SpawnActor(DeathSpectatorPawn, &DeathCameraSpawnTransform));
+	Controller->Possess(DeathCamera);
+	DeathCamera->DisableInput(nullptr);
+	
 	HisTings->HandlePlayerDied();
 	
 	if (HisTings->GetLives() >= 0)
@@ -154,6 +161,7 @@ void ATyphoonGameMode::HandleStartingNewPlayer_Implementation(APlayerController*
 	if (PlayerState)
 	{
 		PlayerState->SetLives(StartLives);
+		PlayerState->PlayerController = NewPlayer;
 	}
 
 	// Check to see if we have enough players to start the match.
@@ -268,11 +276,25 @@ void ATyphoonGameMode::OnPrepPhaseEnded()
 
 void ATyphoonGameMode::HandleGameOver()
 {
-	
+	UE_LOG(LogGameMode, Display, TEXT("Game over."));
+	if (GameState)
+	{
+		for (APlayerState* PlayerState : GameState->PlayerArray)
+		{
+			ATyphoonPlayerState* FullPlayerState = Cast<ATyphoonPlayerState>(PlayerState);
+			
+			ATyphoonPlayerController* PlayerController = Cast<ATyphoonPlayerController>(FullPlayerState->PlayerController);
+			if (PlayerController)
+				PlayerController->HandleGameOver();
+		}
+	}
 }
 
 void ATyphoonGameMode::HandlePlayerRespawnEnded(AController* Controller, FTransform SpawnTransform)
 {
+	// Destroy death camera.
+	Controller->GetPawn()->Destroy();
+	
 	APawn* Pawn = Cast<APawn>(GetWorld()->SpawnActor(DefaultPawnClass, &SpawnTransform));
 	Controller->Possess(Pawn);
 }

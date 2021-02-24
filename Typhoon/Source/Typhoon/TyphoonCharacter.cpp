@@ -59,11 +59,23 @@ void ATyphoonCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerI
 	PlayerInputComponent->BindTouch(IE_Released, this, &ATyphoonCharacter::TouchStopped);
 }
 
+void ATyphoonCharacter::ResetSpeed()
+{
+	GetCharacterMovement()->MaxWalkSpeed = InitialMaxWalkSpeed;
+	GetCharacterMovement()->MaxAcceleration = InitialMaxAcceleration;
+	GetCharacterMovement()->BrakingDecelerationWalking = InitialWalkingBrakingDeceleration;
+	GetCharacterMovement()->GroundFriction = InitialGroundFriction;
+}
+
 void ATyphoonCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 
 	SpawnLocation = GetTransform();
+	InitialMaxWalkSpeed = GetCharacterMovement()->MaxWalkSpeed;
+	InitialMaxAcceleration = GetCharacterMovement()->MaxAcceleration;
+	InitialWalkingBrakingDeceleration = GetCharacterMovement()->BrakingDecelerationWalking;
+	InitialGroundFriction = GetCharacterMovement()->GroundFriction;
 }
 
 void ATyphoonCharacter::MoveRight(float Value)

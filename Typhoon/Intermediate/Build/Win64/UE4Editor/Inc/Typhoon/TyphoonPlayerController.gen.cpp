@@ -18,6 +18,13 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonPlayerController() {}
 	ENGINE_API UClass* Z_Construct_UClass_APlayerController();
 	UPackage* Z_Construct_UPackage__Script_Typhoon();
 // End Cross Module References
+	DEFINE_FUNCTION(ATyphoonPlayerController::execHandleGameOver)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->HandleGameOver_Implementation();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(ATyphoonPlayerController::execHandleBeginPlayAfterCountdown)
 	{
 		P_FINISH;
@@ -30,16 +37,27 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonPlayerController() {}
 	{
 		ProcessEvent(FindFunctionChecked(NAME_ATyphoonPlayerController_HandleBeginPlayAfterCountdown),NULL);
 	}
+	static FName NAME_ATyphoonPlayerController_HandleGameOver = FName(TEXT("HandleGameOver"));
+	void ATyphoonPlayerController::HandleGameOver()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_ATyphoonPlayerController_HandleGameOver),NULL);
+	}
 	static FName NAME_ATyphoonPlayerController_OnBeginPlayAfterCountdown = FName(TEXT("OnBeginPlayAfterCountdown"));
 	void ATyphoonPlayerController::OnBeginPlayAfterCountdown()
 	{
 		ProcessEvent(FindFunctionChecked(NAME_ATyphoonPlayerController_OnBeginPlayAfterCountdown),NULL);
+	}
+	static FName NAME_ATyphoonPlayerController_OnGameOver = FName(TEXT("OnGameOver"));
+	void ATyphoonPlayerController::OnGameOver()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_ATyphoonPlayerController_OnGameOver),NULL);
 	}
 	void ATyphoonPlayerController::StaticRegisterNativesATyphoonPlayerController()
 	{
 		UClass* Class = ATyphoonPlayerController::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "HandleBeginPlayAfterCountdown", &ATyphoonPlayerController::execHandleBeginPlayAfterCountdown },
+			{ "HandleGameOver", &ATyphoonPlayerController::execHandleGameOver },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -65,6 +83,28 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonPlayerController() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_ATyphoonPlayerController_HandleGameOver_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATyphoonPlayerController_HandleGameOver_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "TyphoonPlayerController.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ATyphoonPlayerController_HandleGameOver_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATyphoonPlayerController, nullptr, "HandleGameOver", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x01020CC0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATyphoonPlayerController_HandleGameOver_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ATyphoonPlayerController_HandleGameOver_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ATyphoonPlayerController_HandleGameOver()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATyphoonPlayerController_HandleGameOver_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_ATyphoonPlayerController_OnBeginPlayAfterCountdown_Statics
 	{
 #if WITH_METADATA
@@ -84,6 +124,28 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonPlayerController() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATyphoonPlayerController_OnBeginPlayAfterCountdown_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ATyphoonPlayerController_OnGameOver_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATyphoonPlayerController_OnGameOver_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "TyphoonPlayerController.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ATyphoonPlayerController_OnGameOver_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATyphoonPlayerController, nullptr, "OnGameOver", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08080800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATyphoonPlayerController_OnGameOver_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ATyphoonPlayerController_OnGameOver_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ATyphoonPlayerController_OnGameOver()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATyphoonPlayerController_OnGameOver_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -113,7 +175,9 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonPlayerController() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ATyphoonPlayerController_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_ATyphoonPlayerController_HandleBeginPlayAfterCountdown, "HandleBeginPlayAfterCountdown" }, // 377536768
+		{ &Z_Construct_UFunction_ATyphoonPlayerController_HandleGameOver, "HandleGameOver" }, // 2993170997
 		{ &Z_Construct_UFunction_ATyphoonPlayerController_OnBeginPlayAfterCountdown, "OnBeginPlayAfterCountdown" }, // 2076035776
+		{ &Z_Construct_UFunction_ATyphoonPlayerController_OnGameOver, "OnGameOver" }, // 1278921615
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATyphoonPlayerController_Statics::Class_MetaDataParams[] = {
@@ -166,7 +230,7 @@ void EmptyLinkFunctionForGeneratedCodeTyphoonPlayerController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATyphoonPlayerController, 1304175698);
+	IMPLEMENT_CLASS(ATyphoonPlayerController, 1308666356);
 	template<> TYPHOON_API UClass* StaticClass<ATyphoonPlayerController>()
 	{
 		return ATyphoonPlayerController::StaticClass();

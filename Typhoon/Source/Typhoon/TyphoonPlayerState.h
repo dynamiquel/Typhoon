@@ -43,6 +43,9 @@ public:
 
 	void HandlePlayerDied();
 
+	// Keeps reference to player controller.
+	APlayerController* PlayerController;
+
 protected:
 	virtual void OnRep_Score() override;
 

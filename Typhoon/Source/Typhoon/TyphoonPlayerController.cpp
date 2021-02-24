@@ -18,6 +18,11 @@ void ATyphoonPlayerController::HandleBeginPlayAfterCountdown_Implementation()
 	OnBeginPlayAfterCountdown();
 }
 
+void ATyphoonPlayerController::HandleGameOver_Implementation()
+{
+	OnGameOver();
+}
+
 void ATyphoonPlayerController::BeginPlay()
 {
 	Super::BeginPlay();

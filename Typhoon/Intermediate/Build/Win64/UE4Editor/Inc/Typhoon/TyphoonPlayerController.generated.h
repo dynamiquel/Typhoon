@@ -15,14 +15,18 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define Typhoon_Source_Typhoon_TyphoonPlayerController_h_13_SPARSE_DATA
 #define Typhoon_Source_Typhoon_TyphoonPlayerController_h_13_RPC_WRAPPERS \
+	virtual void HandleGameOver_Implementation(); \
 	virtual void HandleBeginPlayAfterCountdown_Implementation(); \
  \
+	DECLARE_FUNCTION(execHandleGameOver); \
 	DECLARE_FUNCTION(execHandleBeginPlayAfterCountdown);
 
 
 #define Typhoon_Source_Typhoon_TyphoonPlayerController_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual void HandleGameOver_Implementation(); \
 	virtual void HandleBeginPlayAfterCountdown_Implementation(); \
  \
+	DECLARE_FUNCTION(execHandleGameOver); \
 	DECLARE_FUNCTION(execHandleBeginPlayAfterCountdown);
 
 

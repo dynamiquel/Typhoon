@@ -20,7 +20,14 @@ class ATyphoonCharacter : public ACharacter
 	class USpringArmComponent* CameraBoom;
 
 public:
+	// Shouldn't be here but lazy.
+	UPROPERTY(BlueprintReadOnly)
+	float InitialMaxWalkSpeed;
+	
 	FTransform& GetSpawnLocation() { return SpawnLocation; }
+	
+	UFUNCTION(BlueprintCallable)
+	void ResetSpeed();
 
 protected:
 	virtual void BeginPlay() override;
@@ -41,6 +48,9 @@ protected:
 private:
 	// Where this pawn spawned.
 	FTransform SpawnLocation;
+	float InitialMaxAcceleration;
+	float InitialWalkingBrakingDeceleration;
+	float InitialGroundFriction;
 
 public:
 	ATyphoonCharacter();
