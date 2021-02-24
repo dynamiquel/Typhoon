@@ -64,7 +64,7 @@ public:
 
 	/** False = Yaw, True = Pitch */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Rotation)
-	bool bPitch;
+	bool bVertical;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Rotation)
 	FVector2D AngleRange;
@@ -96,6 +96,9 @@ private:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category=Rotation, meta = (AllowPrivateAccess = "true"))
 	AActor* CurrentTarget;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category=Rotation, meta = (AllowPrivateAccess = "true"))
+	USceneComponent* TurretAttachment;
 
 	FRotator InitialRotator;
 

@@ -19,12 +19,12 @@ void ATurret::BeginPlay()
 	Super::BeginPlay();
 
 	CurrentMagSize = MagazineSize;
-	InitialRotator = GetActorRotation();
-
-	if (bPitch)
+	InitialRotator = TurretAttachment->GetRelativeRotation();
+	
+	if (bVertical)
 	{
-		AngleRange.X += InitialRotator.Pitch;
-		AngleRange.Y += InitialRotator.Pitch;
+		AngleRange.X += InitialRotator.Roll;
+		AngleRange.Y += InitialRotator.Roll;
 	}
 	else
 	{
@@ -48,7 +48,7 @@ void ATurret::UpdateRotation(float DeltaTime)
 	if (GetWorld()->GetTimerManager().IsTimerActive(RotationSwitchHandle))
 		return;
 
-	FRotator NewRotation = GetActorRotation();
+	FRotator NewRotation = TurretAttachment->GetRelativeRotation();
 
 	// Auto rotation
 	if (!CurrentTarget || !bTargetPlayer)
@@ -57,33 +57,41 @@ void ATurret::UpdateRotation(float DeltaTime)
 		if (!bPositiveRotationSign)
 			RotationToAdd *= -1.f;
 	
-		if (bPitch)
-			NewRotation.Pitch += RotationToAdd;
+		if (bVertical)
+			NewRotation.Roll += RotationToAdd;
 		else
 			NewRotation.Yaw += RotationToAdd;
 
 		if (!bIgnoreEverythingAndJustDoCircles)
 		{
-			if (bPitch)
-				NewRotation.Pitch = FMath::ClampAngle(NewRotation.Pitch, AngleRange.X, AngleRange.Y);
-			else
-				NewRotation.Yaw = FMath::ClampAngle(NewRotation.Yaw, AngleRange.X, AngleRange.Y);
-
-			if (NewRotation.Yaw <= AngleRange.X || NewRotation.Yaw >= AngleRange.Y)
+			if (bVertical)
 			{
-				bPositiveRotationSign = !bPositiveRotationSign;
-				GetWorld()->GetTimerManager().SetTimer(RotationSwitchHandle, RotationSwitchDelay, false);
+				NewRotation.Roll = FMath::ClampAngle(NewRotation.Roll, AngleRange.X, AngleRange.Y);
+				if (NewRotation.Roll <= AngleRange.X || NewRotation.Roll >= AngleRange.Y)
+				{
+					bPositiveRotationSign = !bPositiveRotationSign;
+					GetWorld()->GetTimerManager().SetTimer(RotationSwitchHandle, RotationSwitchDelay, false);
+				}
+			}
+			else
+			{
+				NewRotation.Yaw = FMath::ClampAngle(NewRotation.Yaw, AngleRange.X, AngleRange.Y);
+				if (NewRotation.Yaw <= AngleRange.X || NewRotation.Yaw >= AngleRange.Y)
+				{
+					bPositiveRotationSign = !bPositiveRotationSign;
+					GetWorld()->GetTimerManager().SetTimer(RotationSwitchHandle, RotationSwitchDelay, false);
+				}
 			}
 		}
 	}
 	else
 	{
 		// Target rotation
-		FRotator Rotation = UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), CurrentTarget->GetActorLocation());
+		FRotator Rotation = UKismetMathLibrary::FindLookAtRotation(TurretAttachment->GetComponentLocation(), CurrentTarget->GetActorLocation());
 
-		if (bPitch)
+		if (bVertical)
 		{
-			NewRotation.Pitch = Rotation.Pitch;
+			NewRotation.Roll = Rotation.Roll;
 		}
 		else
 		{
@@ -92,7 +100,7 @@ void ATurret::UpdateRotation(float DeltaTime)
 	}
 	
 	//GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Blue, FString::Printf(TEXT("Rot: %s"), *NewRotation.ToString()));
-	SetActorRotation(NewRotation);
+	TurretAttachment->SetRelativeRotation(NewRotation);
 }
 
 void ATurret::Fire()
