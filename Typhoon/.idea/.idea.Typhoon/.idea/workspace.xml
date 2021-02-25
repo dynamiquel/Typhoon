@@ -5,31 +5,7 @@
     <projectFile>Intermediate/ProjectFiles/UE4.vcxproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72cc79e1-d92a-4104-95ec-e5069c5f7369" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Typhoon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Typhoon/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor.modules" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor.modules" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Actors/BP_Turret.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Actors/BP_Turret.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Geometry/Meshes/Turret.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Levels/TestLevel.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Levels/TestLevel.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Materials/TurretMAt.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Materials/TurretMAt.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Textures/Turret/TurretTexture_wire_086086086_AO.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Textures/Turret/TurretTexture_wire_086086086_BaseColor.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Textures/Turret/TurretTexture_wire_086086086_Emissive.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Textures/Turret/TurretTexture_wire_086086086_Metallic.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Textures/Turret/TurretTexture_wire_086086086_Normal.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Textures/Turret/TurretTexture_wire_086086086_Roughness.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/ActionHistory.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/ActionHistory.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/DependencyCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/DependencyCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/HotReload.state" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/HotReload.state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/Metadata-HotReload.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/Metadata-HotReload.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Typhoon/Typhoon.init.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Typhoon/Typhoon.init.gen.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/Typhoon.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/Typhoon.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Typhoon/Projectile.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Typhoon/Projectile.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Typhoon/Turret.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Typhoon/Turret.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Typhoon/Turret.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Typhoon/Turret.h" afterDir="false" />
-    </list>
+    <list default="true" id="72cc79e1-d92a-4104-95ec-e5069c5f7369" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -312,7 +288,7 @@
       <workItem from="1614071482634" duration="949000" />
       <workItem from="1614073061739" duration="21028000" />
       <workItem from="1614162950814" duration="11445000" />
-      <workItem from="1614193759920" duration="5027000" />
+      <workItem from="1614193759920" duration="5820000" />
     </task>
     <servers />
   </component>
