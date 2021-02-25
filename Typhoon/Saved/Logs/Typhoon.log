@@ -4812,3 +4812,140 @@ Would you like to continue?
 [2021.02.25-10.04.54:058][381]LogSavePackage: Moving 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/TestLevelBF97D5FC44CE5A4B8C1F10B0EFF4401A.tmp' to 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Levels/TestLevel.umap'
 [2021.02.25-10.04.54:091][381]AssetCheck: New page: Asset Save: TestLevel
 [2021.02.25-10.04.54:091][381]LogContentValidation: Display: Validating World /Game/Levels/TestLevel.TestLevel
+[2021.02.25-10.05.27:111][630]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.25-10.05.27:122][630]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.25-10.05.27:122][630]PIE: New page: PIE session: TestLevel (25 févr. 2021 à 10:05:27)
+[2021.02.25-10.05.27:122][630]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.25-10.05.27:131][630]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008766s)
+[2021.02.25-10.05.27:132][630]LogAIModule: Creating AISystem for world TestLevel
+[2021.02.25-10.05.27:132][630]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001DBC5815600), frame # 338630
+[2021.02.25-10.05.27:132][630]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001DAE5EE1F80), frame # 338630
+[2021.02.25-10.05.27:132][630]LogPlayLevel: PIE: World Init took: (0.001063s)
+[2021.02.25-10.05.27:132][630]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevel.TestLevel to /Game/Levels/UEDPIE_0_TestLevel.TestLevel (0.009934s)
+[2021.02.25-10.05.27:166][630]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2021.02.25-10.05.27:168][630]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.25-10.05.27:168][630]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.25-10.05.27:168][630]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.25-10.05.27:168][630]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.25-10.05.27:169][630]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.25-10.05.27:169][630]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.25-10.05.27:169][630]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.25-10.05.27:169][630]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.25-10.05.27:169][630]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.25-10.05.27:169][630]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.25-10.05.27:173][630]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.25-10.05.27:173][630]LogAudioMixer: Display: 1: FrontRight
+[2021.02.25-10.05.27:201][630]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.02.25-10.05.27:202][630]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.25-10.05.27:202][630]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.25-10.05.27:202][630]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.25-10.05.27:202][630]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.25-10.05.27:211][630]LogInit: FAudioDevice initialized.
+[2021.02.25-10.05.27:217][630]LogLoad: Game class is 'BP_TyphoonGameMode_C'
+[2021.02.25-10.05.27:218][630]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2021.02.25-10.05.27
+[2021.02.25-10.05.27:219][630]LogWorld: Bringing up level for play took: 0.001186
+[2021.02.25-10.05.27:219][630]LogOnline: OSS: Creating online subsystem instance for: :Context_89
+[2021.02.25-10.05.27:220][630]LogGameMode: Display: Players Ready: 1, Players Needed: 1
+[2021.02.25-10.05.27:220][630]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.25-10.05.27:220][630]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.25-10.05.27:220][630]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.02.25-10.05.27:222][630]LogGameMode: Display: Match In Progress State Changed from None to Countdown
+[2021.02.25-10.05.27:222][630]LogGameState: Match In Progress State Changed from None to Countdown
+[2021.02.25-10.05.27:222][630]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.02.25-10.05.27:222][630]PIE: Server logged in
+[2021.02.25-10.05.27:223][630]PIE: Play in editor total start time 0,102 seconds.
+[2021.02.25-10.05.28:116][726]LogGameMode: Display: Match In Progress State Changed from Countdown to PrepPhase
+[2021.02.25-10.05.28:116][726]LogGameState: Match In Progress State Changed from Countdown to PrepPhase
+[2021.02.25-10.05.28:216][738]LogGameMode: Display: Match In Progress State Changed from PrepPhase to Normal
+[2021.02.25-10.05.28:216][738]LogGameState: Match In Progress State Changed from PrepPhase to Normal
+[2021.02.25-10.05.28:937][821]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.25-10.05.28:937][821]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.25-10.05.28:937][821]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2021.02.25-10.05.28:937][821]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.25-10.05.28:947][821]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.25-10.05.28:952][821]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.25-10.05.29:000][821]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.25-10.05.29:001][821]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001DAE5EE1F80), frame # 338821
+[2021.02.25-10.05.29:001][821]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001DBC5815600), frame # 338821
+[2021.02.25-10.05.29:005][821]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2021.02.25-10.05.29:049][822]LogPlayLevel: Display: Destroying online subsystem :Context_89
+[2021.02.25-10.05.30:718][978]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2021.02.25-10.05.30:740][978]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/aiStandardSurface1" FILE="S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Geometry/Meshes/aiStandardSurface1.uasset" SILENT=true
+[2021.02.25-10.05.30:742][978]LogSavePackage: Moving 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/aiStandardSurface1184567074BEAAA54768271AED8FC1B20.tmp' to 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Geometry/Meshes/aiStandardSurface1.uasset'
+[2021.02.25-10.05.30:744][978]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/blinn1" FILE="S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Geometry/Meshes/blinn1.uasset" SILENT=true
+[2021.02.25-10.05.30:745][978]LogSavePackage: Moving 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/blinn16DE39579485CB16D81C864A3B14BEA2D.tmp' to 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Geometry/Meshes/blinn1.uasset'
+[2021.02.25-10.05.30:747][978]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/metal_brushed" FILE="S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Geometry/Meshes/metal_brushed.uasset" SILENT=true
+[2021.02.25-10.05.30:749][978]LogSavePackage: Moving 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/metal_brushedFBE761804B2ACDAF87FE638E511C19D9.tmp' to 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Geometry/Meshes/metal_brushed.uasset'
+[2021.02.25-10.05.30:750][978]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Health/Hex_metal_texture" FILE="S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Textures/Health/Hex_metal_texture.uasset" SILENT=true
+[2021.02.25-10.05.30:797][978]LogSavePackage: Moving 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/Hex_metal_texture5803255A4508E107D7325EAADC35739B.tmp' to 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Textures/Health/Hex_metal_texture.uasset'
+[2021.02.25-10.05.30:799][978]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Health/metal_brushed_texture" FILE="S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Textures/Health/metal_brushed_texture.uasset" SILENT=true
+[2021.02.25-10.05.30:972][978]LogSavePackage: Moving 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/metal_brushed_texture03506B304A2462206CCC5C91643A2985.tmp' to 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Textures/Health/metal_brushed_texture.uasset'
+[2021.02.25-10.05.30:974][978]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Retro_Gaming" FILE="S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Retro_Gaming.uasset" SILENT=true
+[2021.02.25-10.05.30:975][978]LogSavePackage: Moving 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/Retro_Gaming912D13844B7BE6CB3F1ACD88D850CE1D.tmp' to 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Retro_Gaming.uasset'
+[2021.02.25-10.05.30:977][978]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Retro_Gaming_Font" FILE="S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Retro_Gaming_Font.uasset" SILENT=true
+[2021.02.25-10.05.30:978][978]LogSavePackage: Moving 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Saved/Retro_Gaming_Font9A4BE0194FDE0BDAD8CE6E9D1FDB3B04.tmp' to 'S:/Users/Liamk/Development/Games/Typhoon/Typhoon2/Typhoon/Content/Retro_Gaming_Font.uasset'
+[2021.02.25-10.05.31:027][978]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.25-10.05.31:027][978]LogContentValidation: Display: Validating Material /Game/Geometry/Meshes/aiStandardSurface1.aiStandardSurface1
+[2021.02.25-10.05.31:027][978]LogContentValidation: Display: Validating Material /Game/Geometry/Meshes/blinn1.blinn1
+[2021.02.25-10.05.31:027][978]LogContentValidation: Display: Validating Material /Game/Geometry/Meshes/metal_brushed.metal_brushed
+[2021.02.25-10.05.31:027][978]LogContentValidation: Display: Validating Texture2D /Game/Textures/Health/Hex_metal_texture.Hex_metal_texture
+[2021.02.25-10.05.31:027][978]LogContentValidation: Display: Validating Texture2D /Game/Textures/Health/metal_brushed_texture.metal_brushed_texture
+[2021.02.25-10.05.31:027][978]LogContentValidation: Display: Validating FontFace /Game/Retro_Gaming.Retro_Gaming
+[2021.02.25-10.05.31:027][978]LogContentValidation: Display: Validating Font /Game/Retro_Gaming_Font.Retro_Gaming_Font
+[2021.02.25-10.05.32:328][ 77]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.25-10.05.32:339][ 77]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.25-10.05.32:339][ 77]PIE: New page: PIE session: TestLevel (25 févr. 2021 à 10:05:32)
+[2021.02.25-10.05.32:339][ 77]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.25-10.05.32:348][ 77]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008929s)
+[2021.02.25-10.05.32:349][ 77]LogAIModule: Creating AISystem for world TestLevel
+[2021.02.25-10.05.32:349][ 77]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001DAEA8ABE00), frame # 339077
+[2021.02.25-10.05.32:349][ 77]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001DB3AC03600), frame # 339077
+[2021.02.25-10.05.32:349][ 77]LogPlayLevel: PIE: World Init took: (0.000929s)
+[2021.02.25-10.05.32:349][ 77]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestLevel.TestLevel to /Game/Levels/UEDPIE_0_TestLevel.TestLevel (0.009953s)
+[2021.02.25-10.05.32:384][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2021.02.25-10.05.32:387][ 77]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.25-10.05.32:387][ 77]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.25-10.05.32:387][ 77]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.25-10.05.32:387][ 77]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.25-10.05.32:387][ 77]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.25-10.05.32:387][ 77]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.25-10.05.32:387][ 77]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.25-10.05.32:387][ 77]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.25-10.05.32:387][ 77]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.25-10.05.32:387][ 77]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.25-10.05.32:392][ 77]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.25-10.05.32:392][ 77]LogAudioMixer: Display: 1: FrontRight
+[2021.02.25-10.05.32:420][ 77]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2021.02.25-10.05.32:420][ 77]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.25-10.05.32:420][ 77]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.25-10.05.32:420][ 77]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.25-10.05.32:420][ 77]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.25-10.05.32:429][ 77]LogInit: FAudioDevice initialized.
+[2021.02.25-10.05.32:439][ 77]LogLoad: Game class is 'BP_TyphoonGameMode_C'
+[2021.02.25-10.05.32:440][ 77]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2021.02.25-10.05.32
+[2021.02.25-10.05.32:441][ 77]LogWorld: Bringing up level for play took: 0.001171
+[2021.02.25-10.05.32:441][ 77]LogOnline: OSS: Creating online subsystem instance for: :Context_90
+[2021.02.25-10.05.32:442][ 77]LogGameMode: Display: Players Ready: 1, Players Needed: 1
+[2021.02.25-10.05.32:442][ 77]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.25-10.05.32:442][ 77]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.02.25-10.05.32:442][ 77]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.02.25-10.05.32:444][ 77]LogGameMode: Display: Match In Progress State Changed from None to Countdown
+[2021.02.25-10.05.32:444][ 77]LogGameState: Match In Progress State Changed from None to Countdown
+[2021.02.25-10.05.32:444][ 77]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.02.25-10.05.32:444][ 77]PIE: Server logged in
+[2021.02.25-10.05.32:445][ 77]PIE: Play in editor total start time 0,107 seconds.
+[2021.02.25-10.05.33:331][172]LogGameMode: Display: Match In Progress State Changed from Countdown to PrepPhase
+[2021.02.25-10.05.33:331][172]LogGameState: Match In Progress State Changed from Countdown to PrepPhase
+[2021.02.25-10.05.33:431][184]LogGameMode: Display: Match In Progress State Changed from PrepPhase to Normal
+[2021.02.25-10.05.33:431][184]LogGameState: Match In Progress State Changed from PrepPhase to Normal
+[2021.02.25-10.05.35:997][489]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.25-10.05.35:997][489]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestLevel
+[2021.02.25-10.05.35:997][489]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2021.02.25-10.05.35:997][489]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.25-10.05.36:008][489]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.25-10.05.36:013][489]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.25-10.05.36:065][489]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.25-10.05.36:067][489]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001DB3AC03600), frame # 339489
+[2021.02.25-10.05.36:067][489]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001DAEA8ABE00), frame # 339489
+[2021.02.25-10.05.36:070][489]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2021.02.25-10.05.36:100][490]LogPlayLevel: Display: Destroying online subsystem :Context_90
