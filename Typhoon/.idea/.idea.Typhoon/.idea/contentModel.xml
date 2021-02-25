@@ -43123,8 +43123,11 @@
         <e p="UE4.vcxproj" t="IncludeRecursive" />
       </e>
       <e p="Packages" t="ExcludeRecursive" />
+      <e p="Retro8BitSounds.png" t="Include" />
       <e p="Source" t="Include">
         <e p="Typhoon" t="Include">
+          <e p="LaunchPad.cpp" t="Include" />
+          <e p="LaunchPad.h" t="Include" />
           <e p="PickupComponent.cpp" t="Include" />
           <e p="PickupComponent.h" t="Include" />
           <e p="Projectile.cpp" t="Include" />

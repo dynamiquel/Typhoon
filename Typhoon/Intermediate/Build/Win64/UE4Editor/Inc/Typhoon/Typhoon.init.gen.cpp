@@ -27,8 +27,8 @@ void EmptyLinkFunctionForGeneratedCodeTyphoon_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0xB1FE9C84,
-				0xB1FD289B,
+				0x53E12664,
+				0xE4F453C2,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

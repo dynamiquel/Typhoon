@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Typhoon.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{AB71DAE6-5283-4EBB-81E4-616715888804}</UniqueIdentifier>
+      <UniqueIdentifier>{4F3D570C-0C86-4789-B434-CCF2B38ADF02}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Typhoon.Target.cs">
       <Filter>Source</Filter>
@@ -11,9 +11,10 @@
     <None Include="..\..\Source\TyphoonEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\Retro8BitSounds.png" />
     <None Include="..\..\Typhoon.png" />
     <Filter Include="Config">
-      <UniqueIdentifier>{5FA62957-0A17-42C4-8FCD-FDB8B89B09E2}</UniqueIdentifier>
+      <UniqueIdentifier>{C6B356A5-3179-4E96-8065-C9A6DFF1C51E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -31,18 +32,24 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Typhoon">
-      <UniqueIdentifier>{5511F6D7-6764-4BC6-831B-5DCBA544E3EE}</UniqueIdentifier>
+      <UniqueIdentifier>{3FA774A1-FA22-4F8D-9E3D-6CAD68CDC9EA}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\Typhoon\AProjectile.cpp">
+    <ClCompile Include="..\..\Source\Typhoon\LaunchPad.cpp">
       <Filter>Source\Typhoon</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\Typhoon\AProjectile.h">
+    <ClInclude Include="..\..\Source\Typhoon\LaunchPad.h">
       <Filter>Source\Typhoon</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Typhoon\PickupComponent.cpp">
       <Filter>Source\Typhoon</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Typhoon\PickupComponent.h">
+      <Filter>Source\Typhoon</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Typhoon\Projectile.cpp">
+      <Filter>Source\Typhoon</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Typhoon\Projectile.h">
       <Filter>Source\Typhoon</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Typhoon\StageActor.cpp">
