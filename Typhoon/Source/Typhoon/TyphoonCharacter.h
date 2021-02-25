@@ -29,6 +29,9 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void ResetSpeed();
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool bReverseControls;
+
 protected:
 	virtual void BeginPlay() override;
 	

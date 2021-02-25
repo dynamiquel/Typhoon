@@ -80,7 +80,9 @@ void ATyphoonCharacter::BeginPlay()
 
 void ATyphoonCharacter::MoveRight(float Value)
 {
-	// add movement in that direction
+	if (bReverseControls)
+		Value = -Value;
+	
 	AddMovementInput(FVector(0.f,-1.f,0.f), Value);
 }
 

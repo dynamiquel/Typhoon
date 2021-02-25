@@ -6,31 +6,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72cc79e1-d92a-4104-95ec-e5069c5f7369" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Typhoon/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Typhoon/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Typhoon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Typhoon/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor.modules" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor.modules" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/GameFramework/BP_TyphoonPlayerController.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/GameFramework/BP_TyphoonPlayerController.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Levels/TestLevel.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Levels/TestLevel.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Retro_8Bit_Sounds/Alarms_Sirens/Wavs/retro_alarm_siren_loop_10.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Retro_8Bit_Sounds/Alarms_Sirens/Wavs/retro_alarm_siren_loop_10.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Pawns/BP_2DCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Pawns/BP_2DCharacter.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/ActionHistory.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/ActionHistory.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/DependencyCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/DependencyCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/HotReload.state" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/HotReload.state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/Makefile.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/Makefile.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/Metadata-HotReload.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/Metadata-HotReload.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/TyphoonEditor.uhtmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/TyphoonEditor/Development/TyphoonEditor.uhtmanifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/UE4Editor-Typhoon.dll.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/UE4Editor-Typhoon.dll.response" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/UE4Editor-Typhoon.dll.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/UE4Editor-Typhoon.dll.response.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/UE4Editor-Typhoon.lib.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/UE4Editor-Typhoon.lib.response" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/UE4Editor-Typhoon.lib.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Typhoon/UE4Editor-Typhoon.lib.response.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Typhoon/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Typhoon/Timestamp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Typhoon/Typhoon.init.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Typhoon/Typhoon.init.gen.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/Typhoon.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/Typhoon.vcxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/Typhoon.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/Typhoon.vcxproj.filters" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/UE4.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/UE4.vcxproj.filters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Typhoon/TyphoonCharacter.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Typhoon/TyphoonCharacter.gen.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/Typhoon.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/Typhoon.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Typhoon/TyphoonCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Typhoon/TyphoonCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Typhoon/TyphoonCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Typhoon/TyphoonCharacter.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +42,6 @@
       <option value="$PROJECT_DIR$/Source/Typhoon/StageActor.cpp" />
       <option value="$PROJECT_DIR$/Source/Typhoon/StageActor.h" />
       <option value="$PROJECT_DIR$/Source/Typhoon/PickupComponent.cpp" />
-      <option value="$PROJECT_DIR$/Source/Typhoon/TyphoonCharacter.h" />
-      <option value="$PROJECT_DIR$/Source/Typhoon/TyphoonCharacter.cpp" />
       <option value="$PROJECT_DIR$/Source/Typhoon/TyphoonPlayerController.cpp" />
       <option value="$PROJECT_DIR$/Source/Typhoon/TyphoonPlayerController.h" />
       <option value="$PROJECT_DIR$/Source/Typhoon/TyphoonGameMode.cpp" />
@@ -69,6 +56,8 @@
       <option value="$PROJECT_DIR$/Source/Typhoon/Turret.cpp" />
       <option value="$PROJECT_DIR$/Source/Typhoon/LaunchPad.h" />
       <option value="$PROJECT_DIR$/Source/Typhoon/LaunchPad.cpp" />
+      <option value="$PROJECT_DIR$/Source/Typhoon/TyphoonCharacter.h" />
+      <option value="$PROJECT_DIR$/Source/Typhoon/TyphoonCharacter.cpp" />
     </changedPaths>
   </component>
   <component name="MacroExpansionManager">
@@ -317,7 +306,7 @@
       <workItem from="1614073061739" duration="21028000" />
       <workItem from="1614162950814" duration="11445000" />
       <workItem from="1614193759920" duration="5820000" />
-      <workItem from="1614252446798" duration="883000" />
+      <workItem from="1614252446798" duration="1471000" />
     </task>
     <servers />
   </component>
