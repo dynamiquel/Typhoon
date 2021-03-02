@@ -1,5 +1,6 @@
 # Typhoon
- 
+Game can be download on [itch.io](https://dynamiquel.itch.io/typhoon).
+
 ## Contributors
 - Liam HALL (Programmer)
 - Bradley ASHELY (Programmer)
@@ -9,9 +10,3 @@
 - Harry ROLLINSON (Designer)
 - James GLEDHILL (Designer)
 - Paige ALLPORT (Designer)
-
-## Rules
-- **Do not upload *.uasset* files** unless a merge has been organised.
-
-## Documentation
-Everything is built around Unreal's [Gameplay Framework](https://docs.unrealengine.com/en-US/InteractiveExperiences/Framework/index.html). So hopefully you understand it.
